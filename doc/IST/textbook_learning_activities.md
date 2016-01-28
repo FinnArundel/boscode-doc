@@ -2,6 +2,29 @@
 
 ## Table of content
 
+[14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
+[14.0 In Action Electric humans]( #140-in-action-electric-humans )   
+[14.1 Robotics - Activities]( 141-robotics---activities )   
+[14.1a Issues - The changing nature of work]( #141a-issues---the-changing-nature-of-work )   
+[14.1b Task 1 LEGO Mindstorms NXT]( #141b-task-1-lego-mindstorms-nxt )   
+[14.2 Types of robots - Activities I]( #142-types-of-robots---activities-i )   
+[14.2b Types of robots - Activities II]( #142b-types-of-robots---activities-ii )   
+[14.2c People Animatronics engineer Grant Imahara]( #142c-people-animatronics-engineer-grant-imahara )   
+[14.3 The purpose of robots - Activities]( #143-the-purpose-of-robots---activities )   
+[14.3a Robots in space]( #143a-robots-in-space )   
+[14.4 The use of robots - Activities]( #144-the-use-of-robots---activities )   
+[14.4a People Robot developer Hugo Elias]( #144a-people-robot-developer-hugo-elias )   
+[14.5 The function of robots - Activities]( #145-the-function-of-robots---activities )   
+[14.5a Task 2 Automated systems]( #145a-task-2-automated-systems )   
+[15.5b Issues - scientists worry machines may outsmart humans]( #155b-issues---scientists-worry-machines-may-outsmart-humans )   
+[14.6 Automated control - Activities]( #146-automated-control---activities )   
+[14.6a Task 3 Build a traffic light with sensors]( #146a-task-3-build-a-traffic-light-with-sensors )   
+[14.6b Issues - Location-based services]( #146b-issues---location-based-services )   
+[14.6c Task 4 Build a car with sensors]( #146c-task-4-build-a-car-with-sensors )   
+[14.7 Sensing devices - Activities]( #147-sensing-devices---activities )   
+[14.8 Actuators and controlling devices - Activities]( #148-actuators-and-controlling-devices---activities )   
+[14.9 Case study - The future of robots]( #149-case-study---the-future-of-robots )   
+
 ___
 ## 14 Robotics and automated systems
 
