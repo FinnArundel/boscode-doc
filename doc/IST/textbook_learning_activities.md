@@ -11,9 +11,9 @@
 
 * Read chapter 14 page 281.
 
-1 Provide a definition of a cyborg.
-2 Identify the high-tech implants and prostheses which are currently restoring function for people with disabilities or injuries.
-3 Describe the ethical challenge presented by cyborg and robotic technologies.
+1 Provide a definition of a cyborg.  
+2 Identify the high-tech implants and prostheses which are currently restoring function for people with disabilities or injuries.  
+3 Describe the ethical challenge presented by cyborg and robotic technologies.  
 
 ### 14.1 Robotics - Activities
 
