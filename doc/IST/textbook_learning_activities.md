@@ -1,6 +1,10 @@
-﻿# Information & Software Technology - Textbook learning activities
+﻿# Information & Software Technology - Learning activities
 
 ## Table of content
+
+[2.3 Classification of systems - Activities]( xxx )   
+[2.4 Hardware solutions]( xxx )   
+
 
 [14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
 [14.0 In Action Electric humans]( #140-in-action-electric-humans )   
@@ -24,6 +28,30 @@
 [14.7 Sensing devices - Activities]( #147-sensing-devices---activities )   
 [14.8 Actuators and controlling devices - Activities]( #148-actuators-and-controlling-devices---activities )   
 [14.9 Case study - The future of robots]( #149-case-study---the-future-of-robots )   
+
+___
+## 2 Hardware
+
+### 2.3 Classification of systems - Activities
+
+* Read chapter 2.3 Classification of systems pages 22 & 23
+
+1 Draw up a table to compare the different categories of computer hardware systems. For each category, compare physical size, cost, storage capacity, processing speed and typical applications.  
+2 Investigate other devices which have microprocessors, for example a calculator and a car.  
+
+___
+### 2.4 Hardware solutions
+
+* Read chapter 2.4 Hardware solutions pages 24 & 25
+
+1 For each of the following scenarios, develop a hardware solution by applying the four stages of project development. Suggest what hardware would be required and justify your selection.  
+- Students needing a new multimedia room  
+- A graphic designer working in an advertising agency  
+- An international airline implementing a new booking system  
+- A sales representative working across several states.  
+2 List some of the more common problems that you have encountered with hardware. Discuss how best to avoid these problems in the future.  
+3 Design a poster to alert users to the do's and don'ts of computer care.  
+
 
 ___
 ## 14 Robotics and automated systems
