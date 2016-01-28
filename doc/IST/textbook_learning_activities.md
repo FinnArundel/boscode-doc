@@ -32,6 +32,7 @@ ___
 1 Describe the tasks carried out by Matt Cole's robots.  
 2 If robots such as those created by Matt Cole did not exist, how would we deal with toxic accidents and the decommissioning of nuclear weapons?  
 3 Automation and the development of robots for dangerous tasks, such as those described in the article, are viewed by most people as beneficial to society. However, many workers in less dangerous jobs have been made redundant by robots. Do you think the development of new 'robotic’ technologies, and their implementation, is inevitable? What, if anything, should we as a society do for those people who lose their jobs?  
+
 ___
 ### 14.1b Task 1 LEGO Mindstorms NXT
 
@@ -56,7 +57,8 @@ ___
 
 * Read chapter 14.2 Types of robots page 284 & 285.
 
-6 Develop and conduct a survey on the use of robots in industry and the home. Develop a chart to illustrate the findings and present them to the class. A sample of questions for domestic robots might include the following. 
+6 Develop and conduct a survey on the use of robots in industry and the home. Develop a chart to illustrate the findings and present them to the class. A sample of questions for domestic robots might include the following.  
+ 
 a What would you want a domestic robot to do?  
 - housework  
 - gardening  
@@ -64,19 +66,23 @@ a What would you want a domestic robot to do?
 - security  
 - entertainment  
 - other.  
+
 b How much would you be prepared to pay for a domestic robot?  
 - < $100  
 - between $100 and $500 
 - between $500 and $2000  
 - over $2000.  
+
 c A sample of questions for industrial robots might include the following.  
 - How aware are you of robots being used in industry to manufacture goods?  
 - Why do you think robots are used in industry?  
 - What advantages do robot workers have over human workers?  
+
 7 Visit the RoboCupJunior Australia website and read about the RoboCupJunior competition.  
 a Locate two Australian schools that have entered the competition and read about their project.  
 b Find out where and when the next RoboCupJunior Competition is going to be held.  
 c With your teacher, discuss the possibility of entering the competition.  
+
 ___
 ### 14.2c People Animatronics engineer Grant Imahara
 
