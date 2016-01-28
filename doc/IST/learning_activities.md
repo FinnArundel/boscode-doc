@@ -2,8 +2,8 @@
 
 ## Table of content
 
-[2.3 Classification of systems - Activities]( xxx )   
-[2.4 Hardware solutions]( xxx )   
+[2.3 Classification of systems - Activities]( #23-classification-of-systems---activities )   
+[2.4 Hardware solutions]( #24-hardware-solutions )   
 
 
 [14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
