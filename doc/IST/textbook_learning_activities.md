@@ -36,6 +36,7 @@ ___
 ### 14.1b Task 1 LEGO Mindstorms NXT
 
 * Complete Task 1 on page 287
+
 ___
 ### 14.2 Types of robots - Activities I
 
@@ -84,6 +85,7 @@ ___
 1 Identify the event that changed Grant Imahara's life.  
 2 Research and provide a job description of an animatronics engineer.  
 3 Research and explain the relationship between animatronics and robotics.  
+
 ___
 ### 14.3 The purpose of robots - Activities
 
@@ -100,6 +102,7 @@ ___
 - the difficulties encountered during the cleanup  
 - the tasks performed by the robots.  
 8 Investigate the ways in which robots are used to help people with disabilities.  
+
 ___
 ### 14.3a Robots in space
 
@@ -185,6 +188,7 @@ ___
 ### 14.6a Task 3 Build a traffic light with sensors
 
 * Read chapter 14.7 Sensing devices page 302.
+
 ___
 ### 14.6b Issues - Location-based services
 
@@ -199,6 +203,7 @@ ___
 * Read chapter 14.7 Sensing devices page 305.
 
 * Task 4 on page 305.
+
 ___
 ### 14.7 Sensing devices - Activities
 
@@ -214,6 +219,7 @@ ___
 8 Toll roads with electronic payment sensors can be found in several Australian cities. Explain the purpose of a toll road system and draw a diagram to represent the system, showing its main components.  
 9 Fibre-optic sensor systems are now widely used and are becoming the first choice for a range of applications. Investigate the benefits of fibre-optic sensors and identify the areas where they are in operation.  
 10 Countdown timers are being trialled on pedestrian traffic lights in some parts of New South Wales. Explain how these systems operate and discuss whether or not you believe they will improve pedestrian safety.
+
 ___
 ### 14.8 Actuators and controlling devices - Activities
 
