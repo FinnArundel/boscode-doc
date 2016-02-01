@@ -140,15 +140,15 @@ END Main
 
 The above pseudocode has the private attribute `x_coordinate`. To be able to change the value of this attribute outside of an object of a `Point` data type there are two public methods: `getXCoordinate` and `setXCoordinate`. These two methods are called getter and setter methods.
 
-1. Modify the above pseudocode to implement a getter and setter for the other two private attributes `point_no` and `y_coordinate`.  
-2. Modify the Main function to set the `point_no` to `1` and the `y_coordinate` to `42`.  
-3. Modify the Main function to produce the following output using the point object:  
+* Modify the above pseudocode to implement a getter and setter for the other two private attributes `point_no` and `y_coordinate`.  
+* Modify the Main function to set the `point_no` to `1` and the `y_coordinate` to `42`.  
+* Modify the Main function to produce the following output using the point object:  
 ```
 Point Number: 1
 X coordinate: 23
 Y coordinate: 42
 ```
-4. Write a C# version of your modified pseudocode.
+* Write a C# version of your modified pseudocode.
 
 ___
 
@@ -200,16 +200,16 @@ namespace yr12sdd
 
 ```
 
-The above C# code instantiates a Point object, sets the x_coordinate to 25 and outputs the value of the x_coordinate to the console.
-1. Run the above code.
-2. Add a new method to the Point class called `print()`. This method does not return a value and also does not take any arguments. Calling this method should produce the following console output (using the current value of the x_coordinate attribute):
+The above C# code instantiates a Point object, sets the x_coordinate to 25 and outputs the value of the x_coordinate to the console.  
+* Run the above code.  
+* Add a new method to the Point class called `print()`. This method does not return a value and also does not take any arguments. Calling this method should produce the following console output (using the current value of the x_coordinate attribute):
 
 ```
 X coordinate: 23
 ```
 
-3. Run and test your program
-4. Write a pseudocode version of your modified C# code.
+* Run and test your program
+* Write a pseudocode version of your modified C# code.
 
 ___
 
