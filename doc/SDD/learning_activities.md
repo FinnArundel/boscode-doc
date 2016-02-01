@@ -9,7 +9,7 @@ ___
 ### 1.1 Installation
 
 * Windows:
-  1. Install Visual Studio 2015 Community
+  1. Install [Visual Studio 2015 Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
   2. Start Visual Studio
   3. FILE > New > Project
     * Templates > Visual C# > Windows > Classic Desktop > Console Application
@@ -104,6 +104,7 @@ namespace yr12sdd
   * print out the X coordinate of this new Point
 3. Run and test your program
 4. Write a pseudocode version of your modified C# code.
+5. Paste C# and pseudocode into you solution googlde drive document.
 
 ___
 
