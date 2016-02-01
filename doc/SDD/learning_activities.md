@@ -260,7 +260,10 @@ sub-class Circle {
     radius: double
   public -
     getRadius():
-      return Radius
+      return radius
+
+    setRadius(value):
+      radius = value
 
     getArea():
       return radius * radius * Math.PI    
@@ -289,7 +292,7 @@ BEGIN Main
   shapeArray(1) = shape
   shapeArray(2) = circle
 
-  FOR i = 1 TO 2 STEP 190
+  FOR i = 1 TO 2 STEP 1
     shapeArray(i).print()
   NEXT i
 
