@@ -138,10 +138,12 @@ END Main
 
 ```
 
-The above pseudocode has the private attribute x_coordinate. To be able to change the value of this attribute outside of an object of a `Point` data type there are two public methods: `getXCoordinate` and `setXCoordinate`. These two methods are called getter and setter methods.
-1. Modify the above pseudocode to implement a getter and setter for the other two private attributes `point_no` and `y_coordinate`.
-2. Modify the Main function to set the `point_no` to `1` and the `y_coordinate` to `42`.
-3. Modify the Main function to produce the following output using the point object:
+The above pseudocode has the private attribute `x_coordinate`. To be able to change the value of this attribute outside of an object of a `Point` data type there are two public methods: `getXCoordinate` and `setXCoordinate`. These two methods are called getter and setter methods.
+
+1. Modify the above pseudocode to implement a getter and setter for the other two private attributes `point_no` and `y_coordinate`.  
+2. Modify the Main function to set the `point_no` to `1` and the `y_coordinate` to `42`.  
+3. Modify the Main function to produce the following output using the point object:  
+
 ```
 Point Number: 1
 X coordinate: 23
