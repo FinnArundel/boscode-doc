@@ -287,7 +287,7 @@ BEGIN Main
   circle.setYCoordinate(190)
 
   shapeArray(1) = shape
-  shapeArray(2) = Circle
+  shapeArray(2) = circle
 
   FOR i = 1 TO 2 STEP 190
     shapeArray(i).print()
@@ -425,9 +425,44 @@ namespace yr12sdd
 
 ```
 
-1. Run the above C# code on your laptop
-2. Modify the pseudocde and C# code to include a rectangle shape class
-3. Modify the Main function: Create 3 circles and 2 rectangles before printing all 5 shapes details to the console.
+1. Run the above C# code on your laptop.
+2. Modify the pseudocde and C# code to include a rectangle shape class.
+3. Modify the pseudocde and C# code: The Main function should create 3 circles and 2 rectangles before printing all 5 shapes details to the console using a counted loop and producing exactly the following output:
+```
+*** Circle ***
+Shape Number: 1
+X coordinate: 267
+Y coordinate: 190
+Radius: 35
+Area: 3848.4510006475
+*** Circle ***
+Shape Number: 2
+X coordinate: 90
+Y coordinate: 55
+Radius: 46
+Area: 6647.610054996
+*** Circle ***
+Shape Number: 3
+X coordinate: -34
+Y coordinate: 85
+Radius: 6
+Area: 113.097335529233
+*** Rectangle ***
+Shape Number: 4
+X coordinate: 68
+Y coordinate: 78
+Height: 20
+Width: 8
+Area: 160
+*** Rectangle ***
+Shape Number: 5
+X coordinate: 998
+Y coordinate: 783
+Height: 20
+Width: 8
+Area: 160
+```
+
 
 ___
 
