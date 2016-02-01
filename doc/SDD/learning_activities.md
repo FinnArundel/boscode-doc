@@ -214,30 +214,220 @@ X coordinate: 23
 ___
 
 
-
-
-
-### 1.5 
+### 1.5 Circle class
 
 * Pseudocode
 
 ```
+class Shape {
+  private -
+    shape_no: integer
+    x_coordinate: double
+    y_coordinate: double
+  public -
+    getShapeNo():
+      return shape_no
 
+    setShapeNo(value):
+      shape_no = value
+
+    getXCoordinate():
+      return x_coordinate
+
+    setXCoordinate(value):
+      x_coordinate = value
+
+    getYCoordinate():
+      return y_coordinate
+
+    setYCoordinate(value):
+      y_coordinate = value
+
+    getArea():
+      return 0.0
+
+    print():
+      Display "*** Shape ***"
+      Display "Shape Number: ", getShapeNo()
+      Display "X coordinate: ", getXCoordinate()
+      Display "Y coordinate: ", getYCoordinate()
+      Display "Area: ", getArea()
+}
+
+sub-class Circle {
+  is a Shape
+  private -
+    radius: double
+  public -
+    getRadius():
+      return Radius
+
+    getArea():
+      return radius * radius * Math.PI    
+
+    print():
+      Display "*** Circle ***"
+      Display "Shape Number: ", getShapeNo()
+      Display "X coordinate: ", getXCoordinate()
+      Display "Y coordinate: ", getYCoordinate()
+      Display "Radius: ", getRadius()    
+      Display "Area: ", getArea()    
+}
+
+BEGIN Main
+  shape = new Shape()
+  shape.setShapeNo(1)
+  shape.setXCoordinate(25)
+  shape.setYCoordinate(42)
+
+  circle = new Circle()
+  circle.setShapeNo(2)
+  circle.setRadius(35)
+  circle.setXCoordinate(267)
+  circle.setYCoordinate(190)
+
+  shapeArray(1) = shape
+  shapeArray(2) = Circle
+
+  FOR i = 1 TO 2 STEP 190
+    shapeArray(i).print()
+  NEXT i
+
+
+
+END Main
 
 ```
 
 * C#
 
 ```cs
+using System;
 
+namespace yr12sdd
+{
+
+    public class Shape
+    {
+        private int shape_no;
+        private double x_coordinate;
+        private double y_coordinate;
+
+        public int getShapeNo()
+        {
+            return shape_no;
+        }
+
+        public void setShapeNo(int value)
+        {
+            this.shape_no = value;
+        }
+
+        public double getXCoordinate()
+        {
+            return x_coordinate;
+        }
+
+        public void setXCoordinate(double value)
+        {
+            this.x_coordinate = value;
+        }
+
+        public double getYCoordinate()
+        {
+            return y_coordinate;
+        }
+
+        public void setYCoordinate(double value)
+        {
+            this.y_coordinate = value;
+        }
+
+        public virtual double getArea()
+        {
+            return 0.0;
+        }
+
+        public virtual void print()
+        {
+            Console.WriteLine("*** Shape ***");
+            Console.WriteLine("Shape Number: " + this.getShapeNo());
+            Console.WriteLine("X coordinate: " + this.getXCoordinate());
+            Console.WriteLine("Y coordinate: " + this.getYCoordinate());
+            Console.WriteLine("Area: " + this.getArea());
+        }
+
+    }
+
+
+    public class Circle : Shape
+    {
+        private double radius;
+
+        public double getRadius()
+        {
+            return radius;
+        }
+
+        public void setRadius(double value)
+        {
+            this.radius = value;
+        }
+
+        public override double getArea()
+        {
+            return radius * radius * Math.PI;
+        }
+
+        public override void print()
+        {
+            Console.WriteLine("*** Circle ***");
+            Console.WriteLine("Shape Number: " + this.getShapeNo());
+            Console.WriteLine("X coordinate: " + this.getXCoordinate());
+            Console.WriteLine("Y coordinate: " + this.getYCoordinate());
+            Console.WriteLine("Radius: " + this.getRadius());
+            Console.WriteLine("Area: " + this.getArea());
+        }
+
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Shape shape = new Shape();
+            shape.setShapeNo(1);
+            shape.setXCoordinate(25);
+            shape.setYCoordinate(42);
+
+            Circle circle = new Circle();
+            circle.setShapeNo(2);
+            circle.setRadius(35);
+            circle.setXCoordinate(267);
+            circle.setYCoordinate(190);
+
+            Shape[] shapeArray = new Shape[2];
+            shapeArray[0] = shape;
+            shapeArray[1] = circle;
+
+            for( int i = 0; i< shapeArray.Length; i++)
+            {
+                shapeArray[i].print();
+            }
+
+            Console.ReadLine();
+
+        }
+    }
+
+}
 
 ```
 
 1. Run the above C# code on your laptop
-2. Modify the code to:
-  * 
-3. Run and test your program
-4. Write a pseudocode version of your modified C# code.
+2. Modify the pseudocde and C# code to include a rectangle shape class
+3. Modify the Main function: Create 3 circles and 2 rectangles before printing all 5 shapes details to the console.
 
 ___
 
