@@ -24,14 +24,14 @@ ___
     * Project Name: yr12sdd
 
 
-### 1.2 Point class
+### 1.2 Shape class
 
 * Pseudocode
 
 ```
-class Point {
+class Shape {
   private -
-    point_no: integer
+    shape_no: integer
     x_coordinate: double
     y_coordinate: double
   public -
@@ -43,10 +43,10 @@ class Point {
 }
 
 BEGIN Main
-  point = new Point()
-  point.setXCoordinate(23)
+  shape = new Shape()
+  shape.setXCoordinate(23)
 
-  Display point.getXCoordinate()
+  Display shape.getXCoordinate()
 
 END Main
 
@@ -60,9 +60,9 @@ using System;
 namespace yr12sdd
 {
 
-    public class Point
+    public class Shape
     {
-        private int point_no;
+        private int shape_no;
         private double x_coordinate;
         private double y_coordinate;
 
@@ -83,10 +83,10 @@ namespace yr12sdd
     {
         static void Main(string[] args)
         {
-            Point point = new Point();
+            Shape shape = new Shape();
 
-            point.setXCoordinate(23);
-            Console.WriteLine(point.getXCoordinate());
+            shape.setXCoordinate(23);
+            Console.WriteLine(shape.getXCoordinate());
 
             Console.ReadLine();
 
@@ -99,9 +99,9 @@ namespace yr12sdd
 
 1. Run the above C# code on your laptop
 2. Modify the code to:
-  * create another instance of a point object with the variable name of `point2`
-  * set the X coordinate of the new point to 50
-  * print out the X coordinate of this new Point
+  * create another instance of a shape object with the variable name of `shape2`
+  * set the X coordinate of the new shape to 50
+  * print out the X coordinate of this new Shape
 3. Run and test your program
 4. Write a pseudocode version of your modified C# code.
 5. Paste C# and pseudocode into you solution google drive document.
@@ -115,9 +115,9 @@ ___
 * Pseudocode
 
 ```
-class Point {
+class Shape {
   private -
-    point_no: integer
+    shape_no: integer
     x_coordinate: double
     y_coordinate: double
   public -
@@ -129,22 +129,22 @@ class Point {
 }
 
 BEGIN Main
-  point = new Point()
-  point.setXCoordinate(23)
+  shape = new Shape()
+  shape.setXCoordinate(23)
 
-  Display point.getXCoordinate()
+  Display shape.getXCoordinate()
 
 END Main
 
 ```
 
-The above pseudocode has the private attribute `x_coordinate`. To be able to change the value of this attribute outside of an object of a `Point` data type there are two public methods: `getXCoordinate` and `setXCoordinate`. These two methods are called getter and setter methods.
+The above pseudocode has the private attribute `x_coordinate`. To be able to change the value of this attribute outside of an object of a `Shape` data type there are two public methods: `getXCoordinate` and `setXCoordinate`. These two methods are called getter and setter methods.
 
-* Modify the above pseudocode to implement a getter and setter for the other two private attributes `point_no` and `y_coordinate`.  
-* Modify the Main function to set the `point_no` to `1` and the `y_coordinate` to `42`.  
-* Modify the Main function to produce the following output using the point object:  
+* Modify the above pseudocode to implement a getter and setter for the other two private attributes `shape_no` and `y_coordinate`.  
+* Modify the Main function to set the `shape_no` to `1` and the `y_coordinate` to `42`.  
+* Modify the Main function to produce the following output using the shape object:  
 ```
-Point Number: 1
+Shape Number: 1
 X coordinate: 23
 Y coordinate: 42
 ```
@@ -152,7 +152,7 @@ Y coordinate: 42
 
 ___
 
-### 1.4 Point class with print method
+### 1.4 Shape class with print method
 
 
 * C#
@@ -163,9 +163,9 @@ using System;
 namespace yr12sdd
 {
 
-    public class Point
+    public class Shape
     {
-        private int point_no;
+        private int shape_no;
         private double x_coordinate;
         private double y_coordinate;
 
@@ -186,10 +186,10 @@ namespace yr12sdd
     {
         static void Main(string[] args)
         {
-            Point point = new Point();
+            Shape shape = new Shape();
 
-            point.setXCoordinate(25);
-            Console.WriteLine(point.getXCoordinate());
+            shape.setXCoordinate(25);
+            Console.WriteLine(shape.getXCoordinate());
 
             Console.ReadLine();
 
@@ -200,9 +200,9 @@ namespace yr12sdd
 
 ```
 
-The above C# code instantiates a Point object, sets the x_coordinate to 25 and outputs the value of the x_coordinate to the console.  
+The above C# code instantiates a Shape object, sets the x_coordinate to 25 and outputs the value of the x_coordinate to the console.  
 * Run the above code.  
-* Add a new method to the Point class called `print()`. This method does not return a value and also does not take any arguments. Calling this method should produce the following console output (using the current value of the x_coordinate attribute):
+* Add a new method to the Shape class called `print()`. This method does not return a value and also does not take any arguments. Calling this method should produce the following console output (using the current value of the x_coordinate attribute):
 
 ```
 X coordinate: 23
@@ -217,7 +217,7 @@ ___
 
 
 
-### 1.?
+### 1.5 
 
 * Pseudocode
 
