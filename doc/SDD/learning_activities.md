@@ -468,27 +468,62 @@ Area: 160
 ___
 
 
-### 1.6
+### 1.6 Car cost
+
+From question 33 (d) [BOS 2015-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2015/exams/2015-hsc-sdd.pdf). A custom car manufacturer makes cars to order based on customers’ selections of components. Each component may be standard or specialised.  
+The cost of a car is calculated by totalling the costs of all components. The cost of each standard component is fixed. The cost of a specialised component is calculated by adding the cost of the specialisation to the cost of the standard component.  
+The software to manage customers’ selections is being developed. This fragment of code has been designed to be part of the software.  
+
+A standard engine costs $2000, but a V8 engine costs an extra $800.  
 
 * Pseudocode
 
 ```
+class Car {
+  private –
+    components: array of Component
+  public –
+    getComponents():
+      return components
 
+    setComponents(value):
+      components = value
+
+    cost():
+      sum = 0
+      FOR i = 1 TO number of components
+      sum = sum + components[i].cost()
+      NEXT i
+      return sum
+}
+class Component {
+  public –
+    cost(): REM returns the cost of the component
+}
+class Engine {
+  is a Component
+}
+class V8Engine { 
+  is a Engine 
+}
+
+BEGIN Main
+  car = new Car()
+
+  componentsForCar(1) = new Engine()
+  car.setComponents(componentsForCar)
+
+  Display car.cost()
+
+END Main
 
 ```
 
-* C#
+* Write the cost() method to calculate the cost of instances of the Engine and V8Engine subclasses of Component.  
+* Write another subclass of Component `Wheel` with a cost of $200, and inside the Main function add 4 instances of this class to the car
+* Write a C# implementation of your solution.
 
-```cs
 
-
-```
-
-1. Run the above C# code on your laptop
-2. Modify the code to:
-  * 
-3. Run and test your program
-4. Write a pseudocode version of your modified C# code.
 
 ___
 
