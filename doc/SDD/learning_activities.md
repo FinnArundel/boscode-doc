@@ -519,9 +519,10 @@ END Main
 
 ```
 
-* Write the cost() method to calculate the cost of instances of the Engine and V8Engine subclasses of Component.  
-* Write another subclass of Component `Wheel` with a cost of $200, and inside the Main function add 4 instances of this class to the car
-* Write a C# implementation of your solution.
+1. Write the cost() method to calculate the cost of instances of the Engine and V8Engine subclasses of Component.  
+2. Write another subclass of Component `Wheel` with a cost of $200, and inside the Main function add 4 instances of this class to the car  
+3. Inside Main create an additional Car instance with a V8Engine and 6 wheels and display the total cost.
+4. Write a C# implementation of your solution.
 
 
 
