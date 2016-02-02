@@ -4,12 +4,12 @@
 
 * 1 Object oriented paradigm
 
-[1.1 Installation](#11-installation)
-[1.2 Shape class](#12-shape-class)
-[1.3 Getters and setters](#13-getters-and-setters)
-[1.4 Shape class with print method](#14-shape-class-with-print-method)
-[1.5 Circle class](#15-circle-class)
-[1.6 Car cost](#16-car-cost)
+[1.1 Installation](#11-installation)  
+[1.2 Shape class](#12-shape-class)  
+[1.3 Getters and setters](#13-getters-and-setters)  
+[1.4 Shape class with print method](#14-shape-class-with-print-method)  
+[1.5 Circle class](#15-circle-class)  
+[1.6 Car cost](#16-car-cost)  
 
 ___
 ## 1 Object oriented paradigm
