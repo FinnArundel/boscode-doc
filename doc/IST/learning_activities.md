@@ -2,7 +2,8 @@
 
 ## Table of content
 
-*2 Hardware*
+*2 Hardware*  
+
 [2.3 Classification of systems - Activities]( #23-classification-of-systems---activities )   
 [2.4 Hardware solutions]( #24-hardware-solutions )   
 
@@ -10,7 +11,7 @@
 
 [14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
 [14.0 In Action Electric humans]( #140-in-action-electric-humans )   
-[14.1 Robotics - Activities]( 141-robotics---activities )   
+[14.1 Robotics - Activities]( #141-robotics---activities )   
 [14.1a Issues - The changing nature of work]( #141a-issues---the-changing-nature-of-work )   
 [14.1b Task 1 LEGO Mindstorms NXT]( #141b-task-1-lego-mindstorms-nxt )   
 [14.2 Types of robots - Activities I]( #142-types-of-robots---activities-i )   
