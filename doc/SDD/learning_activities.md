@@ -465,15 +465,10 @@ Height: 20
 Width: 8
 Area: 160
 ```
-
-
 ___
 
 
-
-
-
-### 1.?
+### 1.6
 
 * Pseudocode
 
