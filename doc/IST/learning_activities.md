@@ -2,9 +2,33 @@
 
 ## Table of content
 
+*2 Hardware*
 [2.3 Classification of systems - Activities]( #23-classification-of-systems---activities )   
 [2.4 Hardware solutions]( #24-hardware-solutions )   
 
+*14 Robotics and automated systems*
+
+[14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
+[14.0 In Action Electric humans]( #140-in-action-electric-humans )   
+[14.1 Robotics - Activities]( 141-robotics---activities )   
+[14.1a Issues - The changing nature of work]( #141a-issues---the-changing-nature-of-work )   
+[14.1b Task 1 LEGO Mindstorms NXT]( #141b-task-1-lego-mindstorms-nxt )   
+[14.2 Types of robots - Activities I]( #142-types-of-robots---activities-i )   
+[14.2b Types of robots - Activities II]( #142b-types-of-robots---activities-ii )   
+[14.3 The purpose of robots - Activities]( #143-the-purpose-of-robots---activities )   
+[14.3a People Animatronics engineer Grant Imahara]( #143a-people-animatronics-engineer-grant-imahara )   
+[14.4 The use of robots - Activities]( #144-the-use-of-robots---activities )   
+[14.4a Robots in space]( #144a-robots-in-space )   
+[14.5 The function of robots - Activities]( #145-the-function-of-robots---activities )  
+[14.5a People Robot developer Hugo Elias]( #145a-people-robot-developer-hugo-elias )   
+[14.6 Automated control - Activities]( #146-automated-control---activities )   
+[14.6a Task 2 Automated systems]( #146a-task-2-automated-systems )   
+[15.6b Issues - scientists worry machines may outsmart humans]( #156b-issues---scientists-worry-machines-may-outsmart-humans )   
+[14.7 Sensing devices - Activities]( #147-sensing-devices---activities )   
+[14.7a Task 3 Build a traffic light with sensors]( #147a-task-3-build-a-traffic-light-with-sensors )   
+[14.7b Issues - Location-based services]( #147b-issues---location-based-services )   
+[14.7c Task 4 Build a car with sensors]( #147c-task-4-build-a-car-with-sensors )   
+[14.8 Actuators and controlling devices - Activities]( #148-actuators-and-controlling-devices---activities )   
  
 
 ___
