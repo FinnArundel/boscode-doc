@@ -2,7 +2,7 @@
 
 ## Table of content
 
-* 1 Object oriented paradigm
+1 Object oriented paradigm
 
 [1.1 Installation](#11-installation)  
 [1.2 Shape class](#12-shape-class)  
@@ -10,6 +10,10 @@
 [1.4 Shape class with print method](#14-shape-class-with-print-method)  
 [1.5 Circle class](#15-circle-class)  
 [1.6 Car cost](#16-car-cost)  
+
+2 Desk check
+
+
 
 ___
 ## 1 Object oriented paradigm
@@ -536,3 +540,542 @@ ___
 
 
 
+___
+## 2 Desk check
+
+### 2.1 Desk check 1
+
+Consider this fragment of code
+
+```
+BEGIN
+  length = 0
+  breadth = 0
+  area = length * breadth
+  length = 5
+  breadth = 4
+END
+```
+
+1. Complete a desk check  
+2. What are the values of length, breadth and area after the fragment of code has been executed?
+
+___
+
+### 2.2 Desk check 2
+
+Consider this fragment of code
+
+```
+BEGIN
+  m = 1
+  p = 2
+  m = p
+  p = m
+END
+```
+
+1. Complete a desk check  
+2. What are the values of m and p after the fragment of code has been executed?
+
+___
+
+### 2.3 Desk check 3
+
+Consider this fragment of code
+
+```
+BEGIN
+  a = 2
+  b = 4
+  a = a + b
+  b = a + b
+  Display a, b
+END
+```
+
+1. Complete a desk check  
+2. What is the output from this fragment of code?
+
+___
+
+### 2.4 Desk check 4
+
+Consider this algorithm
+
+```
+BEGIN
+  x = 4
+  y = x
+  z = x * y
+  Display z
+END
+```
+
+1. Complete a desk check  
+2. What is the output from this fragment of code?
+___
+
+### 2.5 Desk check 5
+
+Consider this algorithm
+
+```
+BEGIN
+  Get x
+  WHILE x > 5
+    Display x + 3
+    x = x - 1
+  ENDWHILE
+END
+```
+
+1. Using the test data x = 7, complete a desk check.  
+2. What is the output?
+
+
+___
+
+
+
+### 2.6 Desk check 6
+
+Consider this algorithm
+
+```
+BEGIN
+  n = 20
+  CASEWHERE n is
+    less than 10: n = n + 50
+    less than 30: n = n + 10
+    less than 50: n = n + 30
+    OTHERWISE:    n = n + 50
+  ENDCASE
+  Display n
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+
+### 2.7 Desk check 7
+
+Consider this algorithm
+
+```
+BEGIN
+  number = 5
+  WHILE number < 30
+    Display number
+    Increment number by 2
+  ENDWHILE  
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2.8 Desk check 8
+
+Consider this algorithm
+
+```
+BEGIN
+  number = -2
+  REPEAT
+    Display number
+    number = number + 2
+  UNTIL number > 10
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.9 Desk check 9
+
+Consider this algorithm
+
+```
+BEGIN
+  FOR number = 2 TO 10 STEP 1
+    Display number * 2 + 1
+  NEXT number
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.10 Desk check 10
+
+Consider this algorithm
+
+```
+BEGIN
+  number = 5
+  REPEAT
+    Display number
+    Increment number by 2
+  UNTIL number = 10  
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.11 Desk check 11
+
+Consider this algorithm
+
+```
+BEGIN
+  FOR number = 5 TO 13 STEP 2
+    Display number
+  NEXT number
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.12 Desk check 12
+
+Consider this algorithm
+
+```
+BEGIN
+  start = 4
+  finish = 10
+  WHILE start < finish
+    start = finish - start
+    finish = finish - 2
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. How many times will the statement within the body of the loop be executed?
+___
+
+
+### 2.13 Desk check 13
+
+Consider this algorithm
+
+```
+BEGIN
+  a = 1
+  b = 2
+  c = 3
+  a = b
+  c = a
+  b = c
+  Display a, b, c
+END
+
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.14 Desk check 14
+
+Consider this algorithm
+
+```
+BEGIN
+  a = 10
+  b = a -2
+  c = b / 2
+  a = c + 5
+  b = a - b
+  Display b
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+### 2.15 Desk check 15
+
+Consider this algorithm
+
+```
+BEGIN
+  count = 10
+  num = 10
+  WHILE count > 0
+    Display num/count
+    count =  count - 2
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+
+### 2.16 Desk check 16
+
+Consider this algorithm
+
+```
+BEGIN
+  count = 11
+  num = 10
+  WHILE count > 0
+    count =  count - 2
+    Display num/count
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2.17 Desk check 17
+
+Consider this algorithm
+
+```
+BEGIN
+  count = 10
+  num = 10
+  WHILE count > 0
+    count =  count - 3
+    Display num/count    
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2.18 Desk check 18
+
+Consider this algorithm
+
+```
+BEGIN
+  count = 10
+  num = 10
+  WHILE count > 0
+    count =  count - 2
+    Display num/count    
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2.19 Desk check 19
+
+Consider this algorithm
+
+```
+BEGIN
+  Get a
+  Get b
+  WHILE a < b
+    Display a
+    a = a + 3
+  ENDWHILE 
+END
+```
+
+1. Complete a desk check with the input 2 and 14. 
+2. What is the output after the fragment of code has been executed with the input 2 and 14?
+___
+
+
+
+
+### 2.20 Desk check 20
+
+Consider this algorithm
+
+```
+BEGIN
+  Get a
+  WHILE a > 0
+    b = a * 2
+    a = a - 1
+    Display b
+  ENDWHILE
+END
+
+```
+
+1. Complete a desk check with the input 3. 
+2. What is the output after the fragment of code has been executed with the input 3?
+___
+
+
+
+### 2.21 Desk check 21
+
+a MOD b returns the remainder from the division a/b. For example, 11 MOD 4 = 3 because 11/4 = 2 remainder 3.
+
+Consider this algorithm
+
+```
+BEGIN
+  a = 15
+  WHILE a > 1
+    IF a MOD 2 = 0 THEN
+      Display a
+    ELSE
+      a = a - 1
+    ENDIF
+  ENDWHILE
+END
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
+
+
+
+### 2. Desk check 
+
+Consider this algorithm
+
+```
+le
+```
+
+1. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+___
