@@ -970,12 +970,96 @@ ___
 
 
 
-### 2. Desk check 
+### 2.22 Desk check 22
 
 Consider this algorithm
 
 ```
-le
+BEGIN
+  x(1) = "a"
+  x(2) = "b"
+  x(3) = "c"
+  x(4) = "d"
+  x(5) = "e"
+
+  i = 1
+  j = number of elements in the array x
+  WHILE i < j
+    k = x(i)
+    x(i) = x(j)
+    x(j) = k
+    i = i + 1
+    j = j - 1
+  ENDWHILE
+END 
+```
+
+1. Complete a desk check  
+2. Which of the following best describes what this code does?  
+(A) It reverses the order of the elements in the array.  
+(B) It copies the second half of th the array to the first half.  
+(C) It copies the first half of the array to the second half.  
+(D) It swaps the first half of the array and the second half of the array.  
+
+___
+
+### 2.23 Desk check 23
+
+Consider this algorithm.
+
+```
+BEGIN order
+  names(1) = "Smith" 
+  names(2) = "Farelli" 
+  names(3) = "Wu" 
+  names(4) = "Andrews" 
+  
+  position = 1
+  end = number of elements in the array names
+  WHILE position < end
+    current = position + 1
+    maximum = position
+
+    WHILE current <= end
+      IF names(current) > names(maximum) THEN
+        maximum = current
+      ENDIF
+      current = current + 1
+    ENDWHILE
+    `NOTE: the subprogram swap exchanges two elements of the array 'names'. 
+    ` swap should be underlined
+    swap(names, maximum, position)
+    position = position + 1
+  ENDWHILE
+END order
+```
+
+1. Complete a desk check  
+
+___
+
+
+
+### 2.24 Desk check 24
+
+Consider this algorithm
+
+```
+BEGIN main
+  numA = 2
+  numB = 3
+  calc(numA, numB)
+  Display numA, numB
+END main
+
+BEGIN calc(numC, numD)
+  temp = numC
+  WHILE numD > 1
+    numC = numC * temp
+    numD = numD - 1
+  ENDWHILE
+  Display numC, numD
+END calc
 ```
 
 1. Complete a desk check  
@@ -984,98 +1068,87 @@ ___
 
 
 
-### 2. Desk check 
+### 2.25 Desk check 25
 
 Consider this algorithm
 
 ```
-le
+BEGIN 
+  list(1) = 1
+  list(2) = 3
+  list(3) = 5
+  list(4) = 7
+  list(5) = 9
+
+  low = 1
+  n = number of elements in the array list
+  high = n
+  WHILE low < n 
+    list(low) = list(high)
+    list(high) = list(low)
+    low = low + 1
+    high = high - 1
+  ENDWHILE
+END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+2. What will list contain after the algorithm is executed?
 ___
 
 
 
-### 2. Desk check 
+### 2.26 Desk check 26
 
 Consider this algorithm
 
 ```
-le
+BEGIN
+  a(1) = "F"
+  a(2) = "I"
+  a(3) = "S"
+  a(4) = "H"
+
+  endUnsorted = number of elements in the array a
+
+  WHILE endUnsorted > 1
+    currentIndex = 1
+    WHILE currentIndex < endUnsorted
+      IF a(currentIndex) > a(currentIndex + 1) THEN
+        `NOTE: the subprogram swap exchanges two elements of the array 'a'. 
+        ` swap should be underlined
+        swap(a, currentIndex, currentIndex + 1)
+      ENDIF
+      currentIndex = currentIndex + 1
+    ENDWHILE
+    endUnsorted = endUnsorted - 1
+  ENDWHILE
+END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+2. What will the array a contain after the algorithm is executed?
 ___
 
 
 
-### 2. Desk check 
+### 2.27 Desk check 27
 
 Consider this algorithm
 
 ```
-le
+BEGIN
+  a(1) = 1
+  a(2) = 1
+  i = 2
+  WHILE i <= 10
+    a(i) = a(i-1) + a(i-2)
+    i = i + 1
+  ENDWHILE
+END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+2. What will the array a contain after the algorithm is executed?
 ___
 
-
-
-### 2. Desk check 
-
-Consider this algorithm
-
-```
-le
-```
-
-1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-___
-
-
-
-### 2. Desk check 
-
-Consider this algorithm
-
-```
-le
-```
-
-1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-___
-
-
-
-### 2. Desk check 
-
-Consider this algorithm
-
-```
-le
-```
-
-1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-___
-
-
-
-### 2. Desk check 
-
-Consider this algorithm
-
-```
-le
-```
-
-1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-___
