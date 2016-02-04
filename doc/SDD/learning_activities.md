@@ -824,6 +824,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -834,7 +835,7 @@ Consider this algorithm
 ```
 BEGIN
   a = 10
-  b = a -2
+  b = a - 2
   c = b / 2
   a = c + 5
   b = a - b
@@ -857,7 +858,7 @@ BEGIN
   count = 10
   num = 10
   WHILE count > 0
-    Display num/count
+    Display num - count
     count =  count - 2
   ENDWHILE
 END
@@ -881,7 +882,7 @@ BEGIN
   num = 10
   WHILE count > 0
     count =  count - 2
-    Display num/count
+    Display num - count
   ENDWHILE
 END
 ```
@@ -903,7 +904,7 @@ BEGIN
   num = 10
   WHILE count > 0
     count =  count - 3
-    Display num/count    
+    Display num - count    
   ENDWHILE
 END
 ```
@@ -925,7 +926,7 @@ BEGIN
   num = 10
   WHILE count > 0
     count =  count - 2
-    Display num/count    
+    Display num - count    
   ENDWHILE
 END
 ```
