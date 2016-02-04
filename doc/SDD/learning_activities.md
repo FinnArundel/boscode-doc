@@ -563,11 +563,8 @@ END Main
 3. Inside Main create an additional Car instance with a V8Engine and 6 wheels and display the total cost.
 4. Write a C# implementation of your solution.
 
-___
-
-
-
-___
+___  
+___  
 ## 2 Desk check
 
 ### 2.1 Desk check 1
@@ -641,6 +638,7 @@ END
 
 1. Complete a desk check  
 2. What is the output from this fragment of code?
+
 ___
 
 ### 2.5 Desk check 5
@@ -705,6 +703,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -725,6 +724,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -742,6 +742,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -761,6 +762,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -778,6 +780,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -798,6 +801,7 @@ END
 
 1. Complete a desk check  
 2. How many times will the statement within the body of the loop be executed?
+
 ___
 
 
@@ -840,6 +844,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -860,6 +865,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -882,6 +888,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -903,6 +910,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -924,6 +932,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -945,6 +954,7 @@ END
 
 1. Complete a desk check with the input 2 and 14. 
 2. What is the output after the fragment of code has been executed with the input 2 and 14?
+
 ___
 
 
@@ -968,6 +978,7 @@ END
 
 1. Complete a desk check with the input 3. 
 2. What is the output after the fragment of code has been executed with the input 3?
+
 ___
 
 
@@ -993,6 +1004,7 @@ END
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -1091,6 +1103,7 @@ END calc
 
 1. Complete a desk check  
 2. What is the output after the fragment of code has been executed?
+
 ___
 
 
@@ -1121,6 +1134,7 @@ END
 
 1. Complete a desk check  
 2. What will list contain after the algorithm is executed?
+
 ___
 
 
@@ -1155,6 +1169,7 @@ END
 
 1. Complete a desk check  
 2. What will the array a contain after the algorithm is executed?
+
 ___
 
 
@@ -1177,5 +1192,6 @@ END
 
 1. Complete a desk check  
 2. What will the array a contain after the algorithm is executed?
+
 ___
 
