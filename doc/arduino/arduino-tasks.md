@@ -33,10 +33,9 @@ ___
 
 5. Install johnny five:
   * Install Node.js https://nodejs.org/en/download/
-  * OSX: Install Xcode
   * Windows: Install Python 2.7.3 https://www.python.org/
   * Open terminal (Mac) or powershell (Windows) `npm install -g node-gyp`
-  * Follow the steps outlined in [Electron tasks Installation](https://github.com/Quobject/boscode-learn/blob/master/electron-tasks.md#installation)
+  * Follow the steps outlined in [Electron tasks Installation](../electron/electron-tasks.md#installation)
   * Follow Hello World steps: https://github.com/rwaldron/johnny-five/wiki/Getting-Started#hello-world
 
 ___
@@ -151,7 +150,7 @@ For each exercise create the following documentation:
 
 ###Example
 
-####01 Arduino Experimenter's Guide for NodeJS Exercise 1 Blinking LED  
+####01 Arduino Exercise 1 Blinking LED  
 
 LEDs (light emitting diodes) are used in all sorts of clever things which is why they are included in the Experimenter's kit. We will start off with something very simple, turning one on and off, repeatedly, producing a pleasant blinking effect.  
 
