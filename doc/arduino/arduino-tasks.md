@@ -129,7 +129,7 @@ void loop ( ) {
 ___
 
 
-## 04 Arduino Experimenter's Guide for NodeJS
+## 04 14 Arduino Exercises
 
 * In terminal/powershell `cd c:\code\boscode-learn\code\arduino\01`.
 * `npm install johnny-five`
