@@ -150,11 +150,16 @@ For each exercise create the following documentation:
   * Screen shot of the user interface (only if applicable)  
 
 ####Example
+####Title 
+01 Arduino Experimenter's Guide for NodeJS Exercise 1 Blinking LED  
 
-*Title* 01 Arduino Experimenter's Guide for NodeJS Exercise 1 Blinking LED  
-*Description* LEDs (light emitting diodes) are used in all sorts of clever things which is why they are included in the Experimenter's kit. We will start off with something very simple, turning one on and off, repeatedly, producing a pleasant blinking effect.  
-*Parts* 2 pin header x 4, 5mm LED, 330 ohm resistor (orange-orange-brown), jumper wires
-*Circuit diagram*
+####Description 
+LEDs (light emitting diodes) are used in all sorts of clever things which is why they are included in the Experimenter's kit. We will start off with something very simple, turning one on and off, repeatedly, producing a pleasant blinking effect.  
+
+####Parts 
+2 pin header x 4, 5mm LED, 330 ohm resistor (orange-orange-brown), jumper wires
+
+####Circuit diagram
 
  ![Circuit diagram]( images/001.jpeg "Circuit diagram") 
  
