@@ -98,6 +98,7 @@ Read each slide then answer the questions
 26. Compare and contrast (explain the similarities and differences) between the Setup and Loop that are found in a sketch.  
 27. A block of code is called a Function. How are Functions blocked out? Please insert the symbol used.  
 28. The slide provides an example of code, please write next to the code below what it means.  
+  
   ```
   void setup (){
     pinmode(13, OUTPUT);
