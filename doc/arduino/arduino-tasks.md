@@ -98,16 +98,16 @@ Read each slide then answer the questions
 26. Compare and contrast (explain the similarities and differences) between the Setup and Loop that are found in a sketch.  
 27. A block of code is called a Function. How are Functions blocked out? Please insert the symbol used.  
 28. The slide provides an example of code, please write next to the code below what it means.  
-```
-void setup (){
-  pinmode(13, OUTPUT);
-}
-void loop ( ) {
-  digitalWrite(13, HIGH);
-  delay (1000); digitalWrite(13, LOW);
-  delay (1000) ;
-}
-```
+  ```
+  void setup (){
+    pinmode(13, OUTPUT);
+  }
+  void loop ( ) {
+    digitalWrite(13, HIGH);
+    delay (1000); digitalWrite(13, LOW);
+    delay (1000) ;
+  }
+  ```
 29. In the code above, the HIGH means Voltage is High and LOW means the voltage is LOW. If an LED Light was connected to pin 13, what would happen when the voltage was HIGH?  
 30. Read slide 10. What is a breadboard and what is it used for?  
 31. What does LED stand for?  
