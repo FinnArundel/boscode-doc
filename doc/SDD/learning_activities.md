@@ -39,7 +39,7 @@
 [2.24 Desk check 24](#224-desk-check-24)  
 [2.25 Desk check 25](#225-desk-check-25)  
 [2.26 Desk check 26](#226-desk-check-26)  
-[2.27 Desk check 27](#227-desk-check-27)  
+
 
 
 ___
@@ -1134,9 +1134,13 @@ END
 ```
 
 1. Complete a desk check  
-2. What will list contain after the algorithm is executed?
+
 
 ___
+
+
+
+
 
 
 
@@ -1146,44 +1150,9 @@ Consider this algorithm
 
 ```
 BEGIN
-  a(1) = "F"
-  a(2) = "I"
-  a(3) = "S"
-  a(4) = "H"
-
-  endUnsorted = number of elements in the array a
-
-  WHILE endUnsorted > 1
-    currentIndex = 1
-    WHILE currentIndex < endUnsorted
-      IF a(currentIndex) > a(currentIndex + 1) THEN
-        `NOTE: the subprogram swap exchanges two elements of the array 'a'. 
-        ` swap should be underlined
-        swap(a, currentIndex, currentIndex + 1)
-      ENDIF
-      currentIndex = currentIndex + 1
-    ENDWHILE
-    endUnsorted = endUnsorted - 1
-  ENDWHILE
-END
-```
-
-1. Complete a desk check  
-2. What will the array a contain after the algorithm is executed?
-
-___
-
-
-
-### 2.27 Desk check 27
-
-Consider this algorithm
-
-```
-BEGIN
   a(1) = 1
   a(2) = 1
-  i = 2
+  i = 3
   WHILE i <= 10
     a(i) = a(i-1) + a(i-2)
     i = i + 1
@@ -1192,7 +1161,6 @@ END
 ```
 
 1. Complete a desk check  
-2. What will the array a contain after the algorithm is executed?
 
 ___
 
