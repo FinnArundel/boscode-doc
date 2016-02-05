@@ -16,7 +16,7 @@ This should run locally on your laptop and not in cloud 9.
 * In chrome goto https://github.com/Quobject/boscode-learn and click on button `Save to computer` (left to the `Download ZIP` button) and clone into c:\code
 
 ![Save to computer](images/002.jpeg)
-
+  
 ___
 
 ## 01 Hello world
