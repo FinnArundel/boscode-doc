@@ -149,11 +149,10 @@ For each exercise create the following documentation:
   * Photo of your working circuit (showing clearly the St Luke's serial number of your assigned Arduino board)
   * Screen shot of the user interface (only if applicable)  
 
-####Example
-####Title 
-01 Arduino Experimenter's Guide for NodeJS Exercise 1 Blinking LED  
+###Example
 
-####Description 
+####01 Arduino Experimenter's Guide for NodeJS Exercise 1 Blinking LED  
+
 LEDs (light emitting diodes) are used in all sorts of clever things which is why they are included in the Experimenter's kit. We will start off with something very simple, turning one on and off, repeatedly, producing a pleasant blinking effect.  
 
 ####Parts 
