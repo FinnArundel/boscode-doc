@@ -74,12 +74,14 @@ ___
 
   ![](images/image04.png)
 
-14. Modify the sheet and script to make a nicer user interface e.g.:
+14. Modify the sheet and script to make a nicer user interface e.g.:  
+
   ![](images/image03.png)
 
 
 
-15. Add data validation to your code by using the [isNaN() function](http://www.w3schools.com/jsref/jsref_isnan.asp):
+15. Add data validation to your code by using the [isNaN() function](http://www.w3schools.com/jsref/jsref_isnan.asp):  
+
   ![](images/image07.png)
 
 
