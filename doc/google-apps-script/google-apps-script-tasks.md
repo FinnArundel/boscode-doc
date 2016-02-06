@@ -53,20 +53,25 @@ ___
 6. Select the menu item File → Save. Name your new script “Task 2 script” and click OK.
 7. Select the menu item Insert → Drawing… .	
 8. Type the word “Run”:  
+
   ![](images/image05.png)
 
 9. Press the button `Save & Close`
+
   ![](images/image00.png)
 
 10. Right click the inserted drawing, click on the triangle on the right upper corner and select Assign script… .  
+
   ![](images/image02.png)
 
 
 11. Type ‘myFunction’:
+
   ![](images/image01.png)
 
 12. Click OK.  
 13. Left click the drawing to run the script:
+
   ![](images/image04.png)
 
 14. Modify the sheet and script to make a nicer user interface e.g.:
