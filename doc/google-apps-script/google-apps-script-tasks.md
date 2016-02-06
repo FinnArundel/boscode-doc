@@ -2,11 +2,11 @@
 
 ## Table of Content
 
-[01 Overview of Google Apps Script]()  
-[02 Adding numbers with Google Apps Script]()  
-[03 Add-on for Google Docs]()  
-[04 Add-on for Google Forms]()  
-[05 Macros, Menus, and Custom Functions]()  
+[01 Overview of Google Apps Script](#01-overview-of-google-apps-script)  
+[02 Adding numbers with Google Apps Script](#02-adding-numbers-with-google-apps-script)  
+[03 Add-on for Google Docs](#03-add-on-for-google-docs)  
+[04 Add-on for Google Forms](#04-add-on-for-google-forms)  
+[05 Macros, Menus, and Custom Functions](#05-macros-menus-and-custom-functions)  
 
 ___
 
