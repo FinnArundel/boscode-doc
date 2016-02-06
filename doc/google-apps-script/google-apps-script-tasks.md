@@ -97,7 +97,21 @@ ___
 
 ___
 
-## 01 Overview of Google Apps Script
+## 04 Add-on for Google Forms
+
+1. Follow instruction given at https://developers.google.com/apps-script/quickstart/forms-add-on  
+2. Read the code and html files and try to understand what each function does.  
+3. Modify the code so that a help menu item will be shown:   
+
+  ![](images/image09.png)
+
+4. Hitting this menu item should bring up a box like this:  
+
+  ![](images/image10.png)
+
+5. Paste your code for the modified js/html functions into your solution document.
+
+
 ___
 
 ## 01 Overview of Google Apps Script
