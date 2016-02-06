@@ -2,8 +2,11 @@
 
 ## Table of Content
 
-[07 Arduino with Electron UI Twisting](#07-arduino-with-electron-ui-twisting)  
-
+[01 Overview of Google Apps Script]()  
+[02 Adding numbers with Google Apps Script]()  
+[03 Add-on for Google Docs]()  
+[04 Add-on for Google Forms]()  
+[05 Macros, Menus, and Custom Functions]()  
 
 ___
 
@@ -114,7 +117,7 @@ ___
 
 ___
 
-## 01 Overview of Google Apps Script
-___
+## 05 Macros, Menus, and Custom Functions
 
-## 01 Overview of Google Apps Script
+1. Follow instruction given at https://developers.google.com/apps-script/quickstart/macros  
+2. Read the code and html files and try to understand what each function does.  
