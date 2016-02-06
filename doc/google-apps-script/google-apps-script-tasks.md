@@ -84,18 +84,23 @@ ___
 
   ![](images/image07.png)
 
+___
 
+## 03 Add-on for Google Docs
 
+1. Follow instruction given at https://developers.google.com/apps-script/quickstart/docs.  
+2. Read the code and html files and try to understand what each function does.
+3. Modify the code.gs so that the sidebar will show immediately when the document is opened (the user should not have to click the ‘Start’ menu item anymore). Paste your modified function code into your solution document.  
+4. Modify the scripts to remove the languages “Japanese” and “Spanish”.  
 
-
-
-
-
-
-
-
-
-
-
+  ![](images/image08.png)
 
 ___
+
+## 01 Overview of Google Apps Script
+___
+
+## 01 Overview of Google Apps Script
+___
+
+## 01 Overview of Google Apps Script
