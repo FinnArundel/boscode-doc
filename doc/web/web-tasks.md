@@ -1,9 +1,23 @@
 ﻿# Web tasks
 
 ## Table of Content
-
-[Installation](#installation)     
-
+    
+[Installation]()  
+[01 - Hello world]()  
+[02 - Sequence]()  
+[03 - Binary selection]()  
+[04 - Multi way selection]()  
+[05 - Pre-test loop]()  
+[06 - Post-test loop]()  
+[07 - Counted loop The challenge:]()  
+[08 - Random numbers]()  
+[09 - Change html]()  
+[10 - Show image]()  
+[11 - Button dropdowns]()  
+[12 - Timer]()  
+[13 - Array]()  
+[14 - Record]()  
+[15 - Array of Records]()  
 ___
 
 ## Installation
