@@ -9,7 +9,7 @@
 [04 - Multi way selection](#04---multi-way-selection)  
 [05 - Pre-test loop](#05---pre-test-loop)  
 [06 - Post-test loop](#06---post-test-loop)  
-[07 - Counted loop The challenge:](#07---counted-loop)  
+[07 - Counted loop](#07---counted-loop)  
 [08 - Random numbers](#08---random-numbers)  
 [09 - Change html](#09---change-html)  
 [10 - Show image](#10---show-image)  
