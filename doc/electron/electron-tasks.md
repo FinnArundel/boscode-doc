@@ -12,10 +12,9 @@ This should run locally on your laptop and not in cloud 9.
 * Install Visual Studio Code https://code.visualstudio.com/Download
 * Open terminal (Mac) or powershell (Windows) `npm install electron-prebuilt -g`
 * Create a directory `c:/code`
-* Install github desktop https://desktop.github.com/
-* In chrome goto https://github.com/Quobject/boscode-learn and click on button `Save to computer` (left to the `Download ZIP` button) and clone into c:\code
 
-![Save to computer](images/002.jpeg)
+* In chrome goto [https://github.com/Quobject/boscode-learn](https://github.com/Quobject/boscode-learn) and click on button `Download ZIP`.  
+* Unzip the downloaded file and copy into c:/code.
   
 ___
 
