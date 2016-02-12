@@ -49,7 +49,7 @@ ___
 * Read chapter 2.4 Hardware solutions pages 24 & 25
 
 1 For each of the following scenarios, develop a hardware solution by applying the four stages of project development. Suggest what hardware would be required and justify your selection.
-  - Students needing a new multimedia rooma  
+  - Students needing a new multimedia room
   - A graphic designer working in an advertising agency  
   - An international airline implementing a new booking system  
   - A sales representative working across several states.  
@@ -83,7 +83,7 @@ ___
 4 Identify the component of modern robots that enables them to accept data from the environment.  
 5 Name two characteristics of an intelligent robot.  
 6 Identify three main features of modern robots.  
-7 What was the name of the first industrial robot and in what year did it come online?
+7 What was the name of the first industrial robot and in what year did it come online?  
 8 Scientists have a very different view of robots from science-fiction readers and movie-goers. Explain these differences.  
 9 Discuss the relevance of Asimov’s Laws of Robotics to the robotics industry today.  
 10 Either write a short story involving Asimov’s Laws of Robotics or summarise the plot of I, Robot, a movie starring Will Smith, loosely based on an Asimov story.  
@@ -112,10 +112,11 @@ ___
 1 Identify the main difference between a robotic arm and a mobile robot.  
 2 Why are robots used in industry?  
 3 List four tasks performed by robots in manufacturing.  
-4 Find one example of a robot used in manufacturing. For your example, answer the following questions.  
+4 Find one example of a robot used in manufacturing. For your example, answer the following questions.
   a What is manufactured?  
   b What tasks does the robot perform?  
   c Is the robot a stationary arm or a mobile robot?  
+
 5 Find an example of a robot used for security control. Describe the function of the robot in the system.  
 6 Develop and conduct a survey on the use of robots in industry and the home. Develop a chart to illustrate the findings and present them to the class.  
 
@@ -134,9 +135,10 @@ ___
 7 Describe the types of jobs that would not be suitable for robots.  
 8 Apart from the Titanic discovery, describe another situation where underwater robots have been used to locate or explore shipwrecks.  
 9 Underwater robots proved invaluable following the 2010 Deepwater Horizon oil spill (also referred to as the Gulf of Mexico oil spill). Research this environmental disaster, paying particular attention to:  
-	* the reasons why robots were used to contain the oil leak
-	* the difficulties encountered during the clean-up
-	* the tasks performed by the robots.
+	* the reasons why robots were used to contain the oil leak  
+	* the difficulties encountered during the clean-up  
+	* the tasks performed by the robots.  
+
 10 Investigate the ways in which robots are used to help people with disabilities.  
 
 ___
@@ -303,10 +305,10 @@ ___
 3 What is the difference between a closed-loop system and an open-loop system?  
 4 Describe the functions performed by actuators.  
 5 List the actuators in your robotic kit.  
-6 Think of a system that does not use feedback. Draw the system as a simple block diagram. 
+6 Think of a system that does not use feedback. Draw the system as a simple block diagram.  
 7 Draw a block diagram of a closed-loop system and build it with your robotic kit.  
 8 Compare and contrast how the models of open-loop and closed-loop systems function.   
 9 Build an open-loop system with your robotic kit.  
-10 Design and build a model with your robotic kit using the motor actuator. The model should include a sensor to control the movement of the motor. An example is a car that travels in one direction until it touches a wall, then reverses.  
+10 Design and build a model with your robotic kit using the motor actuator. The model should include a sensor to control the movement of the motor. An example is a car that travels in one direction until it touches a wall, then reverses.   
 
 ___
