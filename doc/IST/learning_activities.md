@@ -49,10 +49,10 @@ ___
 * Read chapter 2.4 Hardware solutions pages 24 & 25
 
 1 For each of the following scenarios, develop a hardware solution by applying the four stages of project development. Suggest what hardware would be required and justify your selection.  
-- Students needing a new multimedia room  
-- A graphic designer working in an advertising agency  
-- An international airline implementing a new booking system  
-- A sales representative working across several states.  
+  - Students needing a new multimedia room  
+  - A graphic designer working in an advertising agency  
+  - An international airline implementing a new booking system  
+  - A sales representative working across several states.  
 2 List some of the more common problems that you have encountered with hardware. Discuss how best to avoid these problems in the future.  
 3 Design a poster to alert users to the do's and don'ts of computer care.  
 
