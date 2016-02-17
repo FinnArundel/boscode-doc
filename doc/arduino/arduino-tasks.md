@@ -24,7 +24,7 @@ ___
 
 4. Launch Arduino IDE and open the Firmata sketch via the menu: File > Examples > Firmata > StandardFirmataPlus
   * Select your Arduino board type (e.g. Arduino Uno) via Tools > Board
-  * Select the port for your board via Tools > Serial Port > (the comm port of your Arduino)
+  * Select the port for your board via Tools > Serial Port > (the com port of your Arduino)
   * Upload the program by selecting File > Upload  
 
 5. Install:
