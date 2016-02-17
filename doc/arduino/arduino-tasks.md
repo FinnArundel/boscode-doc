@@ -45,7 +45,7 @@ ___
           tasks   
     ```
 
-  * Open terminal (Mac) or powershell (Windows) and change into folder `C:\code\boscode-learn\code\arduino`
+  * Open terminal (Mac) or powershell (Windows) and (these installs cannot be done with the schools wifi)
 
     
     Mac: 
