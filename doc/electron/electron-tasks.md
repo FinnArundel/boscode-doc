@@ -8,13 +8,7 @@
 ## Installation
 This should run locally on your laptop and not in cloud 9.
 
-* Install Node.js https://nodejs.org/en/download/
-* Install Visual Studio Code https://code.visualstudio.com/Download
-* Open terminal (Mac) or powershell (Windows) `npm install electron-prebuilt -g`
-* Create a directory `c:/code`
-
-* In chrome goto [https://github.com/Quobject/boscode-learn](https://github.com/Quobject/boscode-learn) and click on button `Download ZIP`.  
-* Unzip the downloaded file and copy into c:/code.
+Follow steps for [arduino tasks](https://github.com/Quobject/boscode-doc/blob/master/doc/arduino/arduino-tasks.md#installation)
   
 ___
 
@@ -25,6 +19,8 @@ ___
 * `npm start`
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\electron\01`.
 * Inspect the files `main.js, index.html, program.js`
+
+___
 
 ## 02 Dice Image
 

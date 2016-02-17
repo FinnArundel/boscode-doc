@@ -27,12 +27,45 @@ ___
   * Select the port for your board via Tools > Serial Port > (the comm port of your Arduino)
   * Upload the program by selecting File > Upload  
 
-5. Install johnny five:
-  * Install Node.js https://nodejs.org/en/download/
-  * Windows: Install Python 2.7.3 https://www.python.org/
-  * Open terminal (Mac) or powershell (Windows) `npm install -g node-gyp`
-  * Follow the steps outlined in [Electron tasks Installation](../electron/electron-tasks.md#installation)
-  * Follow Hello World steps: https://github.com/rwaldron/johnny-five/wiki/Getting-Started#hello-world
+5. Install:
+  * Install Visual Studio Code https://code.visualstudio.com/Download  
+  * Install Node.js https://nodejs.org/en/download/  
+  * Windows: Install Python 2.7.3 https://www.python.org/ 
+  * Download: https://github.com/Quobject/boscode-learn/archive/1.0.1.zip
+    Unzip into a new folder `/code/boscode-learn/code/arduino` or  `C:\code\boscode-learn\code\arduino`.   
+    
+    ```bash
+    code  
+      boscode-learn  
+        code  
+          arduino  
+          codecademy-tasks  
+          electron  
+          examples   
+          tasks   
+    ```
+
+  * Open terminal (Mac) or powershell (Windows) and change into folder `C:\code\boscode-learn\code\arduino`
+
+    
+    Mac: 
+    
+    ```bash
+    cd /code/boscode-learn/
+    sudo npm install -g node-gyp  
+    sudo npm install -g electron-prebuilt 
+    sudo npm install
+    ```
+
+    Windows: 
+    ```bash
+    cd C:\code\boscode-learn\
+    npm install -g node-gyp  
+    npm install -g electron-prebuilt 
+    npm install
+    ```
+
+ * Follow Hello World steps: https://github.com/rwaldron/johnny-five/wiki/Getting-Started#hello-world
 
 ___
 
@@ -128,11 +161,17 @@ ___
 ## 04 14 Arduino Exercises
 
 * In terminal/powershell `cd c:\code\boscode-learn\code\arduino\01`.
-* `npm install johnny-five`
-* `git clone https://github.com/AnnaGerber/node-ardx.git && cd node-ardx`
-* In visual studio code: File > Open Folder... `C:\code\boscode-learn\code\arduino\01\`.
+* In visual studio code: File > Open Folder... 
+  ```
+  MAC:
+  cd /code/boscode-learn/code/arduino/01
+
+  Windows:
+  cd C:\code\boscode-learn\code\arduino\01
+  ```
+
 * Setup circuit 1 http://node-ardx.org/exercises/1
-* Run code examples from the terminal e.g. `node code/CIRC01-code-led-a-strobe.js`
+* Run code examples from the terminal e.g. `node ardx/CIRC01-code-led-a-strobe.js`
 
 Complete Exercises 1-14 at http://node-ardx.org/
 
