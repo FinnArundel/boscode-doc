@@ -53,7 +53,7 @@ ___
     npm config set strict-ssl false
     ```
 
-  * Open terminal (Mac) or powershell (Windows) and (these installs cannot be done with the schools wifi)
+  * Open terminal (Mac) or powershell (Windows) and (these installs cannot be done with the schools wifi unless the previus steps have been followed)
 
     
     Mac: 
