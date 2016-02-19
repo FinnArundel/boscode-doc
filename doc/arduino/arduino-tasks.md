@@ -52,6 +52,7 @@ ___
     npm config set cafile "C:\cert\netbox_slgs.cer"
     npm config set strict-ssl false
     ```
+    - Restart your computer
 
   * Open terminal (Mac) or powershell (Windows) and (these installs cannot be done with the schools wifi unless the previus steps have been followed)
 
