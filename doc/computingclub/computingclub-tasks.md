@@ -16,6 +16,11 @@ Follow steps at https://github.com/Quobject/boscode-learn#installation
 
 ### 01 Using a variable
 
+What is a variable?
+
+A variable is a named value in our program. Whenever you use the name in the program, it is replaced with the value. You could create a variable called score and give it the value 100. Then, if you tell the computer to “display the score,” it will display 100. Now, variables can change, hence the name, so later in the program, maybe in response to some action a player takes, you can update the score. If you add 50 to score and tell the computer to “display the score,” it will now display 150.
+
+
 JavaScript variables are containers for storing data values. Read information at http://www.w3schools.com/js/js_variables.asp
 
 ```js
@@ -42,6 +47,15 @@ boscode.display(score);
 
 
 ### 02 Variables vary
+
+Declaring variables and assigning values
+
+Letting the computer know about information you’d like to store requires two steps:
+
+1. you need to set a name you can use to refer to your data in the program, like score or playerName or taxRate, and
+
+2. you need to link the name with the value you want to store. Something like set score equal to 100 or make ‘George’ the playerName or let the tax rate be 12%.
+
 
 JavaScript syntax is the set of rules, how JavaScript programs are constructed. Read information at http://www.w3schools.com/js/js_syntax.asp
 
@@ -75,6 +89,9 @@ boscode.display(score);
 
 
 ### 03 Assigning text to variables
+
+Programmers call sections of text strings because they are strings, or sequences, of characters. To denote a string you place the text inside of quotation marks. The marks can be double, "Hello World!", or single, 'Congratulations!', as long as they match. Without the quotation marks, JavaScript would try to interpret the text as instructions or variables.
+
 JavaScript strings are used for storing and manipulating text. Read information at http://www.w3schools.com/js/js_strings.asp
 
 ```js
@@ -104,6 +121,8 @@ boscode.display(message);
 
 
 ### 04 Declaring and assigning in two steps
+
+
 
 Assignment operators assign values to JavaScript variables. Read information at http://www.w3schools.com/js/js_assignment.asp
 
@@ -136,6 +155,12 @@ boscode.display(playerName + " is in " + locationName);
 
 ### 05 Declaring and assigning in one step
 
+You have seen how to declare variables and then assign them values in two steps. It’s also possible to declare a variable and assign it a value in a single statement.
+
+
+If you know the value of a variable at the time you declare it, then this single step approach can be a neat way of assigning the value to the variable. Sometimes, the value won’t be known at the time of declaration; maybe some calculations need to be performed, user input is required or you’re waiting for a network response. In that case, declaration and assignment would be separate. It is common for programmers to declare their variables at the top of a program, even if they won’t assign them values until later.
+
+
 JavaScript statements are "instructions". Read information at http://www.w3schools.com/js/js_statements.asp
 
 ```js
@@ -163,7 +188,29 @@ boscode.display(playerName + " is in " + locationName);
 
 ### 06 Using a variable’s current value to set its new value
 
-Arithmetic operators are used to perform arithmetic on numbers (literals or variables). Read information at http://www.w3schools.com/js/js_operators.asp
+
+When you assign a value to a variable, JavaScript evaluates the expression to the right of the assignment operator and assigns the result to the variable.
+
+```js
+var score;
+
+score = 100 + 50;
+```
+
+
+JavaScript evaluates the expression, 100 + 50, and assigns the result, 150, to the variable score.
+
+The values in the expression probably won’t be hard-coded literals like 100 and 50; they’re more likely to be variables. Here’s an example, using the variables callOutCharge, costPerHour and numberOfHours, to calculate the total cost when hiring a plumber to do some work:
+
+```
+total = callOutCharge + costPerHour * numberOfHours;
+```
+
+
+The * symbol is used for multiplication; it is the multiplication operator. You can also use – for subtraction and / for division.
+
+Because JavaScript evaluates the expression on the right first, before assigning its value to the variable on the left, you can even use the current value of a variable to set its new value. Say a player in your app sensation The Fruitinator! has just splatted a strawberry; that’s 50 points! The player needs an update.
+
 
 ```js
 //Using a variable’s current value to set its new value
@@ -192,6 +239,22 @@ boscode.display("Way to go!");
 
 
 ### 07 Valid and invalid variable names
+
+
+#### Choosing good variable names
+
+In all the code listings so far, there was nothing forcing you to give the variables the names you did. You tried to choose names that would help anyone reading the code understand the purpose of the variables. You almost have a free choice but must be careful not to tread on JavaScript’s toes; there are names that JavaScript has set aside for its own use and some further rules governing valid variable names.
+
+#### Keywords and reserved words
+
+JavaScript has a set of keywords, like var and function, that are part of the language itself and govern the actions and properties available in every program. It also sets aside some reserved words that may turn up as keywords in the language in the future. You can’t use those keywords or reserved words as variable names. Other examples of keywords are if, switch, do and yield and a full list can be found on the Mozilla Developer Network. 
+
+
+You don’t have to learn the lists of keywords and reserved words; you’ll pick up most of them as you do more programming and they usually throw errors when you try to use them. However, do bear them in mind if your program is not working and you’re not sure why.
+
+#### Rules for naming variables
+
+So now that keywords and reserved words are out, is everything else in? Not quite - there are a few further rules. Variable names can start with any letter, a dollar sign, $, or an underscore, _. Subsequent characters can be any of those, or numbers. Spaces are not allowed. 
 
 
 ```js
