@@ -287,10 +287,24 @@ var yield;
 continue: https://github.com/jrlarsen/GetProgramming/blob/master/Chapter_03_Objects/chapter3.md
 
 
-### 08
+### 08 A book as an object
 
 
-```js
+Sometimes it makes sense to group items together and see them as a whole. Consider a first aid kit: we happily treat it as a single item – “Have you packed the first aid kit?” “Pass the first aid kit,” “We need the first aid kit, NOW!” – but will quickly switch focus to its contents when the need arises – “Pass the antiseptic and the bandages from the first aid kit, please.” A number of items is neatly encapsulated by a single object.
+
+JavaScript objects  are a simple and efficient way to collect variables together so that you can pass them around as a group rather than individually.
+
+
+```
+var book;
+
+book = {
+    title : "The Hobbit",
+    author : "J. R. R. Tolkien",
+    published : 1937
+};
+
+console.log(book);
 ```
 
 ###### The challenge:
