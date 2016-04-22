@@ -10,7 +10,7 @@
 
 
 
-[2.3 Classification of systems - Activities]( #23-classification-of-systems---activities )   
+[2.3 Classification of systems - Activities]( https://github.com/Quobject/boscode-doc/blob/master/doc/IST/learning_activities.md#23-classification-of-systems---activities)   
 [2.4 Hardware solutions]( #24-hardware-solutions )   
 
 *14 Robotics and automated systems*
