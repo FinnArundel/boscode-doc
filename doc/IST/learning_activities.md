@@ -4,14 +4,28 @@
 
 *2 Hardware*  
 
-
-
-
-
-
-
 [2.3 Classification of systems - Activities]( https://github.com/Quobject/boscode-doc/blob/master/doc/IST/learning_activities.md#23-classification-of-systems---activities)   
 [2.4 Hardware solutions]( #24-hardware-solutions )   
+
+
+*3 Software*    
+
+[3.0 In Action Who invented the GUI?]( #30-in-action-who-invented-the-gui)    
+[3.1 Software systems - Activities]( #31-software-systems---activities)    
+[3.2 Types of application software - Activities]( #32-types-of-application-software---activities )    
+[3.3 Features of application software - Activities]( #33-features-of-application-software---activities )    
+[3.4 Interface design - Activities]( #34-interface-design---activities)    
+[3.5 Features of a graphical user interface - Activities]( #35-features-of-a-graphical-user-interface---activities)    
+[3.6 Operating system software - Activities]( #36-operating-system-software---activities )    
+[3.7 Hardware requirements - Activities]( #37-hardware-requirements---activities )    
+[3.7a Case study - The birth of computer graphics]( #37a-case-study---the-birth-of-computer-graphics)  
+
+*7 Issues*
+
+[7.0 In Action Social networking]( )    
+[7.1 Legal issues - Activities]( )    
+[7.2 Ethical issues - Activities]( )    
+[7.3 Social issues - Activities]( )  
 
 *14 Robotics and automated systems*
 
@@ -36,6 +50,22 @@
 [14.7c Task 4 Build a car with sensors]( #147c-task-4-build-a-car-with-sensors )   
 [14.8 Actuators and controlling devices - Activities]( #148-actuators-and-controlling-devices---activities )   
  
+
+*15 Software development and programming*
+
+[15.0 In action Finding the Titanic]( )    
+[15.1 People: Software developers]( )    
+[15.2 Basic programming ideas - Activities]( )    
+[15.3 Data types- Activities]( )    
+[15.4 Issues: Different languages]( )    
+[15.5 Functions - Activities]( )    
+[15.6 Algorithms - Activities]( )    
+[15.7 Desk checking and subprograms - Activities]( )    
+[15.8 GUI layout - Activities]( )    
+[15.9 Programming languages - Activities]( )    
+[15.10 Data structures - Activities]( )    
+[15.11 Testing program code and detecting errors - Activities]( )    
+[15.12 Correcting errors and program documentation - Activities]( )  
 
 ___
 
