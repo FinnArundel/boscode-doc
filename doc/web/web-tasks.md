@@ -389,13 +389,27 @@ ___
 1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/17_Images_Timer`.
 2. Inside this folder inspect `index.html` and `program.js`.   
 3. Open `https://web-{yourname}.c9users.io/17_Images_Timer/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
-4. Click on the images.
+4. Click on the images and wait 5 seconds.
 
 ###### The challenge:
 
-When you click a 'blank' image it will show the dice image and after 5 seconds the image will be 'blank' again. The program allows multiple images to be visible, change this behaviour so that only 1 image is visible at the time, i.e. image clicks should be ignored when an image is visible.
+When you click a 'blank' image it will show the dice image and after 5 seconds the image will be 'blank' again. The program allows multiple images to be visible, change this behaviour so that only 1 image is visible at the time, i.e. image clicks should be ignored when an image is already visible.
 
-Hint: Use a global flag (boolean) variable e.g. imageIsVisible.
+Hint: Use a global flag (boolean) variable e.g. `imageIsVisible`.
+
+
+___
+
+## 18 - Random Images
+
+1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/18_Random_Images`.
+2. Inside this folder inspect `index.html` and `program.js`.   
+3. Open `https://web-{yourname}.c9users.io/18_Random_Images/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+4. Click on the images and and the button.
+
+###### The challenge:
+
+Modify `program.js` and `index.html` to show a second row of dice images (4,5,6) with similar behaviour as the first row. Also add a button `Reset` when clicked should reset all images to the initial state i.e. showing the dice images in ascending order.
 
 
 
