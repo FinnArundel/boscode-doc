@@ -29,12 +29,12 @@
 
 *10 Database Design*
 
-[10.0 In Action Data at the supermarket]( )  
-[10.1 Database development - Activities]( )  
-[10.2 Collecting, organising and storing data - Activities]( )  
-[10.3 Processing and analysing data - Activities]( )  
-[10.4 Presenting information - Activities]( )  
-[10.5 Integration - Activities]( )  
+[10.0 In Action Data at the supermarket]( #100-in-action-data-at-the-supermarket )  
+[10.1 Database development - Activities]( #101-database-development---activities)  
+[10.2 Collecting, organising and storing data - Activities]( #102-collecting-organising-and-storing-data---activities )  
+[10.3 Processing and analysing data - Activities]( #103-processing-and-analysing-data---activities)  
+[10.4 Presenting information - Activities]( #104-presenting-information---activities)  
+[10.5 Integration - Activities]( #105-integration---activities)  
 
 *14 Robotics and automated systems*
 
