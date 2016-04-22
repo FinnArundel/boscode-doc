@@ -18,9 +18,9 @@
 [13 - Array](#13---array)  
 [14 - Record](#14---record)  
 [15 - Array of Records](#15---array-of-records)  
-[16 - Images](#16---images )
-[17 - Images Timer](#17---images-timer )
-[18 - Random Images](#18---random-images )
+[16 - Images](#16---images )  
+[17 - Images Timer](#17---images-timer )  
+[18 - Random Images](#18---random-images )  
 ___
 
 ## Installation
