@@ -4,6 +4,12 @@
 
 *2 Hardware*  
 
+
+
+
+
+
+
 [2.3 Classification of systems - Activities]( #23-classification-of-systems---activities )   
 [2.4 Hardware solutions]( #24-hardware-solutions )   
 
@@ -48,17 +54,189 @@ ___
 
 * Read chapter 2.4 Hardware solutions pages 24 & 25
 
-1 For each of the following scenarios, develop a hardware solution by applying the four stages of project development. Suggest what hardware would be required and justify your selection.
-  - Students needing a new multimedia room
+1 For each of the following scenarios, develop a hardware solution by applying the four stages of project development (Stage 1: Define the problem, Stage 2: Design some solutions, Stage 3: Produce a solution, Stage 4: Evaluation). Suggest what hardware would be required and justify your selection.
   - A graphic designer working in an advertising agency  
   - An international airline implementing a new booking system  
   - A sales representative working across several states.  
+
 
 2 List some of the more common problems that you have encountered with hardware. Discuss how best to avoid these problems in the future.  
 3 Design a poster to alert users to the do's and don'ts of computer care.  
 
 
+
 ___
+
+## 3 Software  
+
+### 3.0 In Action Who invented the GUI?
+
+* Read chapter 3 page 27.
+
+1 Who first invented the GUI?
+2 How did people interact with computers before the GUI was invented?
+3 How is the GUI on today's personal computers different from earlier ones?
+ 
+___
+
+### 3.1 Software systems - Activities
+
+* Read chapter 3.1 pages 28 & 29.
+
+1 Write a list of the most common things you use your computer for, at home and at school.
+2 Which software applications would you use to complete the tasks in question 1?
+3 Identify the three types of software that make up the software system on most desktop computers. Give an example of each.
+4 What are the most common examples of utilities found on computers?
+5 What are the differences between system utilities and application utilities?
+
+___
+
+### 3.2 Types of application software - Activities
+
+* Read chapter 3.2 pages 30 & 31.
+
+1 What software application would you use to perform the following tasks? Justify your answers in terms of availability, cost and ease of use.
+a Write a story
+b Draw a 2D plan of your classroom.
+c Edit an image of a landscape.
+d Create an animation.
+e Edit a short film.
+f Download a web page.
+2 Apart from the application software you identified in question 1, what other software do you know of and what is its purpose?
+3 An older relative has asked your advice on the programs they should buy when they purchase a computer. Write a list of questions you might ask them before giving your advice.
+4 If you could create a new piece of software, what would be its purpose?
+5 How is new application software created?
+
+___
+### 3.3 Features of application software - Activities
+
+* Read chapter 3.3 pages 32 & 33.
+
+1 Explain what the following features do in most applications: save, drag and drop, undo.
+2 Open two different software applications - one from Microsoft and one from Adobe. Make a table to compare and contrast their features. For example, how do the menus or toolboxes compare, and what can you do with one that you cannot do with the other?
+3 Investigate how each of your chosen applications can export your documents in different formats.
+4 Describe and give specific examples of how you can search your directories for phrases in documents or filenames.
+5 Record a macro in Word or Excel to add a series of formatting features to any word that is highlighted in your document.
+___
+
+### 3.4 Interface design - Activities
+
+* Read chapter 3.4 pages 34 & 35.
+
+1 What is the purpose of the user interface?
+2 Briefly describe the ways in which a user interface allows us to interact with the computer.
+3 Compare interacting with an application with interacting with the operating system.
+4 Compare the three common types of user interfaces.
+
+___
+
+### 3.5 Features of a graphical user interface - Activities
+
+* Read chapter 3.5 pages 36 & 37.
+
+1 Identify all the control elements in figure 3.18. Describe their functions.
+2 What is the difference between a radio button and a checkbox?
+3 Create your own GUI in a Word or HTML document by including some of the control elements used on a form. Alternatively, you could use a programming language such as JavaScript.
+4 Evaluate the GUI features in an application such as Photoshop. Discuss the criteria you have used with your class.
+
+
+___
+### 3.6 Operating system software - Activities
+
+* Read chapter 3.6 pages 38 & 39.
+
+1 What operating system is installed on your computer at home? Compare this to what other members of the class have.
+2 List the tasks that an operating system usually performs on the desktop computer.
+3 Describe the sequence of events that occurs from when a user first turns on their computer to opening up an application.
+4 What are the most common types of operating systems in use today?
+5 Why don't all processors need an operating system?
+
+___
+### 3.7 Hardware requirements - Activities
+
+* Read chapter 3.7 pages 40 & 41.
+
+
+1 What system hardware is installed in your computer - processor and RAM? You may need to look at the 'Control Panel' in Windows' main startup menu or 'About This Mac' in the Apple menu on a Mac.
+2 Why does graphics software require more processing power than other software?
+3 Look on the Microsoft website to find the system requirements for the latest version of the Office suite of applications. Do all the programs contained in this package require the same hardware standards?
+4 Open a graphics package such as Photoshop. Look under the Help menu for system information. It should indicate here how much RAM it is using.
+
+
+___
+### 3.7a Case study - The birth of computer graphics
+
+* Read chapter 3.7 page 41.
+
+
+1 Identify the ways in which you interact with computer-generated images.
+2 How do the hardware components on the PDP-1 compare to today's desktop PC?
+3 Research other milestones in the history of computer-generated graphics.
+
+___
+
+
+## 7 Issues 
+
+### 7.0 In Action Social networking
+
+* Read chapter 7 page 79.
+
+1 Name the types of information social networks allow us to share. 
+2 Identify the advantages and disadvantages of social networking.
+3 Why is the task of removing an online post more problematic than many people realise? 
+4 Investigate why so many smartphone apps request access to your location - even those that have nothing to do with maps or navigation.
+5 Businesses and advertisers can already access enormous amounts of personal data on social media websites ± from where you live to your interests and shopping habits. Sentiment analysis is now being used to mine online conversations for words and thoughts to be sold to advertisers. Discuss whether or not you consider this to be an ethical practice.
+
+___
+
+### 7.1 Legal issues - Activities
+
+* Read chapter 7.1 pages 80 & 81.
+
+1 List four legal issues associated with developments in information and software technology. 
+2 Outline the licensing arrangements that apply to most software programs.
+3 Identify five computer crimes related to security and protection of data.
+4 Discuss the importance of equal employment opportunity legislation.
+5 Investigate the landmark 2015 piracy case involving several Australian Internet service providers, including iinNet, and Dallas Buyers Club LLC. What was the outcome of this case and why was it so significant in terms of illegally downloaded videos? 
+
+___
+
+### 7.2 Ethical issues - Activities
+
+* Read chapter 7.2 pages 82 & 83.
+
+1 Discuss the importance of industry codes of conduct.
+2 Explain the difference between data security and privacy.
+3 Describe three ways in which data may be lost.
+4 Identify two examples of inappropriate use of software.
+5 Define cyber bullying and suggest a strategy that could make it less of a common or harmful occurrence among teenagers.
+6 Create a digital presentation that addresses a legal or ethical issue related to information and software technology. (You do not have to limit yourself to those mentioned above.) Keep in mind the following considerations when creating your presentation:
+- Who is your target audience?
+- Why is this issue worth researching?
+- Are there any recent news items	that you can refer to in the presentation?
+- Have you or anyone you know been directly impacted by the issue?
+7 Using	an online quiz tool such as Kahoots.it,	create an issues quiz for your classmates.
+
+
+___
+
+
+### 7.3 Social issues - Activities
+
+* Read chapter 7.3 pages 84 & 85.
+
+
+1 Summarise	the changes to the nature of work	that have occurred due to advances in technology.
+2 Information and software technology is more likely to have changed someone’s work rather than eliminating it completely. List	three occupations that have been affected by technology.
+3 `Those who have regular access to information and software technology are more likely to advance, while those who do not may find themselves marginalised.` Do you agree with this statement?
+4 `Constant computer use may cause us to place more emotional value on events taking place online as opposed to what is actually happening in our real lives.` Do you agree with this
+statement?
+5 Present a report on the industrial issues related to the information and software technology sector. Pay particular attention to ergonomics and the rights and responsibilities of people who regularly use information technology.
+
+___
+
+
 
 ## 14 Robotics and automated systems  
 
@@ -311,4 +489,194 @@ ___
 9 Build an open-loop system with your robotic kit.  
 10 Design and build a model with your robotic kit using the motor actuator. The model should include a sensor to control the movement of the motor. An example is a car that travels in one direction until it touches a wall, then reverses.   
 
+___
+
+
+## 15 Software development and programming
+
+
+### 15.0 In action Finding the Titanic
+
+* Read chapter 15 page 321.
+
+1 List the three computer languages used to find the Titanic. 
+2 Describe a major strength of each of these languages.
+3 What are the main similarities and differences between human languages and computer languages?
+
+___
+
+
+### 15.1 People: Software developers
+
+* Read chapter 15.1 pages 322 - 325.
+
+1 Several universities offer combined degrees with computer science as one component. Find out what combinations are offered at three universities.
+2 In your own words, suggest to what extent software developers have to be `inventors` of the future.
+
+
+___
+
+### 15.2 Basic programming ideas - Activities
+
+* Read chapter 15.2 pages 326 - 333.
+
+1 Identify three parts of a computer program. 
+2 Identify three control structures that can be used in all programs. 
+3 What are the names of the two selection control structures? 
+4 What are the names of the two repetition control structures? 
+5 Draw a simple flowchart to show pre-test repetition. 
+6 Draw a simple flowchart to show post-test repetition. 
+7 Define the term `variable`.
+8 What two things should be done with a variable before it is used in a program? 
+9 Explain why it is important for a variable to be declared in a program. 
+10 Explain why natural languages cannot yet be used to program a computer. 
+11 Compare three computer language versions of `Hello world!` code. 
+12 Research and describe the differences between an event-driven and a sequential programming language.
+
+___
+
+### 15.3 Data types- Activities
+
+* Read chapter 15.3 pages 334 & 335.
+
+1 List the data types and variable names you might use in your programming language to hold the following data:
+a first name  
+b birth date  
+c URL for a web page  
+d recommended retail price  
+e bank balance  
+f the number of printers in the network  
+g the sale price for a house. 
+2 Think about different ways of representing dates. Invent two ways of representing dates in a computer`s memory.
+3 Search the web for examples of how different programming languages store integers and real numbers. Provide two language examples for:
+a integer
+b long integer
+c single-precision real numbers 
+d double-precision real numbers. 
+
+
+___
+
+### 15.4 Issues: Different languages
+
+* Read chapter 15.4 pages 336 - 337.
+
+1 How many different languages are spoken by the peoples of the world? 
+2 What are the five top-ranking languages, in terms of the number of people who speak them? Rank Language Native speakers (millions) % of world population
+3 What international equity issues are involved in this issue of software and languages? 
+4 The English language uses words composed of combinations of letters from a 26-letter alphabet. The QWERTY keyboard is well suited to this. Find out how modern computers and software can be made to work with languages using a different alphabet.
+
+
+___
+
+### 15.5 Functions - Activities
+
+* Read chapter 15.5 pages 338 & 339.
+
+1 Give examples of the symbol used for `not equal to` in various languages.
+2 Give three examples of arithmetic operators.
+3 Give three examples of relational operators.
+4 Give three examples of logical operators.
+5 What is concatenation?
+6 Use pseudocode to give an example of an assignment statement.
+7 What is the purpose of a counter?
+8 What is the purpose of a function?
+9 Give an example of an input function.
+10 Give an example of an output function.
+11 Work out what the following line of code might do: `SalePrice = RRP - (RRP * DiscountRate)`
+12 Work out what the following line of code might do: `TimeTaken = TimeFinished - TimeStarted`
+13 Find out about five useful functions used in your programming language, and prepare a short table summarising how these functions can be used.
+
+
+___
+
+### 15.6 Algorithms - Activities
+
+* Read chapter 15. pages 340 - 343.
+
+1 Define the term 'algorithm'.
+2 What are two ways to represent an algorithm?
+3 Draw and describe each of the symbols used in flowcharting. 
+4 What are the differences between pseudocode and ordinary English? 
+5 Write an algorithm expressed in flowchart form for finding the largest of four integers. 
+
+___
+
+### 15.7 Desk checking and subprograms - Activities
+
+* Read chapter 15.7 pages 346 - 349.
+
+1 What is the purpose of desk checking?
+2 Describe the steps involved in performing a desk check on a program.
+3 What are the main reasons for using subprograms?
+4 Functions are different to ordinary subprograms in that they return a value. Explain why some subprograms don`t need to return a value.
+5 Find out about the syntax for subprograms in the language you are using. Teacher to advise depending on language taught
+6 Find out why the GOTO statement is regarded as bad practice in programming.
+
+
+___
+
+### 15.8 GUI layout - Activities
+
+* Read chapter 15.8 pages 350 - 351.
+
+1 Identify two types of GUI. 
+2 Identify four elements in a WIMP GUI. 
+3 Why might WIMP be unsuitable as the user interface for a touchscreen phone using fingers as a pointer?
+4 List the GUI elements used on a standard smartphone application.
+
+___
+
+### 15.9 Programming languages - Activities
+
+* Read chapter 15.9 pages 352 - 353.
+
+
+1 What is source code?
+2 What is object code?
+3 What was the world`s first universal computer language? 
+4 What should be considered when choosing a computer language for a project?
+
+
+___
+
+### 15.10 Data structures - Activities
+
+* Read chapter 15.10 pages 354 & 355.
+
+1 What is the difference between an array and a record?
+2 How do you declare an array in Visual Basic and Pascal?
+3 Give examples of the use of an array and a record structure in a program.
+4 Find out about the rules for using arrays in the language you are using.
+5 How do you declare an array with two dimensions?
+
+
+___
+
+### 15.11 Testing program code and detecting errors - Activities
+
+* Read chapter 15.11 pages 356 & 357.
+
+
+1 Identify three types of programming errors.
+2 At what point in the development of a program does a programmer discover a run-time error?
+3 How can syntax errors be avoided?
+4 How can logical errors be avoided?
+5 Find out the meaning of the term `computer bug` and research when this term was first used and by whom.
+
+
+___
+
+### 15.12 Correcting errors and program documentation- Activities
+
+* Read chapter 15.12 pages 358 & 359.
+
+
+1 Identify three tools commonly found in an IDE`s debugger.
+2 What is the difference between a stub and a flag?
+3 Name two internal forms and one external form of documentation used by programmers. 
+4 What is the difference between using a debugger and using stubs, flags and debugging output statements to find errors?
+5 What is one important feature of intrinsic documentation and why is it important?
+6 Find out about the debugging tools available in the programming language you are using, and describe how they are used.
+7 Find out about the documentation tools available in the programming language you are using, and describe how they are used, showing examples.
 ___
