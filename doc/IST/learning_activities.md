@@ -323,7 +323,7 @@ ___
 1 List the common types of data sources mentioned in the text. What type of data is collected and what sort of input device is used for each?  
 2 Why is it important to document data sources?  
 3 What is the advantage of using automated data collection devices? Automated collection saves time and errors.  
-4 What is the difference between validation and verification? Give some examples. Validation is whether data falls within a certain range or data type; for example, the date on a train ticket.  
+4 What is the difference between validation and verification? Give some examples.  
 5 What is redundant data? How is it eliminated?  
 6 What is meant by a `key field`? What are they used for?  
 7 What are some of the most common methods of storing database files?  
