@@ -265,6 +265,131 @@ ___
 
 ___
 
+## 10 Database design
+
+### 10.0 In Action Data at the supermarket
+
+* Read chapter 10 page 147.
+
+1 Draw up a table to identify the data about items for sale in a supermarket.   
+2 When an item’s barcode is swiped at the supermarket checkout, what process must happen for its price and name to be displayed to the customer?  
+3 There are many stages involved to put products on the supermarket shelf. Draw up a table to identify as many stages as you can. Include a list of people who would be involved in each stage. What data needs to be used at each stage?  
+4 Why do many stores use loyalty cards? What advantage is there for the business owners? To keep track of their customers and their buying preferences. They can attract the customer back for repeated shopping visits.  
+5 Many supermarkets now encourage customers to use self-checkouts. Is this a good idea? Discuss this with your class.  
+6 Investigate how many people in your class use online shopping. What products do they buy, and from which companies?  
+
+
+___
+
+
+### 10.1 Database development - Activities
+
+* Read chapter 10.1 pages 148 - 151.
+
+1 What is a database? What is its most important function?  
+2 Describe some of the advantages of using a database.  
+3 What is the DBMS? How is it different from the database itself?  
+4 List some of the databases that you would use in your daily life.  
+5 How is a field different from a record?  
+6 List the common data types. Which of these can be stored in a database?  
+7 Draw up a table to represent a file of data about products in a supermarket.  
+8 What is the difference between a flat file database and a relational database?  
+9 Why do we need to separate data into the different tables in a relational database?  
+10 What is a primary key used for in a database? Find out how you are uniquely identified in your school’s administration system.  
+11 You would expect a hardware store to have a computerised database. What is the advantage of this for the owner? How would it benefit the customer?  
+12 In the data dictionary for the student’s table in figure 10.8, what does field size refer to?  
+13 The ISBN of a book is a unique identifier for a particular edition. Who controls their allocation? Are ISBN numbers issued for electronic copies of books?  
+14 Look at the data types available in your database software application. List them and give an example of each. Can your database software store integers and decimal numbers? How are they different?  
+15 Find out if you can use look-up lists for data entry in your database application. What are they and why are they useful?  
+
+
+
+
+___
+
+### 10.2 Collecting, organising and storing data - Activities
+
+* Read chapter 10.2 pages 154 - 159.
+
+1 List the common types of data sources mentioned in the text. What type of data is collected and what sort of input device is used for each?  
+2 Why is it important to document data sources?  
+3 What is the advantage of using automated data collection devices? Automated collection saves time and errors.  
+4 What is the difference between validation and verification? Give some examples. Validation is whether data falls within a certain range or data type; for example, the date on a train ticket.  
+5 What is redundant data? How is it eliminated?  
+6 What is meant by a `key field`? What are they used for?  
+7 What are some of the most common methods of storing database files?  
+8 If you were travelling on a train, and an official wanted to see if your ticket was valid, what data items would he check?  
+9 If you applied for a student concession card, what data would the authorities need to verify?   
+10 Find an application form that is used to apply for membership to a club or health fund. How would the data be entered into the database? What chance is there of human error?   
+11 Compare the file sizes of some of your databases. What effect does adding graphics to the data or headers have on the database file size?  
+12 Why is it important to eliminate redundant data from databases?  
+13 Why are backup procedures carried out so often in banks and large organisations?   
+14 Some backup systems need to be large, while others need to be portable. Draw up a table to compare methods of backup and give examples of where they might be used.  
+15 Look at one of the websites that is used for purchasing items online. List the ways in which the amount of data to be entered is minimised, and other features which work to ensure accuracy of the data collected.  
+
+
+___
+
+### 10.3 Processing and analysing data - Activities
+
+* Read chapter 10.3 pages 160 - 165.
+
+1 After the data is entered and stored in a database, what three processes can we perform on the data?  
+2 What characteristics of the database are decided at the design stage? Why is it important to get this right?  
+3 List three examples of databases in which data is edited frequently.  
+4 What is meant by ‘sorting’ a database?  
+5 What is meant by secondary sorting?  
+6 What is a query in the context of a database? Why are they so useful?  
+7 What criteria could be used to search a library catalogue?  
+8 Why shouldn’t you store a person’s age in a database?  
+9 What is a macro? Why are they so useful?  
+10 What is the difference between a query and a filter in searching a database?  
+11 The sports department at your school may need to calculate students’ ages on 31 December of each year, as only students of a certain age are allowed to compete in carnivals and competitions. Describe how you could make your database application perform this task.   
+12 Give three examples of calculations that can be carried out by databases.  
+13 Name two ways in which a macro can be used in a database.  
+14 Construct arguments for and against the idea of having your whole life recorded in a database. It may contain health and education records, travel and professional details. How would this be of benefit to an individual? What would be the drawbacks?  
+15 If a text field containing numerical data is sorted, it may result in a different order than if it was defined as a numerical data type. Try this for yourself as an experiment. Enter some numbers between 1 and 200 into a text field, then the same numbers into a numeric field. Sort the data on each field. What happens? This is a consequence of how the software represents the individual characters in memory.  
+
+
+
+
+
+___
+
+### 10.4 Presenting information - Activities
+
+* Read chapter 10.4 pages 166 & 167.
+
+1 What is the main purpose for building a report?  
+2 Where does the data come from that appears on a report?   
+3 Why are reports usually prepared for printing as hard copy?  
+4 In what ways can reports be formatted to improve communication of information?   
+5 Why are reports divided into header, data detail and footer? What information is displayed in each section?  
+6 What is the main purpose of a summary report? How are they produced?  
+7 Why is a report classed as having an output function? Is a form input or output or both? Justify your answer.  
+8 What features of a screen interface make it easier to use a database?  
+9 A supermarket docket lists store information as well as items bought by the customer. In what way can this docket be classed as a report from a database? Which parts of the docket represent the header, the body and the footer of the report?  
+10 Reports are often output to pre-printed stationery. Why is this sometimes a better option than designing the headers in the database software?  
+11 What happens when user interfaces are difficult to use? What does being user-friendly have to do with ergonomics?  
+12 Most motor vehicle service departments give their customers a printed report listing parts used and jobs completed for each vehicle serviced. Try to find an example of one of these and design a database that could produce such a report. What is the advantage of such a report from the customer’s viewpoint? Why does the service department use pre-printed stationery to print the report?  
+13 Look at the user interface on several devices in your local shopping centre – ATMs and supermarkets in particular. Draw a sketch of several examples and indicate what design features have been used to keep the interface user-friendly.  
+14 Database designers often build a prototype user interface. What is a prototype? Sketch a prototype for a travel centre that specialises in cheap flights to the United States.  
+
+
+___
+
+### 10.5 Integration - Activities
+
+* Read chapter 10.5 pages 168 - 169.
+
+1 What is the advantage of linking media files to a database rather than importing them? What is the disadvantage?  
+2 What is meant by ‘delimited text’? How is it commonly used?  
+3 What is the advantage of saving a document as a text-only file?  
+4 How does a mail merge function work? List the steps that you would need to create a mail merged document.  
+5 What are the advantages for a marketing manager in using a mail merge option?   
+6 Some schools or clubs might use a mail merge option to print mailing labels. When would this be useful?  
+7 Consult the help files in your database application to see if it is able to store sound files and video clips. Which file formats does the application support?  
+
 
 
 ## 14 Robotics and automated systems  
