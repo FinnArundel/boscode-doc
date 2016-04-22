@@ -22,10 +22,10 @@
 
 *7 Issues*
 
-[7.0 In Action Social networking]( )    
-[7.1 Legal issues - Activities]( )    
-[7.2 Ethical issues - Activities]( )    
-[7.3 Social issues - Activities]( )  
+[7.0 In Action Social networking]( #70-in-action-social-networking)    
+[7.1 Legal issues - Activities]( #71-legal-issues---activities)    
+[7.2 Ethical issues - Activities]( #72-ethical-issues---activities)    
+[7.3 Social issues - Activities]( #73-social-issues---activities)  
 
 *14 Robotics and automated systems*
 
@@ -53,19 +53,19 @@
 
 *15 Software development and programming*
 
-[15.0 In action Finding the Titanic]( )    
-[15.1 People: Software developers]( )    
-[15.2 Basic programming ideas - Activities]( )    
-[15.3 Data types- Activities]( )    
-[15.4 Issues: Different languages]( )    
-[15.5 Functions - Activities]( )    
-[15.6 Algorithms - Activities]( )    
-[15.7 Desk checking and subprograms - Activities]( )    
-[15.8 GUI layout - Activities]( )    
-[15.9 Programming languages - Activities]( )    
-[15.10 Data structures - Activities]( )    
-[15.11 Testing program code and detecting errors - Activities]( )    
-[15.12 Correcting errors and program documentation - Activities]( )  
+[15.0 In action Finding the Titanic]( #150-in-action-finding-the-titanic)    
+[15.1 People: Software developers]( #151-people-software-developers)    
+[15.2 Basic programming ideas - Activities]( #152-basic-programming-ideas---activities)    
+[15.3 Data types- Activities]( #153-data-types--activities)    
+[15.4 Issues: Different languages]( #154-issues-different-languages)    
+[15.5 Functions - Activities]( #155-functions---activities)    
+[15.6 Algorithms - Activities]( #156-algorithms---activities)    
+[15.7 Desk checking and subprograms - Activities]( #157-desk-checking-and-subprograms---activities)    
+[15.8 GUI layout - Activities]( #158-gui-layout---activities)    
+[15.9 Programming languages - Activities]( #159-programming-languages---activities)    
+[15.10 Data structures - Activities]( #1510-data-structures---activities )    
+[15.11 Testing program code and detecting errors - Activities]( #1511-testing-program-code-and-detecting-errors---activities)    
+[15.12 Correcting errors and program documentation - Activities]( #1512-correcting-errors-and-program-documentation---activities)  
 
 ___
 
