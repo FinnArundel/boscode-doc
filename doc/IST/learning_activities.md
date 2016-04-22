@@ -27,6 +27,15 @@
 [7.2 Ethical issues - Activities]( #72-ethical-issues---activities)    
 [7.3 Social issues - Activities]( #73-social-issues---activities)  
 
+*10 Database Design*
+
+[10.0 In Action Data at the supermarket]( )  
+[10.1 Database development - Activities]( )  
+[10.2 Collecting, organising and storing data - Activities]( )  
+[10.3 Processing and analysing data - Activities]( )  
+[10.4 Presenting information - Activities]( )  
+[10.5 Integration - Activities]( )  
+
 *14 Robotics and automated systems*
 
 [14 Robotics and automated systems]( #14-robotics-and-automated-systems )   
