@@ -897,98 +897,501 @@ sayHello();
 7. Paste your completed code into your google docs solution document.
 
 
-### 21
+### 21 Two more function definitions and assignments
 
 
 ```js
+var boscode = require('boscode');
+
+var findTotal;
+var displayMenu;
+
+findTotal = function () {
+  result = number1 + number2;
+};
+
+displayMenu = function () {
+  boscode.display('Please choose an option:');
+  boscode.display('(1) Print log');
+  boscode.display('(2) Upload file');
+  boscode.display('(9) Quit');
+};
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/21/app.js`.
-2. Run the program.
-5. 
+2. Run the program.  
+3. Declare number1, number2 and result variables.   
+4. Assign values to the number1 and number2 variables.  
+5. Run the findTotal function by writing its name followed by parentheses: findTotal();
+6. Display the result on the console.
+7. Run the displayMenu function. 
 9. Paste your completed code into your google docs solution document.
 
 
+### 22 Calling the sayHello function three times
 
-
-
-
-### 22
-
+Once you have assigned a function to a variable, whenever you want to execute the statements in the function body, you write the variable name followed by parentheses, ().
 
 ```js
+sayHello();
+
+findTotal();
+
+displayMenu();
+```
+
+Other names for running the function are calling the function or invoking the function.
+
+In listing below, you call the sayHello function three times. It displays the string “Hello World!” three times, like this:
+
+```bash
+> Hello World!
+> Hello World!
+> Hello World!
+```
+
+```js
+var boscode = require('boscode');
+
+var sayHello;
+
+sayHello = function () {
+  boscode.display('Hello World!');
+};
+
+sayHello();
+sayHello();
+sayHello();
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/22/app.js`.
-2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/22/app.js`.  
+2. Run the program.  
+3. Change the message from the sayHello function.  
+   To add a line-break to a string, insert '\n'    
+   e.g. "Line One\nLine Two"    
+4. Break the Hello World! message across two lines.    
+5. Create a function that prints the letters of "Hello World!" one by one down the page.  
+6. Paste your completed code into your google docs solution document.  
 
 
 
+### 23 Using the findTotal function to display a calculation
 
 
+Listing below uses the findTotal function to update the result variable. It then displays the whole calculation on the console:
 
-### 23
+```
+> 1000 + 66 = 1066
+```
 
 
 ```js
+var boscode = require('boscode');
+
+var number1 = 1000;
+var number2 = 66;
+var result;
+var findTotal;
+
+findTotal = function () {
+  result = number1 + number2;
+};
+
+findTotal();
+
+boscode.display(number1 + ' + ' + number2 + ' = ' + result);
+
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/23/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+3. Change number1 and number2 and run the program.  
+4. Add a third variable, number3, and assign it a value.
+5. Update the findTotal function to add the three numbers.  
+6. Update the boscode.display line to show the new calculation.
+7. Paste your completed code into your google docs solution document.
 
 
 
+### 24 Using a function to display object properties
 
 
-### 24
+The code below assigns the new function to the showMovieInfo variable. Call the function by writing the variable name followed by parentheses, showMovieInfo(), as seen in the next listing. You should end up with the following output on the console.
+
+```bash
+> Movie information for Inside Out
+> ------------------------------
+> Actors: Amy Poehler, Bill Hader
+> Directors: Pete Doctor, Ronaldo Del Carmen
+> ------------------------------
+```
 
 
 ```js
+var boscode = require('boscode');
+
+var showMovieInfo;
+
+showMovieInfo = function () {
+  boscode.display('Movie information for ' + movie.title);
+  boscode.display('------------------------------');
+  boscode.display('Actors: ' + movie.actors);
+  boscode.display('Directors: ' + movie.directors);
+  boscode.display('------------------------------');
+};
+
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/24/app.js`.
-2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/24/app.js`.  
+2. Run the program.  
+3. Add a call to showMovieInfo and run the program. What happens?  
+4. Declare a movie variable but don't assign it a value. Run the program. What happens now?  
+5. Create an empty object and assign it to the movie variable. Run the program again. Does the output change?  
+6. Add title, actors and directors properties to the movie object. Run one more time. Is the output as expected?  
+7. Paste your completed code into your google docs solution document.
 
 
-
-
-
-
-
-### 25
+### 25 Calling the showMovieInfo function
 
 
 ```js
+var boscode = require('boscode');
+
+var movie1;
+var showMovieInfo;
+var movie;
+
+movie1 = {
+  title: 'Inside Out',
+  actors: 'Amy Poehler, Bill Hader',
+  directors: 'Pete Doctor, Ronaldo Del Carmen'
+};
+
+showMovieInfo = function () {
+  boscode.display('Movie information for ' + movie.title);
+  boscode.display('------------------------------');
+  boscode.display('Actors: ' + movie.actors);
+  boscode.display('Directors: ' + movie.directors);
+  boscode.display('------------------------------');
+};
+
+movie = movie1;
+
+showMovieInfo();
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/25/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+3. Without declaring a movie2 variable, assign movie2 to the movie variable instead of movie1. i.e. movie = movie2; What happens when you call showMovieInfo?
+4. Create an empty object and assign it to a movie2 variable. What happens when you call showMovieInfo now?
+5. Fill out movie2 with the properties needed by showMovieInfo. What happens when you call showMovieInfo now?
+6. Paste your completed code into your google docs solution document.
+
+
+### 26 Using the same function with multiple objects
+
+
+```js
+//Using the same function with multiple objects
+var boscode = require('boscode');
+
+var movie1;
+var movie2;
+var movie3;
+var movie;
+var showMovieInfo;
+
+movie1 = {
+  title: 'Inside Out',
+  actors: 'Amy Poehler, Bill Hader',
+  directors: 'Pete Doctor, Ronaldo Del Carmen'
+};
+
+movie2 = {
+  title: 'Spectre',
+  actors: 'Daniel Craig, Christoph Waltz',
+  directors: 'Sam Mendes'
+};
+
+movie3 = {
+  title: 'Star Wars: Episode VII - The Force Awakens',
+  actors: 'Harrison Ford, Mark Hamill, Carrie Fisher',
+  directors: 'J.J.Abrams'
+};
+
+showMovieInfo = function () {
+  boscode.display('Movie information for ' + movie.title);
+  boscode.display('------------------------------');
+  boscode.display('Actors: ' + movie.actors);
+  boscode.display('Directors: ' + movie.directors);
+  boscode.display('------------------------------');
+};
+
+movie = movie1;
+showMovieInfo();
+
+movie = movie2;
+showMovieInfo();
+
+movie = movie3;
+showMovieInfo();
+
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/26/app.js`.
+2. Run the program.
+3. Create an object to represent a multiple choice quiz question.  
+4. Create two more quiz question objects.  
+5. Create a function to show the question and answer options.  
+6. Use the same variable assignment technique as above to display all three questions on the console.  
+7. Paste your completed code into your google docs solution document.
 
 
 
+### 27 Using functions to add and display tax
+
+
+```js
+var boscode = require('boscode');
+
+var sale1;
+var sale2;
+var sale3;
+var sale;
+var calculateTax;
+var displaySale;
+
+sale1 = { price: 140, taxRate: 15 };
+sale2 = { price: 40, taxRate: 10 };
+sale3 = { price: 120, taxRate: 20 };
+
+calculateTax = function () {
+  sale.tax = sale.price * sale.taxRate / 100;
+  sale.total = sale.price + sale.tax;
+};
+
+displaySale = function () {
+  boscode.display('price = $' + sale.price);
+  boscode.display('tax @ ' + sale.taxRate + '% = $' + sale.tax);
+  boscode.display('total cost = $' + sale.total);
+};
+
+sale = sale1;
+calculateTax();
+displaySale();
+
+sale = sale2;
+calculateTax();
+displaySale();
+
+sale = sale3;
+calculateTax();
+displaySale();
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/27/app.js`.
+2. Add a fourth sale object.  
+3. Update the code so that tax is calculated and the new sale is displayed.  
+    Having two separate functions to calculate tax and display sales is good, each has a specific purpose. Having to call both functions for each sale object is not so good.
+4. Can you change the code so that you don't have to call both functions for every sale?  
+5. Paste your completed code into your google docs solution document.  
 
 
 
+### 28 Updating our display function to add a blank line
 
-### 26
+##### Making code easier to read and update
+
+As your programs get longer and more complicated, you manage that complexity by breaking them into well-named objects and functions. Anyone reading your code can follow its flow and understand the purpose of the pieces and of the whole.  
+
+Take a look at the following code snippet; you should get a sense of what’s happening even if you don’t know the details of how the functions work.  
+
+```js
+...
+var balance = getAccountBalance();
+displayBalance();
+addInterest()
+addBonus();
+setAccountBalance();
+displayBalance();
+...
+
+```
+
+Each function should have a single, clear purpose. If you need to investigate what a function does, you should be able to find it defined in one place. Let’s look at an example of updating a function.
+
+```js
+var boscode = require('boscode');
+
+var movie1;
+var movie2;
+var movie3;
+var movie;
+var showMovieInfo;
+
+movie1 = {
+  title: 'Inside Out',
+  actors: 'Amy Poehler, Bill Hader',
+  directors: 'Pete Doctor, Ronaldo Del Carmen'
+};
+
+movie2 = {
+  title: 'Spectre',
+  actors: 'Daniel Craig, Christoph Waltz',
+  directors: 'Sam Mendes'
+};
+
+movie3 = {
+  title: 'Star Wars: Episode VII - The Force Awakens',
+  actors: 'Harrison Ford, Mark Hamill, Carrie Fisher',
+  directors: 'J.J.Abrams'
+};
+
+showMovieInfo = function () {
+  boscode.display('Movie information for ' + movie.title);
+  boscode.display('------------------------------');
+  boscode.display('Actors: ' + movie.actors);
+  boscode.display('Directors: ' + movie.directors);
+  boscode.display('------------------------------');
+  boscode.display('');
+};
+
+movie = movie1;
+showMovieInfo();
+
+movie = movie2;
+showMovieInfo();
+
+movie = movie3;
+showMovieInfo();
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/28/app.js`.
+2. Run the program.
+3. Create three objects to represent blog posts.  
+4. Create a function to display the posts on the console.  
+5. Can you find your own way of visually separating the different blog posts on the console?
+6. Paste your completed code into your google docs solution document.
+
+
+### 29 A function to display player information
+
+
+* A function is a block of code that you write once but use many times. It should have a clear, single purpose.
+
+* You *define* a function by using the function keyword, parentheses and a function body in a code block between curly braces.
+
+```js
+function () {
+    // statements go here in the function body
+};
+```
+
+* You *assign* the function to a variable with the equals symbol, = , also known as the assignment operator.
+
+```js
+showPlayerInfo = function () { … };
+```
+
+* Once a function is assigned to a variable, you *call* or *invoke* the function by adding parentheses to the end of the variable name.
+
+```js
+addTax();
+showPlayerInfo();
+evadeRaptor();
+```
+
+* Be on the look out for repetition; sections of code with the same structure and only slight changes in values or variables used. Move repeated code into a function.
+
+* Give functions clear names that communicate their purpose. Use the functions to organize your code, making your programs easier to follow and maintain.
+
+
+
+```js
+var boscode = require('boscode');
+
+var player1;
+var player2;
+var player;
+var showPlayerInfo;
+
+player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+showPlayerInfo = function () {
+  boscode.display(player.name);
+  boscode.display('------------------------------');
+  boscode.display(player.name + ' is in ' + player.place);
+  boscode.display(player.name + ' has health ' + player.health);
+  boscode.display('------------------------------');
+  boscode.display('');
+};
+
+player = player1;
+showPlayerInfo();
+
+player = player2;
+showPlayerInfo();
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/29/app.js`.  
+2. Run the program.  
+3. Write a function that just shows where the player is.  
+4. Write a function that just shows the player's health.  
+5. Change the showPlayerInfo function to use your two functions.  
+6. Paste your completed code into your google docs solution document.  
+
+
+
+### 30
+
+Functions are an essential means of organization; you write them once and use them many times. But, so far, your functions have been tied to the values of variables around them. It is time to set your functions free, letting them name their own variables and passing them the data they need.  
+
+The functions you have used so far have relied on variables declared and assigned values elsewhere in the program. In listing 5.01, the showMessage function relies on a variable called message, declared outside of the function definition.
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/30/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+### 31
 
 
 ```js
@@ -996,10 +1399,72 @@ sayHello();
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/26/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/31/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+### 32
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/32/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+### 33
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/33/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+### 34
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/34/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+### 35
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/35/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
 
 
 
