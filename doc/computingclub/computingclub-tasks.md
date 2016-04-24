@@ -670,7 +670,7 @@ player.oxygen = 96;
 ```
 
 
-### 17
+### 17 Displaying an object's properties on the console
 
 
 * Organizing instructions with functions  
@@ -685,74 +685,216 @@ One of the main themes of of JavaScript is managing complexity through good orga
 
 As the programs you write become longer and more complex, you find yourself repeating similar sections of code with only slight differences. There are common tasks, like displaying text, animating an image or saving to a database, that may need to be performed often. You need to notice these recurring bits of code; they are prime function fodder.
 
-A function is a way of writing code once but using it many times. Section 4.2 looks at how to create functions. This section explores a couple of examples of JavaScript repeated.
+A function is a way of writing code once but using it many times. This section explores a couple of examples of JavaScript repeated.
 
 
 ```js
+var boscode = require('boscode');
+
+var movie1;
+
+movie1 = {
+  title: 'Inside Out',
+  actors: 'Amy Poehler, Bill Hader',
+  directors: 'Pete Doctor, Ronaldo Del Carmen'
+};
+
+boscode.display('Movie information for ' + movie1.title);
+boscode.display('------------------------------');
+boscode.display('Actors: ' + movie1.actors);
+boscode.display('Directors: ' + movie1.directors);
+boscode.display('------------------------------');
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/17/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+3. Add a second movie and display the same info for it.
+4. Create an object to represent a blog post.
+5. Write code to display info about the blog post.
+6. Paste your completed code into your google docs solution document.
 
 
+### 18 Displaying information from similar objects
 
+If you have to write those five lines of code every time you want to display movie information and for every movie, that’s going to get pretty repetitive. And if you then decide to change the information displayed, you’ll have to go through all the places where it appears in the code and make sure it’s changed consistently.
 
-
-
-### 18
+The next listing shows the code repeated for three different movies.
 
 
 ```js
+var boscode = require('boscode');
+
+var movie1;
+var movie2;
+var movie3;
+
+movie1 = {
+  title: 'Inside Out',
+  actors: 'Amy Poehler, Bill Hader',
+  directors: 'Pete Doctor, Ronaldo Del Carmen'
+};
+
+movie2 = {
+  title: 'Spectre',
+  actors: 'Daniel Craig, Christoph Waltz',
+  directors: 'Sam Mendes'
+};
+
+movie3 = {
+  title: 'Star Wars: Episode VII - The Force Awakens',
+  actors: 'Harrison Ford, Mark Hamill, Carrie Fisher',
+  directors: 'J.J.Abrams'
+};
+
+boscode.display('Movie information for ' + movie1.title);
+boscode.display('------------------------------');
+boscode.display('Actors: ' + movie1.actors);
+boscode.display('Directors: ' + movie1.directors);
+boscode.display('------------------------------');
+
+boscode.display('Movie information for ' + movie2.title);
+boscode.display('------------------------------');
+boscode.display('Actors: ' + movie2.actors);
+boscode.display('Directors: ' + movie2.directors);
+boscode.display('------------------------------');
+
+boscode.display('Movie information for ' + movie3.title);
+boscode.display('------------------------------');
+boscode.display('Actors: ' + movie3.actors);
+boscode.display('Directors: ' + movie3.directors);
+boscode.display('------------------------------');
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/18/app.js`.
-2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+2. Run the program.  
+3. Add a fourth movie and display its info.  
+4. All the movie info is in one big block on the console.  Change the code to space out the different movies.  
+5. Create objects to represent three calendar events.  
+6. Display info from the three events on the console.  
+7. Paste your completed code into your google docs solution document.  
 
 
 
 
 
-### 19
+
+### 19 Adding tax to find the total cost
+
+A simple task like adding tax to a price is the kind of thing that happens again and again. You calculate the tax and add it to the price to give a total cost.  
+
+```bash
+> price = $140
+> tax @ 15% = $21
+> total cost = $161
+```
 
 
 ```js
+var boscode = require('boscode');
+
+var sale1;
+var sale2;
+var sale3;
+
+sale1 = { price: 140, taxRate: 15 };
+sale2 = { price: 40, taxRate: 10 };
+sale3 = { price: 120, taxRate: 20 };
+
+sale1.tax = sale1.price * sale1.taxRate / 100;
+sale2.tax = sale2.price * sale2.taxRate / 100;
+sale3.tax = sale3.price * sale3.taxRate / 100;
+
+sale1.total = sale1.price + sale1.tax;
+sale2.total = sale2.price + sale2.tax;
+sale3.total = sale3.price + sale3.tax;
+
+boscode.display('price = $' + sale1.price);
+boscode.display('tax @ ' + sale1.taxRate + '% = $' + sale1.tax);
+boscode.display('total cost = $' + sale1.total);
+
+boscode.display('price = $' + sale2.price);
+boscode.display('tax @ ' + sale2.taxRate + '% = $' + sale2.tax);
+boscode.display('total cost = $' + sale2.total);
+
+boscode.display('price = $' + sale3.price);
+boscode.display('tax @ ' + sale3.taxRate + '% = $' + sale3.tax);
+boscode.display('total cost = $' + sale3.total);
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/19/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
+3. Add the details for a fourth sale.  
+4. Display the fourth sale to the console. Use the same format as the others.
+5. Add code to separate out the different sales on the console.  
+6. Paste your completed code into your google docs solution document.
 
 
 
+### 20 A simple function definition and assignment
+
+Just as an object is a collection of properties, a function is a collection of statements or instructions. Functions help you avoid repetition and make your code more organized and easier to update and maintain. Well-named functions should also make your programs easier to follow. If you find your functions are used a lot in a program and would be useful in other programs too, you can even create libraries of helpful functions to include in other projects.
+
+In the previous section you saw two examples of programs where blocks of code with the same structure were repeated. To reduce the code bloat you want to replace those blocks with something like the following:
+
+```js
+showMovieInfo();
+
+showCostBreakdown();
+```
 
 
+The two functions, showMovieInfo and showCostBreakdown should produce the same output as the code blocks in tasks 18 & 19, and you should be able to use them again and again, whenever you want. Let’s see how such code on demand magic is conjured.
 
-### 20
+#### Defining new functions
+
+Define a function by using:
+
+- the function keyword,  
+- parentheses, (), and  
+- a code block between curly braces, {}.  
+
+The code block contains the list of instructions you would like to execute whenever you use the function. The list of instructions is also called the function body.  
+
+It is common to see function definitions set out like this:
+
+```js
+function () {
+
+// lines of code to be executed go here
+
+}
+```
+
+Once you have defined a function, you can assign it to a variable, just like any value. Listing below defines a function to display “Hello World!” on the console and assigns the function to the variable sayHello.
 
 
 ```js
+var boscode = require('boscode');
+
+var sayHello;
+
+sayHello = function () {
+  boscode.display('Hello World!');
+};
+
+sayHello();
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/20/app.js`.
 2. Run the program.
-5. 
-9. Paste your completed code into your google docs solution document.
-
-
-
+3. Add a second sayHello(); on a new line. Run the program.
+4. Change the message from the sayHello function.
+5. Create a sayGoodbye function.
+6. Make the program say goodbye ten times.
+7. Paste your completed code into your google docs solution document.
 
 
 ### 21
