@@ -2622,135 +2622,747 @@ boscode.display(line(50));
 4. Define a spaces function that returns a string made up of a specified number of space characters. The line of spaces returned can have a length between 0 and 40.  
 5. Add an emptyBox function that draws an empty box of specified width and height 5.  
   `emptyBox(12);`  
-    ```
-    > ============
-    > =          =
-    > =          =  
-    > =          =  
-    > ============
-    ```    
+```
+> ============
+> =          =
+> =          =  
+> =          =  
+> ============
+```    
 6. Paste your completed code into your google docs solution document.  
 
 
+### 56 Converting a string to upper case
 
+For every string you create, JavaScript makes available a number of methods. These functions help you manipulate the strings in a variety of ways. Listing below uses the toUpperCase method to convert a string to upper case, like this:  
 
-
-
-### 56
-
-
+```
+> Jupiter becomes JUPITER
+```
 
 
 ```js
+var boscode = require('boscode');
+
+var planet = 'Jupiter';
+var bigPlanet = planet.toUpperCase();
+
+boscode.display(planet + ' becomes ' + bigPlanet);
+
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/56/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Create a getBig function that accepts a string as an argument and returns it converted to upper case.  
+4. There is also a toLowerCase string method. Create a getSmall function that accepts a string as an argument and returns it converted to lower case.    
+5. Paste your completed code into your google docs solution document.  
 
 
+### 57 Finding substrings
 
 
-
-
-### 57
-
-
+The substr method accepts two arguments, the starting position in the original string and the number of characters to return. When specifying the position of a character in a string, counting is zero-based: the first character is position 0, the second position 1, the third position 2 and so on. (I know starting at zero seems a bit odd at first; it’s actually very common in programming languages.)
 
 
 ```js
+var boscode = require('boscode');
+
+var message = 'We choose to go to the Moon!';
+
+boscode.display(message.substr(3, 12));
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/57/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Use substr to display the following parts of the message string to the console:  
+  > Moon!  
+  > go to the  
+  > We choose
+4. Investigate what happens if you omit the second argument when calling substr.  
+5. What happens if you use negative numbers as arguments?   
+6. Paste your completed code into your google docs solution document.  
 
 
+### 58 Finding a character with indexOf
 
+You don’t have to spend all your time counting the positions of characters in strings, however exciting that sounds; you can use the indexOf method instead. The indexOf method returns the position, or index, of the first occurrence of a specified search-string within a string.  
 
-
-
-### 58
-
-
+Listing below uses indexOf to find the position of the “M” character in a string. It then passes the position to substr to grab a substring of length three, producing the bovine pronouncement “Moo” on the console.  
 
 
 ```js
+var boscode = require('boscode');
+
+var message = 'We choose to go to the Moon!';
+
+var charIndex = message.indexOf('M');
+
+boscode.display(message.substr(charIndex, 3));
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/58/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Use indexOf to find the index of where the word 'go' starts in the message string.  
+4. Use indexOf and substr to display the word 'choose' from the message string.  
+5. There is also a lastIndexOf string method. Use lastIndexOf to find the index of the 'oo' in the word 'Moon' of the message string.  
+6. Paste your completed code into your google docs solution document.  
 
 
-
-
-
-
-### 59
+### 59 Organizing functions as object properties
 
 
 
 
 ```js
+var boscode = require('boscode');
+
+var spacer = {
+  blank: function () {
+    return '';
+  },
+
+  newLine: function () {
+    return '\n';
+  },
+
+  line: function (length, character) {
+    var longString = '****************************************';
+    longString += '----------------------------------------';
+    longString += '========================================';
+    longString += '++++++++++++++++++++++++++++++++++++++++';
+    longString += '                                        ';
+
+    length = Math.max(0, length);
+    length = Math.min(40, length);
+    return longString.substr(longString.indexOf(character), length);
+  },
+
+  wrap: function (text, length, character) {
+    var padLength = length - text.length - 3;
+    var wrapText = character + ' ' + text;
+    wrapText += spacer.line(padLength, ' ');
+    wrapText += character;
+    return wrapText;
+  },
+
+  box: function (text, length, character) {
+    var boxText = spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    boxText += spacer.wrap(text, length, character) + spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    return boxText;
+  }
+};
+
+boscode.display(spacer.box('Mercury', 11, '='));
+boscode.display(spacer.box('Mars', 11, '*'));
+
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/59/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Change the Spacer.box function so that the box is 5 lines high.  
+  `spacer.box("Earth");`
+
+```bash
+> =========
+> =       =
+> = Earth =
+> =       =
+> =========  
+```  
+
+Paste your completed code into your google docs solution document.
 
 
 
-
-
-
-### 60
-
-
+### 60 Displaying player information using objects
 
 
 ```js
+var boscode = require('boscode');
+
+var spacer = {
+  blank: function () {
+    return '';
+  },
+
+  newLine: function () {
+    return '\n';
+  },
+
+  line: function (length, character) {
+    var longString = '****************************************';
+    longString += '----------------------------------------';
+    longString += '========================================';
+    longString += '++++++++++++++++++++++++++++++++++++++++';
+    longString += '                                        ';
+
+    length = Math.max(0, length);
+    length = Math.min(40, length);
+    return longString.substr(longString.indexOf(character), length);
+  },
+
+  wrap: function (text, length, character) {
+    var padLength = length - text.length - 3;
+    var wrapText = character + ' ' + text;
+    wrapText += spacer.line(padLength, ' ');
+    wrapText += character;
+    return wrapText;
+  },
+
+  box: function (text, length, character) {
+    var boxText = spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    boxText += spacer.wrap(text, length, character) + spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    return boxText;
+  }
+};
+
+var getPlayerName = function (player) {
+  return player.name;
+};
+
+var getPlayerHealth = function (player) {
+  return player.name + ' has health ' + player.health;
+};
+
+var getPlayerPlace = function (player) {
+  return player.name + ' is in ' + player.place;
+};
+
+var getPlayerInfo = function (player, character) {
+  var place = getPlayerPlace(player);
+  var health = getPlayerHealth(player);
+  var longest = Math.max(place.length, health.length) + 4;
+
+  var info = spacer.box(getPlayerName(player), longest, character);
+  info += spacer.wrap(place, longest, character);
+  info += spacer.newLine() + spacer.wrap(health, longest, character);
+  info += spacer.newLine() + spacer.line(longest, character);
+  info += spacer.newLine();
+
+  return info;
+};
+
+var player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+var player2 = {
+  name: 'Dax',
+  place: 'Limbo',
+  health: 40
+};
+
+boscode.display(getPlayerInfo(player1, '='));
+boscode.display(getPlayerInfo(player2, '+'));
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/60/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Add an items property to each player. items: "a rusty key, a piece of cheese"  
+4. Write a getPlayerItems function to return a string for a player's items.
+5. Update the getPlayerInfo function so it also includes the items info. Take the items info string into account
+when working out the longest string.    
+6. Paste your completed code into your google docs solution document.  
 
 
 
-### 61
+### 61 Creating arrays
 
 
+Working with lists is an essential part of programming. Blog posts, quiz questions, stock prices, emails, files, tweets and bank transactions all turn up as lists. In fact, you’ve just read a list of lists! Sometimes the order doesn’t matter and sometimes it does. A list of names could represent the members of a team, with no order, or it could represent places in a race – I’m sure Usain Bolt thinks the order is important there! An ordered list is called an array in JavaScript, as it is in many programming languages.
+
+The items in an array are called its elements and you usually want to work on the elements in some way. You might want to:  
+* perform some action with each element, say display it on the console or increase it by 20%  
+* find only certain elements that match a condition, say all tweets by Lady Gaga, blog posts in a given month or questions answered correctly  
+* combine all the elements into a single value, say to find the total of a list of prices or the average number of points scored per game  
+
+The array object in JavaScript provides functions to help you perform all of these actions and more. But, we’re getting ahead of ourselves. Let’s go back to the start and find out how to create an array.
+
+* Creating an array
+
+To create an array, use square brackets. Once created, you can assign the array to a variable so you can refer to it in your code.
 
 
 ```js
+var boscode = require('boscode');
+
+var scores;
+var names;
+
+scores = [3, 1, 8, 2];
+names = ['Kandra', 'Dax', 'Blinky'];
+
+boscode.display(scores);
+boscode.display(names);
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/61/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Add an extra element to each array.  
+4. Declare a third variable, akaScores.  
+5. Assign the scores array to akaScores. `akaScores = scores`
+6. Display `akaScores` to the console.  
+7. Paste your completed code into your google docs solution document.  
+
+
+### 62 Using existing objects in an array
+
+Commas separate the elements, which can be numbers, strings, objects, functions, or any data type or mix of types – you can even have arrays of arrays. Like the curly braces for objects and the function keyword for functions, it is the square brackets that tell JavaScript to create an array. Once created, you can assign the array to a variable, set it as a property, include it in another array or pass it to a function.
+
+Listing below creates a couple of arrays of objects representing places to visit, thisYear and nextYear.  
+
+```js
+var boscode = require('boscode');
+
+var place1 = { name: 'The Pyramids', country: 'Egypt' };
+var place2 = { name: 'The Grand Canyon', country: 'USA' };
+var place3 = { name: 'Bondi Beach', country: 'Australia' };
+
+var thisYear = [place1, place2];
+var nextYear = [place3];
+
+boscode.display(thisYear);
+boscode.display(nextYear);
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/62/app.js`.  
+2. Run the program.  
+3. Add place1 to the nextYear array. Can it be in two arrays at once?  
+4. Run the program again to check if an object can be in two arrays at once.  
+5. Paste your completed code into your google docs solution document.  
+
+
+### 63 Accessing array elements
+
+
+You’ve created an array and assigned it to a variable, so now you can pass that variable to functions. At some point you’ll want to access the elements that make up the array, peel away the skin to get at the juicy goodness inside. Well, those square brackets do double duty; they enclose the list when you define the array and you also use them to access individual elements.
+
+
+```js
+var boscode = require('boscode');
+
+var scores = [3, 1, 8, 2];
+
+boscode.display('There are ' + scores.length + ' scores:');
+boscode.display('The first score is ' + scores[0]);
+boscode.display('The second score is ' + scores[1]);
+boscode.display('The third score is ' + scores[2]);
+boscode.display('The fourth score is ' + scores[3]);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/63/app.js`.  
+2. Run the program.  
+3. Add a fifth score to the array.  
+4. Add an extra boscode.display to display the new score.  
+5. The index of the last element is one less than the length of the array. Display the value of the last element to the console.  
+  Start the message with "The last score is " and concatenate the score to the string. Use an expression involving scores.length as the index for the last element.
+6. Add an extra score to the array and run the program again.   
+7. Paste your completed code into your google docs solution document.  
+
+
+
+### 64 Passing an array to a function
+
+
+```js
+var boscode = require('boscode');
+
+var getVisitorReport = function (visitorArray, dayInWeek) {
+  var days = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday'
+  ];
+  var index = dayInWeek - 1;
+  var visitorReport;
+
+  visitorReport = 'There were ';
+  visitorReport += visitorArray[index];
+  visitorReport += ' visitors ';
+  visitorReport += 'on ' + days[index];
+
+  return visitorReport;
+};
+
+var visitors = [354, 132, 210, 221, 481];
+
+var report = getVisitorReport(visitors, 2);
+
+boscode.display(report);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/64/app.js`.  
+2. Run the program.  
+3. Run the report for Friday.   
+4. Update the function to include Saturday and Sunday.  
+5. A month of visitor info could be represented as an array of arrays: [ week1, week2, week3, week4 ] where each week could be an array of visitor numbers. Write a new function with three parameters, the month array, the week wanted and the day wanted. The new function should return the visitor report specified. You can call getVisitorReport from your function if you want.  
+6. Create four arrays of week visitor numbers and a month array of the four weeks. Test your function from 5. for different weeks and days.  
+7. Paste your completed code into your google docs solution document.
 
 
 
 
+### 65 Manipulating arrays with push, pop and join
 
+
+Arrays are a type of object provided by the JavaScript language to help you manage lists. JavaScript also provides you with a number of functions you can use to work with arrays. When we assign functions to properties of an object, we call the functions methods of the object; arrays are a type of object, so their functions are also called methods.
+
+###### push
+Append an element to the end of an array  
+```
+items.push("Put me last");
+```
+
+###### pop
+Remove an item from the end of an array  
+```
+wasLast = items.pop();
+```
+
+###### join
+Concatenate all of the elements in the array, inserting an optional string between each pair of elements  
+```
+allItems = items.join(",");
+```
+
+###### slice
+Create a new array from a range of elements in an existing array. Pass in the indices at which to start and stop the range  
+```
+section = items.slice(2, 5);
+```
+
+###### splice
+Change an array by adding and/or removing consecutive elements. Pass in the index at which to start removing elements, the number of elements to remove and any elements to add
+```
+out = items.splice(1,2,"new");
+```
+
+###### forEach
+Pass each element in turn to a specified function 
+```
+items.forEach(function (item){
+  console.log(item);
+}
+```
+
+In listing below you create an empty array and assign it to the items variable. The push method is used to append three elements to the array. Once you have added the three elements, you display the whole array to the console.
+
+```js
+var boscode = require('boscode');
+
+
+var items = [];
+var item = 'The Pyramids';
+var removed;
+
+items.push(item);
+items.push('The Grand Canyon');
+items.push('Bondi Beach');
+
+boscode.display(items);
+
+removed = items.pop();
+
+boscode.display(removed + ' was removed');
+boscode.display(items.join(' and '));
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/65/app.js`.  
+2. Run the program.  
+3. Push another item onto the array.  
+4. Display the joined items.
+5. You can set an array element by using its index. `items[2] = "The Taj Mahal"`. Set one of the items using square brackets.  
+6. Can you push more than one item at a time?  
+7. Paste your completed code into your google docs solution document.  
+
+
+### 66 Iterating over an array with forEach
+
+
+```js
+var boscode = require('boscode');
+
+var items,
+    showInfo;
+
+items = [
+  'The Pyramids',
+  'The Grand Canyon',
+  'Bondi Beach'
+];
+
+showInfo = function (itemToShow) {
+  boscode.display(itemToShow);
+};
+
+items.forEach(showInfo);
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/66/app.js`.  
+2. Run the program.  
+3. Add a few extra items to the array, some using push and some using square brackets. Run the program.
+4. Strings also have a length property which gives the number of characters in the string. Update the showInfo function to also display the number of letters in each item.  
+5. Write a new function that finds the total number of letters of the elements in the items array.   
+6. Paste your completed code into your google docs solution document.  
+
+
+### 67 Calling forEach with an inline function
+
+If you’re only going to use a function once, as the argument for forEach, you can create the function and pass it to forEach inline, without the need for an extra variable. The code in listing below passes the function definition directly to forEach.
+
+
+```js
+var boscode = require('boscode');
+
+var items = ['The Pyramids', 'The Grand Canyon', 'Bondi Beach'];
+
+boscode.display('Dream destinations:');
+
+items.forEach(function (item) {
+  boscode.display(' – ' + item);
+});
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/67/app.js`.  
+2. Run the program.  
+3. Change the program to show the number of places to visit as well as the places themselves.
+4. Wrap the display code in a function and assign it to the showItems variable.  
+5. Paste your completed code into your google docs solution document.
+
+
+
+
+### 68 Using the arguments passed by forEach
+
+
+
+```js
+var boscode = require('boscode');
+
+var players;
+var showArguments;
+
+players = ['Dax', 'Jahver', 'Kandra'];
+
+showArguments = function (item, index, wholeArray) {
+  boscode.display('Item: ' + item);
+  boscode.display('Index: ' + index);
+  boscode.display('Array: ' + wholeArray);
+};
+
+players.forEach(showArguments);
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/68/app.js`.  
+2. Run the program.  
+3. Add two more names to the players array.
+4. Run the program.
+5. Change the first boscode.display so it uses wholeArray and index to display the current item in the array. Don't use the item parameter.   
+6. Paste your completed code into your google docs solution document.  
+
+
+### 69 Displaying a multiple choice question
+
+
+```js
+var boscode = require('boscode');
+
+
+var displayQuestion = function (questionAndAnswer) {
+  var options = ['A', 'B', 'C', 'D', 'E'];
+
+  boscode.display(questionAndAnswer.question);
+
+  questionAndAnswer.answers.forEach(
+    function (answer, i) {
+      boscode.display(options[i] + ' - ' + answer);
+    }
+  );
+};
+
+var question1 = {
+  question: 'What is the capital of France?',
+  answers: [
+    'Bordeaux',
+    'F',
+    'Paris',
+    'Brussels'
+  ],
+  correctAnswer: 'Paris'
+};
+
+displayQuestion(question1);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/69/app.js`.  
+2. Run the program.  
+3. Add two more question objects.  
+4. Create an array with your question objects.  
+5. Use forEach to call displayQuestion on each of your questions.  
+6. Paste your completed code into your google docs solution document.  
+
+
+### 70 Displaying player items
+
+
+```js
+var boscode = require('boscode');
+
+
+// The spacer namespace
+
+var spacer = {
+  blank: function () {
+    return '';
+  },
+
+  newLine: function () {
+    return '\n';
+  },
+
+  line: function (length, character) {
+    var longString = '****************************************';
+    longString += '----------------------------------------';
+    longString += '========================================';
+    longString += '++++++++++++++++++++++++++++++++++++++++';
+    longString += '                                        ';
+
+    length = Math.max(0, length);
+    length = Math.min(40, length);
+    return longString.substr(longString.indexOf(character), length);
+  },
+
+  wrap: function (text, length, character) {
+    var padLength = length - text.length - 3;
+    var wrapText = character + ' ' + text;
+    wrapText += spacer.line(padLength, ' ');
+    wrapText += character;
+    return wrapText;
+  },
+
+  box: function (text, length, character) {
+    var boxText = spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    boxText += spacer.wrap(text, length, character) + spacer.newLine();
+    boxText += spacer.line(length, character) + spacer.newLine();
+    return boxText;
+  }
+};
+
+
+// Player display code
+
+var getPlayerName = function (player) {
+  return player.name;
+};
+
+var getPlayerHealth = function (player) {
+  return player.name + ' has health ' + player.health;
+};
+
+var getPlayerPlace = function (player) {
+  return player.name + ' is in ' + player.place;
+};
+
+var getPlayerItems = function (player) {
+  var itemsString = 'Items:' + spacer.newLine();
+
+  player.items.forEach(function (item) {
+    itemsString += '   - ' + item + spacer.newLine();
+  });
+
+  return itemsString;
+};
+
+var getPlayerInfo = function (player, character) {
+  var place = getPlayerPlace(player);
+  var health = getPlayerHealth(player);
+  var longest = Math.max(place.length, health.length) + 4;
+
+  var info = spacer.box(getPlayerName(player), longest, character);
+  info += spacer.wrap(place, longest, character);
+  info += spacer.newLine() + spacer.wrap(health, longest, character);
+  info += spacer.newLine() + spacer.line(longest, character);
+
+  info += spacer.newLine();
+  info += '  ' + getPlayerItems(player);
+  info += spacer.newLine();
+  info += spacer.line(longest, character);
+
+  info += spacer.newLine();
+
+  return info;
+};
+
+var showPlayerInfo = function (player, character) {
+  boscode.display(getPlayerInfo(player, character));
+};
+
+
+// Create a player
+
+var player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50,
+  items: ['a trusty lamp']
+};
+
+showPlayerInfo(player1, '=');
+
+player1.items.push('a rusty key');
+
+showPlayerInfo(player1, '*');
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/70/app.js`.  
+2. Run the program.  
+3. Add and remove items at the prompt using push and pop. Notice what is displayed when push and pop are called.  
+4. Use the index argument for forEach to number the items displayed. Make the numbers start at 1.  
+5. Write a showItem function that accepts a player and an itemNumber as arguments and displays the specified player item.  
+6. Write an addItem function that accepts a player and an item title as arguments and adds the item title to the player's item array.   
+7. Paste your completed code into your google docs solution document.  
 
 
