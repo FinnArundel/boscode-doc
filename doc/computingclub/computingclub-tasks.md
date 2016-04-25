@@ -2032,9 +2032,6 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 
 
-
-
-
 ### 43
 
 
