@@ -2032,7 +2032,360 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 
 
-### 43
+### 43 Returning a value from a function
+
+You discovered how functions can increase your efficiency by allowing you to write code once but use it many times. Then you made functions much more flexible by passing them information with each call; a function can act in different ways and produce different outputs depending on the arguments you give it. Now you give functions the chance to talk back by returning the results of their work.  
+
+
+It is often useful to have a function do some work for you and give you back the result of that work. You can then use the result however you want. You saw a showSum function that displays the sum of two numbers on the console. It may be better to have an add function that simply adds the numbers and returns the result. While showSum always displays the result on the console, with add you can display the result the function returns if you choose, use it in further calculations, send it across a network or save it to a database.  
+
+
+Most of the functions you have written so far have executed code for you on demand and then logged something to the console. They have helped you to break up programs into understandable chunks. By assigning the functions to well-named variables, you have made the programs easier to follow.  
+
+
+Functions can also return information: the result of a calculation, a constructed piece of text, data from a database. You can assign the returned value to a variable or use it as an argument with other functions. The examples below show calls to the four functions add, getPlayerPlace, findPlanetPosition and getMessage:
+
+```js
+var sum = add(50, 23);
+var placeInfo = getPlayerPlace("Kandra", "The Dungeon of Doom");
+console.log(findPlanetPosition("Jupiter"));
+console.log(getMessage());
+```
+
+Each function returns a value and the returned value replaces the function call. Assuming the functions return the values below, the previous four statements become  
+
+```js
+var sum = 73;
+var placeInfo = "Kandra is in The Dungeon of Doom";
+console.log("Jupiter: planet number 5");
+console.log("I’m going on an adventure!");
+```
+
+
+The next code shows what happens when you call the add function.  
+
+```js
+//You call the add function
+var sum = add(50, 23);
+//The function returns the value 73
+//The return value replaces the function call: var sum = 73;
+```
+
+
+To return a value from a function, use the return keyword.  
+
+*The return keyword
+
+Return a value from a function by using the return keyword. Whatever follows return in a statement is the value that replaces the function call.  
+
+Listing below shows the definition of a getMessage function. It includes a return statement, a statement that starts with the return keyword: `return "I’m going on an adventure!";`.  
+
+The function returns the string "I’m going on an adventure!" because the string follows the return keyword. The program assigns the string to the response variable and displays it to the console.  
+
+```js
+var boscode = require('boscode');
+
+var getMessage;
+var response;
+
+getMessage = function () {
+  return 'I\'m going on an adventure!';
+};
+
+response = getMessage();
+
+boscode.display(response);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/43/app.js`.  
+2. Run the program.  
+3. Write a getMyMessage function that returns a message of your choosing.
+4. Paste your completed code into your google docs solution document.
+
+
+
+### 44 Using an argument to determine the return value
+
+
+You passed information into a function by including parameters in the function definition and arguments in the function call. You can use that information in the function body to determine the value the function returns and so call the function again and again with different arguments to produce different return values.
+
+Listing below shows a getHelloTo function that returns a string including a name passed in as an argument. The program assigns the return value to a variable and displays it to the console.  
+
+```js
+var boscode = require('boscode');
+
+var getHelloTo;
+var fullMessage;
+
+getHelloTo = function (name) {
+  return 'Hello to ' + name;
+};
+
+fullMessage = getHelloTo('Kandra');
+
+boscode.display(fullMessage);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/44/app.js`.  
+2. Run the program.  
+3. Change the definition of getHelloTo to accept two parameters, name1 and name2.  
+4. Make the function return a string of the form "Hello to Kandra and Dax".  
+5. Paste your completed code into your google docs solution document.  
+
+
+
+### 45 Using the return value as an argument
+
+
+```js
+var boscode = require('boscode');
+
+var getHelloTo;
+
+getHelloTo = function (name) {
+  return 'Hello to ' + name;
+};
+
+boscode.display(getHelloTo('Kandra'));
+boscode.display(getHelloTo('Dax'));
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/45/app.js`.  
+2. Run the program.  
+3. JavaScript has a number of built-in functions. The JavaScript replace function will replace one string with another. e.g. `"Hello Bob".replace("Bob", "Babs");` returns the string `"Hello Babs"`. Declare a variable called `template` in the function body of getHelloTo. i.e. `var template;`.  
+4. Assign it the value "Hello to {{name}}".  
+5. Replace the {{name}} placeholder with the value passed in as name. i.e. `template = template.replace("{{name}}", name);`.  
+6. Return template from the function. i.e. `return template;`.  
+7. Run the function. Does it still work?  
+8. Paste your completed code into your google docs solution document.  
+
+
+
+### 46 Returning the sum of two numbers
+
+Listing below shows the code to make the add function do its thing. Notice, in particular, the return keyword.  
+
+
+```js
+var boscode = require('boscode');
+
+var add;
+
+add = function (number1, number2) {
+  var total = number1 + number2;
+
+  return total;
+};
+
+var sum = add(50, 23);
+
+boscode.display(sum);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/46/app.js`.  
+2. Run the program.  
+3. Find and display the sum of a different pair of numbers.  
+4. Change the call to boscode.display so that the display on the console reads: `The sum of 50 and 23 is 73` using the add function to generate the answer.  
+5. Can you use the add function as it is to add more than two numbers? Hint: You can nest calls to add.  
+6. Create a function to return the sum of three numbers given as arguments.  
+7. Paste your completed code into your google docs solution document.  
+
+
+
+### 47 A function with three arguments
+
+Remember, the assignment operator, `=`, works by assigning the value on its right to the variable on its left. If a function call is on its right, then it assigns the function’s return value.
+
+```js
+var boscode = require('boscode');
+
+var add;
+
+add = function (number1, number2) {
+  var total = number1 + number2;
+
+  return total;
+};
+
+var sum = add(50, 23);
+
+boscode.display(sum);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/47/app.js`.  
+2. Run the program.  
+3. What is the cost for 12 hours work?  
+4. The plumber sometimes issues discount coupons. Add a fourth parameter to the `totalCost` function definition to account for discounts.  
+5. Update the function to subtract the discount from the total before returning it.  
+6. If a customer has a $20 off coupon, update the call to totalCost to display the total cost. It should now be $130 for 3 hours.  
+7. Paste your completed code into your google docs solution document.  
+
+
+
+### 48 Getting a string for a player’s name
+
+
+getPlayerName: At the moment it just returns the name it’s given which seems like a waste of time. But defining a function allows you to make all the player information accessible in the same way; getting the name is similar to getting the health or the location. It also makes it easier to update the code later if you decide to change how the name is displayed. Listing below shows the getPlayerName function definition and an example call to it, producing the output:
+
+```bash
+> Kandra
+```
+
+js
+
+```js
+var boscode = require('boscode');
+
+var getPlayerName;
+
+getPlayerName = function (playerName) {
+  return playerName;
+};
+
+boscode.display(getPlayerName('Kandra'));
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/48/app.js`.  
+2. Run the program.  
+3. Update the getPlayerName function so it adds a prefix and suffix made up of the = character. The length of the prefix and suffix should be 4.  `getPlayerName("Kiki")` should return  
+  `==== Kiki ====`
+  getPlayerName("Mahesha") should return  
+  `==== Mahesha ====`   
+4. Paste your completed code into your google docs solution document.  
+
+
+
+### 49 Displaying player information using objects
+
+
+```js
+var boscode = require('boscode');
+
+var getPlayerName = function (playerName) {
+  return playerName;
+};
+
+var getPlayerHealth = function (playerName, playerHealth) {
+  return playerName + ' has health ' + playerHealth;
+};
+
+var getPlayerPlace = function (playerName, playerPlace) {
+  return playerName + ' is in ' + playerPlace;
+};
+
+var getBorder = function () {
+  return '================================';
+};
+
+var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
+  var playerInfo;
+
+  playerInfo = '\n' + getPlayerName(playerName);
+  playerInfo += '\n' + getBorder();
+  playerInfo += '\n' + getPlayerPlace(playerName, playerPlace);
+  playerInfo += '\n' + getPlayerHealth(playerName, playerHealth);
+  playerInfo += '\n' + getBorder();
+  playerInfo += '\n';
+
+  return playerInfo;
+};
+
+var player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+var player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+boscode.display(getPlayerInfo(player1.name, player1.place, player1.health));
+boscode.display(getPlayerInfo(player2.name, player2.place, player2.health));
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/49/app.js`.  
+2. Run the program.  
+3. Add an items property to both players. e.g. items: "a rusty key, a piece of cheese"    
+4. Create a getPlayerItems function to return a sensible string including the items.  
+5. Update the getPlayerInfo function to include a call to getPlayerItems.  
+6. Change the two calls to getPlayerInfo so they also pass the items property as an argument.  
+7. Paste your completed code into your google docs solution document.  
+
+
+
+
+### 50 Passing a function an object as an argument
+
+Being able to pass an object to a function is really useful, especially if the function needs to access lots of the object’s properties. You only need a single parameter in the function definition and you don’t need a long list of arguments when calling the function. showPlayerInfo(player1) is neater, more easily understood and less prone to error than showPlayerInfo(player1.name, player1.location, player1.health).  
+
+
+Inspired by the space adventures of New Horizons, Curiosity, Rosetta and Philae, you decide to write a quick app for displaying information about the solar system. One feature of the app is to display information about planets.  
+
+Listing below shows the getPlanetInfo function with a planet parameter. When you call the function using a planet object as an argument, the function body returns a string built using some of the planet’s properties. The code produces the following output:
+
+```bash
+> Jupiter: planet number 5
+```
+
+js
+
+
+```js
+var boscode = require('boscode');
+
+var planet1;
+var getPlanetInfo;
+
+planet1 = {
+  name: 'Jupiter',
+  position: 5,
+  type: 'Gas Giant',
+  radius: 69911,
+  sizeRank: 1
+};
+
+getPlanetInfo = function (planet) {
+  return planet.name + ': planet number ' + planet.position;
+};
+
+boscode.display(getPlanetInfo(planet1));
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/50/app.js`.  
+2. Run the program.  
+3. Create a second planet object.   
+4. Use getPlanetInfo to log details of the second planet.  
+5. Update the getPlanetInfo function to include more information about each planet.  
+6. Paste your completed code into your google docs solution document.  
+
+
+
+
+
+### 51
+
+
 
 
 ```js
@@ -2040,16 +2393,20 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/43/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/51/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 44
+
+
+### 52
+
+
 
 
 ```js
@@ -2057,16 +2414,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/44/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/52/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 45
+
+### 53
+
+
 
 
 ```js
@@ -2074,16 +2434,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/45/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/53/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 46
+
+### 54
+
+
 
 
 ```js
@@ -2091,16 +2454,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/46/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/54/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 47
+
+### 55
+
+
 
 
 ```js
@@ -2108,16 +2474,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/47/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/55/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 48
+
+### 56
+
+
 
 
 ```js
@@ -2125,16 +2494,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/48/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/56/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 49
+
+### 57
+
+
 
 
 ```js
@@ -2142,16 +2514,19 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/49/app.js`.
-2. Run the program.
-
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/57/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
 
 
 
-### 50
+
+### 58
+
+
 
 
 ```js
@@ -2159,9 +2534,66 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/50/app.js`.
-2. Run the program.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/58/app.js`.  
+2. Run the program.  
+  
+. Paste your completed code into your google docs solution document.
 
+
+
+
+
+
+### 59
+
+
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/59/app.js`.  
+2. Run the program.  
+  
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+
+### 60
+
+
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/60/app.js`.  
+2. Run the program.  
+  
+. Paste your completed code into your google docs solution document.
+
+
+
+### 61
+
+
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/61/app.js`.  
+2. Run the program.  
+  
 . Paste your completed code into your google docs solution document.
 
 
