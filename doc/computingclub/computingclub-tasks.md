@@ -1373,25 +1373,328 @@ showPlayerInfo();
 
 
 
-### 30
+### 30 Relying on a variable outside of the function
 
 Functions are an essential means of organization; you write them once and use them many times. But, so far, your functions have been tied to the values of variables around them. It is time to set your functions free, letting them name their own variables and passing them the data they need.  
 
-The functions you have used so far have relied on variables declared and assigned values elsewhere in the program. In listing 5.01, the showMessage function relies on a variable called message, declared outside of the function definition.
+The functions you have used so far have relied on variables declared and assigned values elsewhere in the program. In listing below, the showMessage function relies on a variable called message, declared outside of the function definition.
+
+```js
+var boscode = require('boscode');
+
+
+var message;
+var showMessage;
+
+message = 'It\'s full of stars!';
+
+showMessage = function () {
+  boscode.display(message);
+};
+
+showMessage();
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/30/app.js`.  
+2. Run the program.  
+3. Change the message and run the program.  
+4. Change the variable name in the parentheses for boscode.display. e.g. boscode.display(msg);
+5. Run the program
+6. Paste your completed code into your google docs solution document.
+
+
+### 31 Passing information to a function
+
+The instructions in the function body can use variables defined elsewhere in your program but that couples the function with the external variable; it’s generally better practice to pass the information a function needs to it when it is called. This helps avoid the variables a function needs being misnamed, missing, deleted or changed by other parts of your program and makes it easier to follow the flow of the program and spot mistakes if they occur.
+
+We don’t want arrogant Rock God functions demanding particular variables in their dressing rooms before they’ll perform, we want easy going functions that are reliable and happy to strut their stuff wherever they are in the world. By de-coupling functions from variables, you make the functions more portable; the function definitions can be moved to other parts of your program, or be re-used in other programs or code libraries, without causing havoc and throwing errors.
+
+So, how is this de-coupling achieved?
+
+*Passing information to functions
+
+Passing information to functions is achieved in two stages; when you define the function and whenever you call the function:  
+1. When you *define* the function: you set up variable names, called *parameters*, ready for when you call the function.  
+2. Whenever you *call* the function: you include data to assign to the variables you named in step 1.
+
+*Passing one argument to a function
+
+It’s time to make use of those empty parentheses in your function definitions! To pass information to functions when you call them, include it between the parentheses, like this:
+
+```js
+showMessage("It’s full of stars!");
+showPlayerInfo("Kandra");
+getMovieActors("The Hobbit");
+square(12);
+```
+
+You pass each of the four functions some information for their code to use. Each value included in the parentheses is called an argument. Each of the four functions above includes a single argument. The arguments are “It’s full of stars!”, “Kandra”, “The Hobbit” and 12.  
+
+To use the information in the parentheses, you need to make the functions ready to accept it. You add a parameter when you define the function. The parameter shows that the function expects you to give it some information when you call it.
+
+For the four functions in the example above, the function definitions could be something like this:
+
+```js
+showMessage = function (message) { … };
+
+showPlayerInfo = function (playerName) { … };
+
+getMovieActors = function (movieTitle) { … };
+
+square = function (numberToSquare) { … };
+```
+
+
+Each function definition includes a parameter, shown in bold. The parameter is a variable that you can only use inside the function body.
+
+Let’s update the showMessage function from task 30 to accept a message, rather than relying on an external variable. When defining the function, include a message parameter. The message parameter is available as a variable in the function body. Now, when you call the function, you pass the message to display in parentheses, showMessage("It’s full of stars!"). The function adds some extra text and displays:
+
+```js
+var boscode = require('boscode');
+
+
+var showMessage;
+
+showMessage = function (message) {
+  boscode.display('The message is: ' + message);
+};
+
+showMessage('It\'s full of stars!');
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/31/app.js`.  
+2. Run the program.  
+3. Change the message in the brackets when showMessage is called on line 11. The value in the brackets when showMessage is called is an argument. "It's full of stars!" was the original argument on line 11.  
+4. Add two more calls to the showMessage function with different arguments each time.  
+5. Paste your completed code into your google docs solution document.  
+
+
+### 32 Calling the same function with different arguments
+
+In listing below you call the showMessage function with three different arguments, leading to three different messages on the console.
+
+```bash
+> The message is: It’s full of stars!
+> The message is: Hello to Jason Isaacs
+> The message is: Hello to Jason Isaacs and Stephen Fry
+```
+
+js
+
+```js
+var boscode = require('boscode');
+
+var showMessage;
+
+showMessage = function (message) {
+  boscode.display('The message is: ' + message);
+};
+
+showMessage('It\'s full of stars!');
+showMessage('Hello to Jason Isaacs');
+showMessage('Hello to Jason Isaacs and Stephen Fry');
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/32/app.js`.  
+2. Run the program.  
+3. Change the showMessage function to display its prefixed text on a separate line to the message.  
+4. Declare a myMessage variable and assign it a string value.  
+5. Call the showMessage function with myMessage as the argument.  
+6. Paste your completed code into your google docs solution document.  
+
+
+### 33 Using the square function
+
+Because you declared the name of the parameter along with the function definition, the showMessage function no longer relies on variable names from elsewhere, making it less brittle. De-coupling complete.  
+
+Listing below shows the definition of a square function, including a numberToSquare parameter. The function squares the number you pass to it as an argument. You call the function four times to give the following output:
+
+```bash
+> 10 * 10 = 100
+> -2 * -2 = 4
+> 1111 * 1111 = 1234321
+> 0.5 * 0.5 = 0.25
+```
+
+js
+
+```js
+var boscode = require('boscode');
+
+var square;
+
+square = function (numberToSquare) {
+  var result;
+  result = numberToSquare * numberToSquare;
+  boscode.display(numberToSquare + ' * ' + numberToSquare + ' = ' + result);
+};
+
+square(10);
+square(-2);
+square(1111);
+square(0.5);
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/33/app.js`.  
+2. Run the program.  
+3. Define a cube function that cubes any number passed in as an argument.
+4. Call your cube function four times with different arguments to test it. 
+5. Math.sqrt is a built-in function to find the positive square root of a number. e.g. Math.sqrt(9) finds the square root of 9. Define and test a squareRoot function to find square roots and display them on the console. e.g. The square root of 9 is 3.  
+6. Paste your completed code into your google docs solution document.
+
+
+
+
+### 34 A function with two arguments
+
+
+* Parameters vs Arguments
+
+You knew those parentheses would come in handy!  
+
+The names you include in the parentheses *when defining the function* are available as variables in the function body. They are called *parameters* and show that you expect information to be included when the function is called.
+
+```js
+var myExample;
+
+myExample = function (parameter) { … }
+```
+
+The values you include in the parentheses *when calling the function* are assigned to the parameter variables to be used in the function body. These values are called *arguments*.
+
+```js
+myExample(argument);
+```
+
+Don’t worry too much about the terminology; it can take a little while to get used to. After you’ve created and used a few functions, you’ll pick up an intuitive sense of what’s going on even if you mix up the terms parameter and argument from time to time.
+
+*Passing multiple arguments to a function
+
+You can define functions with as many parameters as they need to complete their work. Simply separate the parameters with commas in the parentheses of the definition.
+
+```js
+function (param1, param2, ...){
+    //param1, param2, etc are available as variables in the function body
+}
+```
+
+
+Suppose you want a function to add two numbers together. If you have two pairs of numbers, 30 and 23, and 2.8 and -5, the correct output would be
+
+```bash
+> The sum is 53
+> The sum is -2.2
+```
+
+How do you do this?
+
+Listing below: A function with two arguments
+
+```js
+var boscode = require('boscode');
+
+var showSum;
+
+showSum = function (number1, number2) {
+  var total = number1 + number2;
+  boscode.display('The sum is ' + total);
+};
+
+showSum(30, 23);
+showSum(2.8, -5);
+
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/34/app.js`.  
+2. Run the program.  
+3. Use the showSum function to add 56 and 74.  
+4. To multiply two numbers, use the * symbol. e.g. 3 * 5 is 3 multiplied by 5. Create a showProduct function to multiply two numbers.
+5. Use your function to multiply three pairs of numbers.
+6. To divide one number by another, use /. e.g. 10 / 2 is 10 divided by 2. What about showDifference and showQuotient for subtraction and division?  
+7. Paste your completed code into your google docs solution document.  
+
+
+### 35 Displaying a player's name
+
+
+You wrote a showPlayerInfo function as ‘code on demand.’ You could display player information on the console whenever you wanted, just by calling the function. Unfortunately, it relied on a player variable being set elsewhere in the code. Let’s update the showPlayerInfo function, setting parameters so you can pass it the information it needs directly.  
+
+In order to display information about each player, you break the job into sub-tasks and create functions for each piece of information. You then show information about a player like this:  
+
+```bash
+showPlayerName("Kandra");
+showPlayerHealth("Kandra", 50);
+showPlayerPlace("Kandra", "The Dungeon of Doom");
+```
+
+Each function has a very specific job to do. If you want to display all of the information at once, you wrap the individual functions inside one master function and pass it all the information it needs:
+
+```bash
+showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
+```
+
+
+Your first function’s job is to simply display the player’s name. That’s it. No bells or whistles. Listing below shows the showPlayerName function definition and calls the function with two different names to produce the following output:
+
+```bash
+> Kandra
+> Dax
+```
+
+js
+
+```js
+var boscode = require('boscode');
+
+var showPlayerName;
+
+showPlayerName = function (playerName) {
+  boscode.display(playerName);
+};
+
+showPlayerName('Kandra');
+showPlayerName('Dax');
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/35/app.js`.  
+2. Run the program.  
+3. Update the text logged so that it is of the form: The player's name is Kandra.  
+4. Strings have a length property that gives the number of characters in the string. e.g. `playerName.length`. Make the function show the number of letters in the player's name.  
+5. Paste your completed code into your google docs solution document.
+
+
+
+### 36
+
 
 ```js
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/30/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/36/app.js`.
 2. Run the program.
 
 . Paste your completed code into your google docs solution document.
 
 
 
-### 31
+
+
+### 37
 
 
 ```js
@@ -1399,36 +1702,7 @@ The functions you have used so far have relied on variables declared and assigne
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/31/app.js`.
-2. Run the program.
-
-. Paste your completed code into your google docs solution document.
-
-
-
-### 32
-
-
-```js
-```
-
-###### The challenge:
-
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/32/app.js`.
-2. Run the program.
-
-. Paste your completed code into your google docs solution document.
-
-
-### 33
-
-
-```js
-```
-
-###### The challenge:
-
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/33/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/37/app.js`.
 2. Run the program.
 
 . Paste your completed code into your google docs solution document.
@@ -1436,7 +1710,8 @@ The functions you have used so far have relied on variables declared and assigne
 
 
 
-### 34
+
+### 38
 
 
 ```js
@@ -1444,14 +1719,16 @@ The functions you have used so far have relied on variables declared and assigne
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/34/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/38/app.js`.
 2. Run the program.
 
 . Paste your completed code into your google docs solution document.
 
 
 
-### 35
+
+
+### 39
 
 
 ```js
@@ -1459,7 +1736,194 @@ The functions you have used so far have relied on variables declared and assigne
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/35/app.js`.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/39/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 40
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/40/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 41
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/41/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 42
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/42/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 43
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/43/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 44
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/44/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 45
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/45/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 46
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/46/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 47
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/47/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 48
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/48/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 49
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/49/app.js`.
+2. Run the program.
+
+. Paste your completed code into your google docs solution document.
+
+
+
+
+
+### 50
+
+
+```js
+```
+
+###### The challenge:
+
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/50/app.js`.
 2. Run the program.
 
 . Paste your completed code into your google docs solution document.
