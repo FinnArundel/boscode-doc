@@ -2013,21 +2013,21 @@ showPlayerInfo(player2.name, player2.place, player2.health);
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/42/app.js`.
 2. Run the program.
-3. Define a showLine function with a parameter for the length of line. e.g. showLine(5) should output  
-  -----  
-  showLine(20) should output  
-  --------------------  
+3. Define a showLine function with a parameter for the length of line. e.g. `showLine(5)` should output  
+  `----- `  
+  `showLine(20)` should output  
+  `--------------------`  
   *    Hints:  
   a) In the function body declare a line variable and assign it a long string of dashes.  
   b) Use the substring function to grab a line of the correct length. line.substring(0, 10) would have length 10.  
 4. Use your showLine function to display the player's name in a box.  
-  ----------  
-  - Kandra -  
-  __________  
+  `----------`  
+  `- Kandra -`  
+  `__________`  
 5. Update your showLine function to use asterisks rather than dashes.  
-  **********  
-  * Kandra *  
-  **********  
+  `**********`  
+  `* Kandra *`  
+  `**********`  
 6. Paste your completed code into your google docs solution document.  
 
 
