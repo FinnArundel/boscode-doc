@@ -2622,13 +2622,13 @@ boscode.display(line(50));
 4. Define a spaces function that returns a string made up of a specified number of space characters. The line of spaces returned can have a length between 0 and 40.  
 5. Add an emptyBox function that draws an empty box of specified width and height 5.  
   `emptyBox(12);`  
-```
-> ============
-> =          =
-> =          =  
-> =          =  
-> ============
-```    
+    ```
+    > ============
+    > =          =
+    > =          =  
+    > =          =  
+    > ============
+    ```    
 6. Paste your completed code into your google docs solution document.  
 
 
