@@ -1677,120 +1677,359 @@ showPlayerName('Dax');
 
 
 
-### 36
+### 36 Displaying a player's name via an object property
+
+
+You’re not likely to call the showPlayerName function with literal values like "Kandra" and "Dax". You’re much more likely to use variables. In particular, JavaScript objects will represent players. Listing below updates the code to use a couple of player objects instead. 
 
 
 ```js
+var boscode = require('boscode');
+
+var player1;
+var player2;
+var showPlayerName;
+
+showPlayerName = function (playerName) {
+  boscode.display(playerName);
+};
+
+player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+showPlayerName(player1.name);
+showPlayerName(player2.name);
+
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/36/app.js`.
 2. Run the program.
-
-. Paste your completed code into your google docs solution document.
-
-
-
+3. In the showPlayerName function, change playerName to playerName.toUpperCase(). Run the function.
+4. Change the function to show the player's name in lower case.
+5. Paste your completed code into your google docs solution document.
 
 
-### 37
 
+### 37 Displaying a player's health
+
+The showPlayerHealth function definition includes two parameters, playerName and playerHealth, to produce output like this:
+
+```bash
+> Kandra has health 50
+> Dax has health 40
+```
+
+js
 
 ```js
+var boscode = require('boscode');
+
+var showPlayerHealth;
+
+showPlayerHealth = function (playerName, playerHealth) {
+  boscode.display(playerName + ' has health ' + playerHealth);
+};
+
+showPlayerHealth('Kandra', 50);
+showPlayerHealth('Dax', 40);
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/37/app.js`.
-2. Run the program.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/37/app.js`.  
+2. Run the program.  
+3. Change the showPlayerHealth function so it shows information of the form: Kandra: health 50.  
+4. Call the showPlayerHealth function using your own arguments.  
+5. Declare a variable called healthInfo inside the showPlayerHealth function.  
+  `var healthInfo;`  
+6. Assign healthInfo the string that will be displayed.   
+  `healthInfo = playerName + ': health ' + playerHealth;`  
+7. Change the call to boscode.display so that it uses the `healthInfo` variable.  
+8. Paste your completed code into your google docs solution document.  
 
-. Paste your completed code into your google docs solution document.
 
 
+### 38 Displaying a player's health via object properties
 
-
-
-### 38
+The call to showPlayerHealth in listing above used the literal values "Kandra" and 50. In the final program, each player’s information is assigned to the properties of a player object. Your calls to showPlayerHealth are much more likely to use those properties rather than hard-coded values. Listing below updates the code to include player objects.
 
 
 ```js
+var boscode = require('boscode');
+
+var player1;
+var player2;
+var showPlayerHealth;
+
+showPlayerHealth = function (playerName, playerHealth) {
+  boscode.display(playerName + ' has health ' + playerHealth);
+};
+
+player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+showPlayerHealth(player1.name, player1.health);
+showPlayerHealth(player2.name, player2.health);
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/38/app.js`.
-2. Run the program.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/38/app.js`.  
+2. Run the program.  
+3. Add a new property to the player objects called healthMultiplier.  
+4. Add a third parameter to the definition of the showPlayerHealth function called playerHealthMultiplier.  
+5. Update the function so that the health displayed is first multiplied by the health multiplier.  
+6. Add the player's healthMultiplier property as a third argument to the two calls to the showPlayerHealth function.  
+7. Paste your completed code into your google docs solution document.  
 
-. Paste your completed code into your google docs solution document.
 
 
+### 39 Displaying a player's location
+
+Name: check. Health: check. That just leaves location.
 
 
+The showPlayerPlace function definition also includes two parameters, this time playerName and playerPlace, and produces output like this:
 
-### 39
+```bash
+> Kandra is in The Dungeon of Doom
+> Dax is in The Old Library
+```
 
+js
 
 ```js
+var boscode = require('boscode');
+
+var showPlayerPlace;
+
+showPlayerPlace = function (playerName, playerPlace) {
+  boscode.display(playerName + ' is in ' + playerPlace);
+};
+
+showPlayerPlace('Kandra', 'The Dungeon of Doom');
+showPlayerPlace('Dax', 'The Old Library');
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/39/app.js`.
 2. Run the program.
+3. Inside the boscode.display parentheses, change playerName to playerName[0]. Run the program. What effect do the brackets have?
+4. Change the number in the brackets to 1.
+5. What happens when you change the number to 3? Why?
+6. Paste your completed code into your google docs solution document.
 
-. Paste your completed code into your google docs solution document.
 
 
+### 40 Displaying a player's location via object properties
 
-
-
-### 40
+And once again, switching from the hard-coded literal values in listing above to object properties gives you an updated version in listing below.
 
 
 ```js
+var boscode = require('boscode');
+
+var player1;
+var player2;
+var showPlayerPlace;
+
+showPlayerPlace = function (playerName, playerPlace) {
+  boscode.display(playerName + ' is in ' + playerPlace);
+};
+
+player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+showPlayerPlace(player1.name, player1.place);
+showPlayerPlace(player2.name, player2.place);
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/40/app.js`.
-2. Run the program.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/40/app.js`.  
+2. Run the program.  
+3. In the boscode.display parentheses, change `playerName` to `playerName.substring(0, 1)`. Run the program. What do you think the substring function does?  
+4. Change the arguments to the substring function to (0, 2), then (0, 3) and so on.  
+5. Change the arguments to (1, 2), then (1, 3) and so on.  
+6. What role do you think the two arguments to the substring function have?  
+7. Paste your completed code into your google docs solution document.  
 
-. Paste your completed code into your google docs solution document.
 
 
 
 
+### 41 Displaying a player's information
 
-### 41
 
+The showPlayerInfo function uses your three individual functions, showPlayerName, showPlayerHealth and showPlayerPlace, and adds a touch of formatting to produce a display of each player’s properties. The output for one player looks like this:
+
+```bash
+>
+> Kandra
+> ----------------------------
+> Kandra is in The Dungeon of Doom
+> Kandra has health 50
+> ----------------------------
+```
+
+
+js
 
 ```js
+var boscode = require('boscode');
+
+var showPlayerInfo;
+var showPlayerName;
+var showPlayerHealth;
+var showPlayerPlace;
+
+showPlayerName = function (playerName) {
+  boscode.display(playerName);
+};
+
+showPlayerHealth = function (playerName, playerHealth) {
+  boscode.display(playerName + ' has health ' + playerHealth);
+};
+
+showPlayerPlace = function (playerName, playerPlace) {
+  boscode.display(playerName + ' is in ' + playerPlace);
+};
+
+showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+  boscode.display('');
+
+  showPlayerName(playerName);
+
+  boscode.display('----------------------------');
+
+  showPlayerPlace(playerName, playerPlace);
+  showPlayerHealth(playerName, playerHealth);
+
+  boscode.display('----------------------------');
+  boscode.display('');
+};
+
+showPlayerInfo('Kandra', 'The Dungeon of Doom', 50);
+showPlayerInfo('Dax', 'The Old Library', 40);
+
 ```
 
 ###### The challenge:
 
-1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/41/app.js`.
-2. Run the program.
+1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/41/app.js`.  
+2. Run the program.  
+3. Create a function called showLine that displays a line of dashes to the console. `----------------------------`  
+4. Update the showPlayerInfo function to use the showLine function rather than logging dashes to the console directly.  
+5. Create and use a showBlankLine function for logging a blank line to the console.  
+6. Paste your completed code into your google docs solution document.  
 
-. Paste your completed code into your google docs solution document.
 
 
+### 42 Displaying a player's information using properties
 
 
+You call the showPlayerInfo function with three arguments each time. It, in turn, passes the required arguments on to the showPlayerName, showPlayerHealth and showPlayerPlace functions.  
 
-### 42
+You end with all the pieces put together in a single listing. It includes each variable declaration and assignment as a single step and uses player object properties, like player1.name, rather than literal values, like "Kandra", when calling showPlayerInfo.  
 
 
 ```js
+var boscode = require('boscode');
+
+var showPlayerName = function (playerName) {
+  boscode.display(playerName);
+};
+
+var showPlayerHealth = function (playerName, playerHealth) {
+  boscode.display(playerName + ' has health ' + playerHealth);
+};
+
+var showPlayerPlace = function (playerName, playerPlace) {
+  boscode.display(playerName + ' is in ' + playerPlace);
+};
+
+var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
+  boscode.display('');
+
+  showPlayerName(playerName);
+
+  boscode.display('----------------------------');
+
+  showPlayerPlace(playerName, playerPlace);
+  showPlayerHealth(playerName, playerHealth);
+
+  boscode.display('----------------------------');
+  boscode.display('');
+};
+
+var player1 = {
+  name: 'Kandra',
+  place: 'The Dungeon of Doom',
+  health: 50
+};
+
+var player2 = {
+  name: 'Dax',
+  place: 'The Old Library',
+  health: 40
+};
+
+showPlayerInfo(player1.name, player1.place, player1.health);
+showPlayerInfo(player2.name, player2.place, player2.health);
+
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/42/app.js`.
 2. Run the program.
+3. Define a showLine function with a parameter for the length of line. e.g. showLine(5) should output  
+  -----  
+  showLine(20) should output  
+  --------------------  
+  *    Hints:  
+  a) In the function body declare a line variable and assign it a long string of dashes.  
+  b) Use the substring function to grab a line of the correct length. line.substring(0, 10) would have length 10.  
+4. Use your showLine function to display the player's name in a box.  
+  ----------  
+  - Kandra -  
+  __________  
+5. Update your showLine function to use asterisks rather than dashes.  
+  **********  
+  * Kandra *  
+  **********  
+6. Paste your completed code into your google docs solution document.  
 
-. Paste your completed code into your google docs solution document.
 
 
 
