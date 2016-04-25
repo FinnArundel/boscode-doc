@@ -2380,104 +2380,254 @@ boscode.display(getPlanetInfo(planet1));
 6. Paste your completed code into your google docs solution document.  
 
 
+### 51 A function that adds properties to an object
 
+When you pass an object to a function as an argument, the code in the function body has access to the object’s properties. It can read them, change them and delete them and can add new properties too.  
 
-
-### 51
-
-
+Listing below shows two functions with planet parameters. When you pass a planet object, encapsulating a name and a radius, to the calculateSizes function, the function adds two new properties, area and volume, to the object.  
 
 
 ```js
+var boscode = require('boscode');
+
+var planet1 = { name: 'Jupiter', radius: 69911 };
+
+var calculateSizes = function (planet) {
+  var r = planet.radius;
+  planet.area = 4 * 3.142 * r * r;
+  planet.volume = 4 * 3.142 * r * r * r / 3;
+};
+
+var displaySizes = function (planet) {
+  boscode.display(planet.name);
+  boscode.display('surface area = ' + planet.area + ' square km');
+  boscode.display('volume = ' + planet.volume + ' cubic km');
+};
+
+calculateSizes(planet1);
+displaySizes(planet1);
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/51/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. The diameter of a planet is double its radius. Update the calculateSizes function so it also adds a diameter property to the planet.  
+4. Update the displaySizes function so it also displays the diameter on the console.  
+5. Paste your completed code into your google docs solution document.  
 
 
 
 
+### 52 A function to create planets
 
 
+Just as passing objects to functions as arguments is an efficient way of moving information to where it’s needed, so is using objects as return values. Functions can either manipulate objects that you pass to them and then return them, or return brand new objects that they create in the function body.  
 
-### 52
+This section explores two examples: the first uses a number of parameters to build a new planet object and the second uses two object parameters to create a point in 2D space.  
 
-
-
+Back with your solar system app, you decide to streamline the creation of planets. You write a function to which you pass the key facts and it returns a planet object with properties set accordingly. Your buildPlanet function lets you create planets like this:  
 
 ```js
+planet1 = buildPlanet("Jupiter", 5, "Gas Giant", 69911, 1);
+```
+js
+
+```js
+var boscode = require('boscode');
+
+var buildPlanet;
+var getPlanetInfo;
+var planet1;
+var planet2;
+
+buildPlanet = function (name, position, type, radius, rank) {
+  return {
+    name: name,
+    position: position,
+    type: type,
+    radius: radius,
+    sizeRank: rank
+  };
+};
+
+getPlanetInfo = function (planet) {
+  return planet.name.toUpperCase() + ': planet ' + planet.position;
+};
+
+planet1 = buildPlanet('Jupiter', 5, 'Gas Giant', 69911, 1);
+planet2 = buildPlanet('Neptune', 8, 'Ice Giant', 24622, 4);
+
+boscode.display(getPlanetInfo(planet1));
+boscode.display(getPlanetInfo(planet2));
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/52/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Write a similar program to create and display objects that represent cars.  
+4. Paste your completed code into your google docs solution document.  
 
 
 
+### 53 Moving a point in 2D
 
 
+*Points in 2D space  
 
-### 53
+Keen to create an animation showing the planets in the solar system, you start to investigate coordinates in two dimensions. All of the coordinates have two values associated with them, x and y. This seems like an obvious place to use objects. Each point is an object with x and y properties.  
 
+```
+point1 = { x : 3 , y : 4 };
+point2 = { x : 0 , y : -2 );
+```
 
+You can access individual values using dot notation: point1.x, point2.y and so on.  
 
+As an initial experiment, you write a program to move a point a certain amount in the x direction and a certain amount in the y direction. As the change in position also has x and y components, you use an object for that too. For example, to represent a movement of four across and two down you use the object { x : 4, y : -2 }.  
+
+Listing below includes a move function that takes two arguments, an initial point object and a change object. It returns a new point representing the final position if you started from the first point and moved by the change specified.  
+
+The program uses a showPoint function to produce the following output:  
+
+```
+( 2 , 5 )
+Move 4 across and 2 down
+( 6 , 3 )
+```
+
+js
 
 ```js
+var boscode = require('boscode');
+
+var point1;
+var point2;
+var move;
+var showPoint;
+
+move = function (point, change) {
+  return {
+    x: point.x + change.x,
+    y: point.y + change.y
+  };
+};
+
+showPoint = function (point) {
+  boscode.display('( ' + point.x + ' , ' + point.y + ' )');
+};
+
+point1 = { x: 2, y: 5 };
+
+point2 = move(point1, { x: 4, y: -2 });
+
+showPoint(point1);
+boscode.display('Move 4 across and 2 down');
+showPoint(point2);
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/53/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Change the amount by which the point is moved by altering the x and y properties of the object literal passed to the move function.  
+4. Write a reflectX function that reflects a point in the x-axis, returning the new point.  
+5. How about a rotate90 function that rotates the point by 90 degrees anticlockwise around ( 0 , 0 )?  
+6. Paste your completed code into your google docs solution document.  
 
 
 
+### 54 Using Math.min and Math.max
 
+Math is a namespace built into JavaScript that provides properties and functions all related to mathematical calculations. Listing below shows the Math.min and Math.max methods in action. They return the smaller of two numbers and the larger of two numbers respectively. The program produces the following output.
 
+```
+3 is smaller than 12
+-10 is smaller than 3
+```
 
-### 54
-
-
-
+js
 
 ```js
+var boscode = require('boscode');
+
+var showSmaller = function (num1, num2) {
+  var smaller = Math.min(num1, num2);
+  var larger = Math.max(num1, num2);
+
+  boscode.display(smaller + ' is smaller than ' + larger);
+};
+
+showSmaller(12, 3);
+showSmaller(-10, 3);
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/54/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Try out some different arguments.  
+4. Write a showLarger function.  
+5. Write a showSmallest function that takes three arguments and displays the smallest of the three.   
+6. Paste your completed code into your google docs solution document.  
 
 
+### 55 Using Math.min and Math.max to constrain an argument
 
 
+Math.min and Math.max, when used together, are very useful for making sure a value is in a specified range. Say a lineLength variable has to be between 0 and 40 inclusive. To force lineLength to be at least 0 we can use  
 
+```js
+lineLength = Math.max(0, lineLength);
+```
 
-### 55
+If lineLength is greater then zero, it will be the biggest and its value won’t change. But, if lineLength is less than zero, zero will be the biggest and lineLength will be assigned zero.  
 
+Similarly, we can force lineLength to be less than or equal to 40:  
 
+```js
+lineLength = Math.min(40, lineLength);
+```
+
+Listing below shows such constraints in action. line is a function that returns a separator line of a specified length. The length must be between 0 and 40. Trying to display lines of length 30, 40 and 50 produces the following output:
+
+```
+> ==============================
+> ========================================
+> ========================================
+```
 
 
 ```js
+var boscode = require('boscode');
+
+var line = function (lineLength) {
+  var line = '========================================';
+  lineLength = Math.max(0, lineLength);
+  lineLength = Math.min(40, lineLength);
+  return line.substr(0, lineLength);
+};
+
+boscode.display(line(30));
+boscode.display(line(40));
+boscode.display(line(50));
 ```
 
 ###### The challenge:
 
 1. In your cloud 9 workspace edit the file  `/home/ubuntu/workspace/code/computingclub/55/app.js`.  
 2. Run the program.  
-  
-. Paste your completed code into your google docs solution document.
+3. Test line lengths from -20 to 60 in steps of 10.  
+4. Define a spaces function that returns a string made up of a specified number of space characters. The line of spaces returned can have a length between 0 and 40.  
+5. Add an emptyBox function that draws an empty box of specified width and height 5.  
+  `emptyBox(12);`  
+  `> ============`  
+  `> =          =`  
+  `> =          =`  
+  `> =          =`  
+  `> ============`    
+6. Paste your completed code into your google docs solution document.  
 
 
 
