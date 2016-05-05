@@ -27,18 +27,18 @@ ___
 
 ## Installation
 
-1. Create a github account: https://github.com/. Use your school email address and set username to stlukes-{first part of school email}. Sign into github.
-2. In google chrome open cloud 9 https://c9.io/ and choose sign in with your github account.
-3. In c9.io: Create a new workspace: 
+1. Create a cloud 9 account: cloud 9 https://c9.io/. Use your school email address and set username to stlukes-{first part of school email}. 
+2. In c9.io: Create a new workspace: 
   * Workspace name: web
   * Description: Learning javascript
   * Hosted workspace: Public
   * Clone from Git or Mercurial URL: `https://github.com/Quobject/boscode-web.git`
-  * Choose a template: `Custom`
+  * Choose a template: `Blank`
   * Hit 'Create workspace' button
-4. Inside your workspace on the left side right click the folder name 'web' and select 'Open Terminal Here'
-5. In your terminal type the command `npm install`  .
-6. Type the command `grunt`.
+3. Inside your workspace on the left side right click the folder name 'web' and select 'Open Terminal Here'
+4. In your terminal type the command `sudo npm install -g grunt`.
+5. In your terminal type the command `npm install`.
+6. In your terminal type the command `grunt`.
 
   ```bash
   {yourname}:~/workspace (master) $ grunt
