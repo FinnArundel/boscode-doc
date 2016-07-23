@@ -24,7 +24,7 @@ ___
 1. In google chrome open [http://sqlfiddle.com/](http://sqlfiddle.com/).  
 2. Click `Clear`.  
 3. Inside the left panel (Schema Panel) paste the following sql code:  
-  ```sqlfiddle
+  ```sql
   CREATE TABLE Persons
   (
 	  PersonID int,
@@ -52,16 +52,16 @@ ___
   ```
 4. Click the button `Build Schema`.
 5. Inside the right panel paste the following sql code:
-  ```sqlfiddle
+  ```sql
   SELECT * FROM Persons;
   ```
 6. Click `Run SQL` and observe the output.
 7. Inside the right panel modify the sql code:
-  ```sqlfiddle
+  ```sql
   SELECT FirstName, LastName FROM Persons;
   ```
 8. Click `Run SQL` and observe the output.
-9. 4. Learn more about the SQL CREATE TABLE Statement at [w3schools.com](http://www.w3schools.com/sql/sql_create_table.asp).
+9. Learn more about the SQL CREATE TABLE Statement at [w3schools.com](http://www.w3schools.com/sql/sql_create_table.asp).
  
 
 ###### The challenge:
