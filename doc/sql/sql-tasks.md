@@ -23,8 +23,7 @@ ___
 
 1. In google chrome open [http://sqlfiddle.com/](http://sqlfiddle.com/).  
 2. Click `Clear`.  
-3. Inside the left panel (Schema Panel) paste the following sql code:
-
+3. Inside the left panel (Schema Panel) paste the following sql code:  
 ```sqlfiddle
 CREATE TABLE Persons
 (
@@ -51,17 +50,14 @@ VALUES
 	(10,"Barrera","Kessie","707-4124 Arcu Av.","Kamarhati")
 ;
 ```
-
 4. Click the button `Build Schema`.
 5. Inside the right panel paste the following sql code:
 
 ```sqlfiddle
 SELECT * FROM Persons;
 ```
-
 6. Click `Run SQL` and observe the output.
 7. Inside the right panel modify the sql code:
-
 ```sqlfiddle
 SELECT FirstName, LastName FROM Persons;
 ```
