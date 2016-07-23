@@ -52,12 +52,12 @@ ___
   ```
 4. Click the button `Build Schema`.
 5. Inside the right panel paste the following sql code:  
-  ```sql
+  ```sql 
   SELECT * FROM Persons;
   ```
 6. Click `Run SQL` and observe the output.
 7. Inside the right panel modify the sql code:  
-  ```sql
+  ```sql 
   SELECT FirstName, LastName FROM Persons;
   ```
 8. Click `Run SQL` and observe the output.
