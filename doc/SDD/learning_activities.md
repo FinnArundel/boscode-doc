@@ -6,13 +6,12 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 
 1 Object oriented paradigm
 
-[1.1 Installation](#11-installation)  
-[1.2 Shape class](#12-shape-class)  
-[1.3 Getters and setters](#13-getters-and-setters)  
-[1.4 Shape class with print method](#14-shape-class-with-print-method)  
-[1.5 Circle class](#15-circle-class)   
-[1.6 Car cost](#16-car-cost)    
-[1.7 Plant](#17-plant)  
+[1.1 Shape class](#11-shape-class)  
+[1.2 Getters and setters](#12-getters-and-setters)  
+[1.3 Shape class with print method](#13-shape-class-with-print-method)  
+[1.4 Circle class](#14-circle-class)   
+[1.5 Car cost](#15-car-cost)    
+[1.6 Plant](#16-plant)  
 
 2 Desk check
 
@@ -48,25 +47,7 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 ___
 ## 1 Object oriented paradigm
 
-### 1.1 Installation
-
-* Windows:
-  1. Install [Visual Studio 2015 Community](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx)
-  2. Start Visual Studio
-  3. FILE > New > Project
-    * Templates > Visual C# > Windows > Classic Desktop > Console Application
-    * Name: yr12sdd
-
-* Mac OS X:
-  1. Install Xamarin 'Xamarin Starter Edition' https://xamarin.com/starter
-  2. Start Xamarin Studio
-  3. File > New > Solution
-    * Other .NET
-    * Console Project c#
-    * Project Name: yr12sdd
-
-
-### 1.2 Shape class
+### 1.1 Shape class
 
 * Pseudocode
 
@@ -152,7 +133,7 @@ ___
 
 
 
-### 1.3 Getters and setters
+### 1.2 Getters and setters
 
 * Pseudocode
 
@@ -194,7 +175,7 @@ Y coordinate: 42
 
 ___
 
-### 1.4 Shape class with print method
+### 1.3 Shape class with print method
 
 
 * C#
@@ -256,7 +237,7 @@ X coordinate: 23
 ___
 
 
-### 1.5 Circle class
+### 1.4 Circle class
 
 * Pseudocode
 
@@ -510,7 +491,7 @@ Area: 160
 ___
 
 
-### 1.6 Car cost
+### 1.5 Composition - Car cost
 
 From question 33 (d) [BOS 2015-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2015/exams/2015-hsc-sdd.pdf). A custom car manufacturer makes cars to order based on customers’ selections of components. Each component may be standard or specialised.  
 The cost of a car is calculated by totalling the costs of all components. The cost of each standard component is fixed. The cost of a specialised component is calculated by adding the cost of the specialisation to the cost of the standard component.  
@@ -567,7 +548,7 @@ END Main
 4. Write a C# implementation of your solution.
 ___  
 
-### 1.7 Plant
+### 1.6 Constructor - Plant
 
 From question 33 (d) [BOS 2016-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2016/exams/2016-hsc-sdd.pdf). 
 The following fragment of code was developed using the object oriented paradigm (OOP).
@@ -686,8 +667,6 @@ public class Program
 }
 
 ```
-
-
 
 ___  
 ## 2 Desk check
