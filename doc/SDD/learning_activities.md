@@ -1,5 +1,7 @@
 ﻿# Software Design & Development - Learning activities
 
+See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-content)
+
 ## Table of content
 
 1 Object oriented paradigm
@@ -9,7 +11,8 @@
 [1.3 Getters and setters](#13-getters-and-setters)  
 [1.4 Shape class with print method](#14-shape-class-with-print-method)  
 [1.5 Circle class](#15-circle-class)  
-[1.6 Car cost](#16-car-cost)  
+[1.6 Car cost](#16-car-cost) 
+[1.7 Plant](#17-plant)  
 
 2 Desk check
 
@@ -562,8 +565,129 @@ END Main
 2. Write another subclass of Component `Wheel` with a cost of $200, and inside the Main function add 4 instances of this class to the car  
 3. Inside Main create an additional Car instance with a V8Engine and 6 wheels and display the total cost.
 4. Write a C# implementation of your solution.
-
 ___  
+
+### 1.7 Plant
+
+From question 33 (d) [BOS 2016-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2016/exams/2016-hsc-sdd.pdf). A custom car manufacturer makes cars to order based on customers’ selections of components. Each component may be standard or specialised.  
+The following fragment of code was developed using the object oriented paradigm (OOP).
+
+* Pseudocode
+
+```
+class Plant {
+  private –
+    id: integer
+  public –
+    Plant()
+
+    Plant(idParameter)
+	  id = idParameter
+    END Plant(idParameter)
+
+	Name: string
+	Description: string
+	Colour: string
+	getID()
+      RETURN id
+	END getID
+}
+
+class Fruit {
+  is a Plant
+
+  public –
+    Fruit()
+	NumberOfSeeds: integer
+	isSweet: boolean
+}
+
+class Vegetable {
+  is a Plant
+
+  public –
+    Vegetable()
+	GrowsAboveGround: boolean
+}
+
+
+BEGIN Main
+  carrot = new Vegetable()
+
+  carrot.Name = "Carrot"
+  carrot.Description = "root vegetable"
+  carrot.Colour = "orange"
+  carrot.GrowsAboveGround = false
+
+END Main
+
+```
+
+* C#
+
+[dotnedfiddle](https://dotnetfiddle.net/CShYFI)
+
+```cs
+using System;
+	
+
+public class Plant{
+	private int id;
+	
+	public Plant(){
+	}	
+	
+	public Plant(int idParameter){
+		this.id = idParameter;
+	}
+	
+	public string Name;
+	public string Colour;
+	public string Description;
+	
+	public int getID(){
+		return this.id;
+	}
+}
+
+public class Fruit : Plant{
+	
+	public Fruit(){
+	}
+	
+	public int NumberOfSeeds;
+	public bool IsSweet;
+}
+
+
+public class Vegetable : Plant{
+	
+	public Vegetable(){
+	}
+	
+	public bool GrowsAboveGround;
+}
+
+
+public class Program
+{
+	public static void Main()
+	{
+		Vegetable carrot = new Vegetable();		
+		carrot.Name = "Carrot";
+		carrot.Colour = "orange";
+		carrot.Description = "root vegetable";
+		carrot.GrowsAboveGround = false;
+		
+		Console.WriteLine(carrot.Name);
+		
+	}
+}
+
+```
+
+
+
 ___  
 ## 2 Desk check
 
