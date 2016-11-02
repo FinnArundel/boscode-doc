@@ -4,7 +4,7 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 
 ## Table of content
 
-1 Object oriented paradigm
+[1 Object oriented paradigm](#1-object-oriented-paradigm)
 
 [1.1 Shape class](#11-shape-class)  
 [1.2 Getters and setters](#12-getters-and-setters)  
@@ -13,7 +13,7 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 [1.5 Composition - Car cost](#15-composition---car-cost)    
 [1.6 Constructor - Plant](#16-constructor---plant)  
 
-2 Desk check
+[2 Desk check](#2-desk-check)
 
 [2.1 Desk check 1](#21-desk-check-1)  
 [2.2 Desk check 2](#22-desk-check-2)  
