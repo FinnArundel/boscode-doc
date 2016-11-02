@@ -10,8 +10,8 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 [1.2 Getters and setters](#12-getters-and-setters)  
 [1.3 Shape class with print method](#13-shape-class-with-print-method)  
 [1.4 Circle class](#14-circle-class)   
-[1.5 Car cost](15-composition---car-cost)    
-[1.6 Plant](16-constructor---plant)  
+[1.5 Composition - Car cost](#15-composition---car-cost)    
+[1.6 Constructor - Plant](#16-constructor---plant)  
 
 2 Desk check
 
@@ -488,6 +488,7 @@ Height: 20
 Width: 8
 Area: 160
 ```
+
 ___
 
 
@@ -545,7 +546,8 @@ END Main
 1. Write the cost() method to calculate the cost of instances of the Engine and V8Engine subclasses of Component.  
 2. Write another subclass of Component `Wheel` with a cost of $200, and inside the Main function add 4 instances of this class to the car  
 3. Inside Main create an additional Car instance with a V8Engine and 6 wheels and display the total cost.
-4. Write a C# implementation of your solution.
+4. Write a C# implementation of your solution.    
+
 ___  
 
 ### 1.6 Constructor - Plant
