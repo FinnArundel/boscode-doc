@@ -10,8 +10,8 @@ See also [boscode-learn](https://github.com/Quobject/boscode-learn#table-of-cont
 [1.2 Shape class](#12-shape-class)  
 [1.3 Getters and setters](#13-getters-and-setters)  
 [1.4 Shape class with print method](#14-shape-class-with-print-method)  
-[1.5 Circle class](#15-circle-class)  
-[1.6 Car cost](#16-car-cost) 
+[1.5 Circle class](#15-circle-class)   
+[1.6 Car cost](#16-car-cost)    
 [1.7 Plant](#17-plant)  
 
 2 Desk check
