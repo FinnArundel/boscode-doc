@@ -569,7 +569,7 @@ ___
 
 ### 1.7 Plant
 
-From question 33 (d) [BOS 2016-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2016/exams/2016-hsc-sdd.pdf). A custom car manufacturer makes cars to order based on customers’ selections of components. Each component may be standard or specialised.  
+From question 33 (d) [BOS 2016-hsc-sdd](http://www.boardofstudies.nsw.edu.au/hsc_exams/2016/exams/2016-hsc-sdd.pdf). 
 The following fragment of code was developed using the object oriented paradigm (OOP).
 
 * Pseudocode
@@ -619,6 +619,7 @@ BEGIN Main
   carrot.Colour = "orange"
   carrot.GrowsAboveGround = false
 
+  Display carrot.Name
 END Main
 
 ```
