@@ -24,7 +24,7 @@
 22. You Can't Do That    
 23. Slow down    
 24. I call your name    
-25. Where I end and you beginning    
+25. Where I end and you begin   
 26. The Middle (DJ Snake)    
 27. Halo    
 28. Love yourself
