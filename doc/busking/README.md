@@ -4,7 +4,7 @@
 2. Getting better    
 3. She's leaving home    
 4. When I'm sixty four    
-5. A day in the live    
+5. A day in the life    
 6. The Night Before    
 7. You've got to Hide Your Love Away    
 8. I Need You    
@@ -14,8 +14,8 @@
 12. Act Naturally    
 13. It's only love    
 14. You like me to much    
-15. Tell me What your See    
-16. I've just seen a face    
+15. Tell me What you See    
+16. I've just Seen a Face    
 17. Yesterday    
 18. I'm The Walrus    
 19. All my loving    
@@ -30,7 +30,6 @@
 28. Love yourself
 29. Everybody Wants To Rule the World
 30. For Absent Friends    
-
 
 
  ![Manly Corso]( images/manly.png "ManlyCorso")     
