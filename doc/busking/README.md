@@ -28,10 +28,12 @@
 26. The Middle (DJ Snake)    
 27. Halo    
 28. Love yourself (Capo 4)    
-29. Everybody Wants To Rule the World    
+29. Everybody Wants To Rule the World     
 30. For Absent Friends    
 
 
 
  ![Manly Corso]( images/manly.png "ManlyCorso")     
 [Manly](https://goo.gl/maps/H5Lrasoq1et)
+
+http://bit.ly/2g9lybB
