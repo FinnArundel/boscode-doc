@@ -27,8 +27,8 @@
 25. Where I end and you beginning    
 26. The Middle (DJ Snake)    
 27. Halo    
-28. Love yourself (Capo 4)    
-29. Everybody Wants To Rule the World     
+28. Love yourself
+29. Everybody Wants To Rule the World
 30. For Absent Friends    
 
 
