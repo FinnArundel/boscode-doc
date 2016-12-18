@@ -23,14 +23,14 @@
 21. You won't see me    
 22. You Can't Do That    
 23. Slow down    
-24. I call your name    
-25. Where I end and you begin   
-26. The Middle (DJ Snake)    
-27. Halo    
-28. Love yourself
-29. Everybody Wants To Rule the World
-30. For Absent Friends    
-
+24. I call your name     
+25. Where I end and you begin    
+26. Cold Water  
+27. The Middle   
+28. Halo   
+29. Love yourself   
+30. Everybody Wants To Rule the World  
+31. For Absent Friends   
 
  ![Manly Corso]( images/manly.png "ManlyCorso")     
 [Manly](https://goo.gl/maps/H5Lrasoq1et)
