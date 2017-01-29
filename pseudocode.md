@@ -8,7 +8,7 @@
 [Casewhere](#casewhere)          
 [Pre-test repetition: while](#pre-test-repetition-while)         
 [Post-test repetition: repeat](#post-test-repetition-repeat)         
-[FOR/NEXT or counted loop](#for/next-or-counted-loop)         
+[FOR/NEXT or counted loop](#fornext-or-counted-loop)         
 [Subprogram](#subprogram)         
 [Load array](#load-array)         
 [Print array contents](#print-array-contents)         
@@ -24,8 +24,6 @@
 [Updating records in a relative file](#updating-records-in-a-relative-file)         
 
 
-[2.3 Classification of systems - Activities]( https://github.com/Quobject/boscode-doc/blob/master/doc/IST/learning_activities.md#23-classification-of-systems---activities)   
-[2.4 Hardware solutions]( #24-hardware-solutions )   
 
 
 *3 Software*    
