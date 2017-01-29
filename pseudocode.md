@@ -1,5 +1,7 @@
 ﻿## Table of content
 
+http://bit.ly/2jjSsuv
+
 *1 Pseudocode*  
 
 [Pseudocode guidelines](#pseudocode-guidelines)     
