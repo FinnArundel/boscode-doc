@@ -1,5 +1,7 @@
 ﻿# Codecademy tasks
 
+http://bit.ly/2jGmbw6
+
 ## Table of Content
 
 [01 Comparison 1]( #01-comparison-1 )   
