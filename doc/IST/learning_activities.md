@@ -52,7 +52,7 @@
 [14.5a People Robot developer Hugo Elias]( #145a-people-robot-developer-hugo-elias )   
 [14.6 Automated control - Activities]( #146-automated-control---activities )   
 [14.6a Task 2 Automated systems]( #146a-task-2-automated-systems )   
-[15.6b Issues - scientists worry machines may outsmart humans]( #156b-issues---scientists-worry-machines-may-outsmart-humans )   
+[14.6b Issues - scientists worry machines may outsmart humans]( #146b-issues---scientists-worry-machines-may-outsmart-humans )   
 [14.7 Sensing devices - Activities]( #147-sensing-devices---activities )   
 [14.7a Task 3 Build a traffic light with sensors]( #147a-task-3-build-a-traffic-light-with-sensors )   
 [14.7b Issues - Location-based services]( #147b-issues---location-based-services )   
@@ -583,7 +583,7 @@ Write a program to control a LEGO model. The program is to control a set of traf
 
 ___
 
-### 15.6b Issues - scientists worry machines may outsmart humans
+### 14.6b Issues - scientists worry machines may outsmart humans
 
 * Read chapter 14.6 Automated control page 311.
 
