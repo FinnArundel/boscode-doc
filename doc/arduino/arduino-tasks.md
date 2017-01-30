@@ -33,9 +33,9 @@ ___
   * Windows: Install Python 2.7.3 https://www.python.org/ 
   * Download and unzip boscode-learn:
   
-    *Mac* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Mac.zip. Unzip into a new folder `/code/boscode-learn/code/arduino`    
+    *Mac* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Mac.zip. Unzip into a new folder `/code/boscode-learn`    
   
-    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Win.zip. Unzip into a new folder `C:\code\boscode-learn\code\arduino`.   
+    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Win.zip. Unzip into a new folder `C:\code\boscode-learn\`.   
     
     After unzip and moving of files, you should have the following directory structure:
 
@@ -44,7 +44,8 @@ ___
       boscode-learn  
         code  
           arduino  
-          codecademy-tasks  
+          codecademy-tasks
+          computingclub     
           electron  
           examples   
           tasks   
