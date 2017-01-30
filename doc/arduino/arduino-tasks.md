@@ -49,38 +49,7 @@ ___
           examples   
           tasks   
     ```
-
-  * Follow these steps if you are using the schools wifi:
-    - Download the [netbox.cer](netbox.cer) certificate file somewhere to the local drive. I did mine to "C:\cert\netbox.cer"  
-    - Open a web browser, and make sure that the BYO device can browse the internet (load youtube.com or something)  
-    - In the command prompt window, run (replace with different file path as needed)  
-    ```bash
-    npm config set cafile "C:\cert\netbox_slgs.cer"
-    npm config set strict-ssl false
-    ```
-    - Restart your computer
-
-  * Open terminal (Mac) or powershell (Windows) and (these installs cannot be done with the schools wifi unless the previus steps have been followed)
-
-    
-    Mac: 
-    
-    ```bash
-    cd /code/boscode-learn/
-    sudo npm install -g node-gyp  
-    sudo npm install -g electron-prebuilt 
-    sudo npm install
-    ```
-
-    Windows: 
-    ```bash
-    cd C:\code\boscode-learn\
-    npm install -g node-gyp  
-    npm install -g electron-prebuilt 
-    npm install
-    ```
-
- * Follow Hello World steps: https://github.com/rwaldron/johnny-five/wiki/Getting-Started#hello-world
+ 
 
 ___
 
