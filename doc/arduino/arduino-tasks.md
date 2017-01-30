@@ -31,9 +31,14 @@ ___
   * Install Visual Studio Code https://code.visualstudio.com/Download  
   * Install Node.js https://nodejs.org/en/download/  
   * Windows: Install Python 2.7.3 https://www.python.org/ 
-  * Download: https://github.com/Quobject/boscode-learn/archive/1.0.1.zip
-    Unzip into a new folder `/code/boscode-learn/code/arduino` or  `C:\code\boscode-learn\code\arduino`.   
+  * Download and unzip boscode-learn:
+  
+    *Mac* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Mac.zip. Unzip into a new folder `/code/boscode-learn/code/arduino`    
+  
+    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Win.zip. Unzip into a new folder `C:\code\boscode-learn\code\arduino`.   
     
+    After unzip and moving of files, you should have the following directory structure:
+
     ```bash
     code  
       boscode-learn  
@@ -44,6 +49,7 @@ ___
           examples   
           tasks   
     ```
+
   * Follow these steps if you are using the schools wifi:
     - Download the [netbox.cer](netbox.cer) certificate file somewhere to the local drive. I did mine to "C:\cert\netbox.cer"  
     - Open a web browser, and make sure that the BYO device can browse the internet (load youtube.com or something)  
