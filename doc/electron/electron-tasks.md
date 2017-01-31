@@ -14,19 +14,35 @@ ___
 
 ## 01 Hello world
 
-* In your terminal `cd c:\code\boscode-learn\code\electron\01`.
-* `npm install`
-* `npm start`
+**Windows**
+
+* In your command prompt: `cd c:\code\boscode-learn\code\electron\01`.
+* `npm run start`
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\electron\01`.
 * Inspect the files `main.js, index.html, program.js`
+
+**Mac**
+
+* In your terminal `cd /code/boscode-learn/code/electron/01`.
+* `npm run startmac`
+* In visual studio code: File > Open Folder... `/code/boscode-learn/code/electron/01`.
+* Inspect the files `main.js, index.html, program.js`
+
 
 ___
 
 ## 02 Dice Image
 
-* In your terminal `cd c:\code\boscode-learn\code\electron\02`.
-* `npm install`
-* `npm start`
+**Windows**
+
+* In your command prompt: `cd c:\code\boscode-learn\code\electron\02`.
+* `npm run start`
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\electron\02`.
 * Inspect the files `main.js, index.html, program.js`
 
+**Mac**
+
+* In your terminal `cd /code/boscode-learn/code/electron/02`.
+* `npm run startmac`
+* In visual studio code: File > Open Folder... `/code/boscode-learn/code/electron/02`.
+* Inspect the files `main.js, index.html, program.js`
