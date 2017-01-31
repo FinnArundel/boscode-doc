@@ -237,12 +237,24 @@ ___
 
 * Setup arduino board with one LED [as described here](http://node-ardx.org/exercises/1)
 * If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
-* In your first terminal `cd c:\code\boscode-learn\code\arduino\02`.
-* `npm install`
+
+**Windows**
+
+* In your first command prompt `cd c:\code\boscode-learn\code\arduino\02`.
 * `npm run server`
-* Open a second terminal `cd c:\code\boscode-learn\code\arduino\02`.
+* Open a second command prompt `cd c:\code\boscode-learn\code\arduino\02`.
 * `npm run client`
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\02`.
+
+**Mac**
+
+* In your first terminal `cd /code/boscode-learn/code/arduino/02`.
+* `npm run server`
+* Open a second terminal `cd /code/boscode-learn/code/arduino/02`.
+* `npm run clientmac`
+* In visual studio code: File > Open Folder... `/code/boscode-learn/code/arduino/02`.
+
+
 * Inspect files:
 ```bash
  client
@@ -252,18 +264,32 @@ ___
  server
    index.js
 ```
+
 ___
 
 ## 06 Arduino with Electron UI Button Pressing
 
 * Setup arduino board with one LED and two buttons [as described here](http://node-ardx.org/exercises/7)
 * If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
-* In your first terminal `cd c:\code\boscode-learn\code\arduino\03`.
-* `npm install`
+
+
+**Windows**
+
+* In your first command prompt `cd c:\code\boscode-learn\code\arduino\04`.
 * `npm run server`
-* Open a second terminal `cd c:\code\boscode-learn\code\arduino\03`.
+* Open a second command prompt `cd c:\code\boscode-learn\code\arduino\04`.
 * `npm run client`
-* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\03`.
+* In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\04`.
+
+**Mac**
+
+* In your first terminal `cd /code/boscode-learn/code/arduino/04`.
+* `npm run server`
+* Open a second terminal `cd /code/boscode-learn/code/arduino/04`.
+* `npm run clientmac`
+* In visual studio code: File > Open Folder... `/code/boscode-learn/code/arduino/04`.
+
+
 * Inspect files:
 ```bash
  client
@@ -279,12 +305,25 @@ ___
 
 * Setup arduino board with one LED and one potentiometer [as described here](http://node-ardx.org/exercises/8)
 * If not done already, with your Arduino software upload `File > Examples > Firmata > StandardFirmataPlus`
-* In your first terminal `cd c:\code\boscode-learn\code\arduino\04`.
-* `npm install`
+
+
+**Windows**
+
+* In your first command prompt `cd c:\code\boscode-learn\code\arduino\04`.
 * `npm run server`
-* Open a second terminal `cd c:\code\boscode-learn\code\arduino\04`.
+* Open a second command prompt `cd c:\code\boscode-learn\code\arduino\04`.
 * `npm run client`
 * In visual studio code: File > Open Folder... `c:\code\boscode-learn\code\arduino\04`.
+
+**Mac**
+
+* In your first terminal `cd /code/boscode-learn/code/arduino/04`.
+* `npm run server`
+* Open a second terminal `cd /code/boscode-learn/code/arduino/04`.
+* `npm run clientmac`
+* In visual studio code: File > Open Folder... `/code/boscode-learn/code/arduino/04`.
+
+
 * Inspect files:
 ```bash
  client
