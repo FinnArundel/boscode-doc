@@ -16,36 +16,18 @@ ___
 
 ## Installation
 
+1. Download and install the arduino software https://www.arduino.cc/en/Main/Software
 
-1. Signup with the Arduino Project Hub https://id.arduino.cc/auth/signup.
+2. Open the Arduino IDE and select your board: Tools > Board > Arduino Genuino Uno
 
-2. Log in the Arduino Web Editor. Once you have successfully registered for an Arduino account, 
-go to create.arduino.cc/editor. After accepting the term and conditions, 
-you should receive an email with a link to the Forum where you can report any 
-bugs you may encounter and share your feedback.    
+3. (windows) Select the port: Tools > Port. This is likely to be com3 or higher (Max Os 10) /dev/tty.usbmodem
 
-3. Follow a simple flow to install the Arduino Web Editor plugin, which permits you to 
-upload sketches from the browser onto your boards. At the end of the plugin installation 
-flow, you will be redirected to the Arduino login page—it`s time to use your credentials!
+4. Launch Arduino IDE and open the Firmata sketch via the menu: File > Examples > Firmata > StandardFirmataPlus
+  * Select your Arduino board type (e.g. Arduino Uno) via Tools > Board
+  * Select the port for your board via Tools > Serial Port > (the com port of your Arduino)
+  * Upload the program by selecting File > Upload 
 
-4. Connect your Arduino or Genuino board to your computer. Boards and serial ports are 
-auto-discovered and selectable in a single dropdown.  This is likely to be com3 or higher (Max Os 10) /dev/tty.usbmodem.
- Pick the *Arduino/Genuino Uno* to upload to from the list.    
-
-5. Let`s try an example: Choose `Examples` on the menu on the left, then `Basic` and `Blink`. The 
-Blink sketch is now displayed in the code area. 
-To upload it to your board, press the `Upload` button (arrow right) near the dropdown. 
-A `BUSY` label replaces the buttons during code verifying and uploading. If the upload is successful, 
-the message `Success: Done uploading` will appear in the bottom output area. 
-Once the upload is complete, you should then see on your board the yellow LED with 
-an L next to it start blinking. If this is the case congratulations! 
-You have successfully programmed your board to blink its on-board LED!
-
-*Upload StandardFirmataPlus*
-
-6. Choose Examples. Search for `StandardFirmataPlus`. Select the sketch and press the `Upload` button.
-
-7. Install software:
+5. Install software:
   * Install Visual Studio Code https://code.visualstudio.com/Download  
   * Install Node.js https://nodejs.org/en/download/  
   * Windows: Install Python 2.7.3 https://www.python.org/ 
