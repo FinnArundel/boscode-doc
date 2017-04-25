@@ -56,6 +56,7 @@ http://bit.ly/2jjSsuv
 [2.25 Desk check 25](#225-desk-check-25)  
 [2.26 Desk check 26](#226-desk-check-26)  
 
+*3 Algorithm Flowcharts*
 
 
 
@@ -1112,5 +1113,70 @@ END
 
 ___
 
+
+
+
+
+# 3 Algorithm Flowcharts
+It is expected that students are able to develop and interpret algorithms using pseudocode and flowcharts.
+
+Flowcharts are a diagrammatic method representing algorithms, which are read from top to bottom and left to right. 
+ 
+## Flowchart elements 
+ 
+Flowcharts use the following symbols connected by lines with arrowheads to indicate the flow. It is common practice to show arrowheads to avoid ambiguity. 
+ 
+![Flowchart elements](./pics/flowchart_elements.png)
+ 
+ 
+Flowcharts using these symbols should be developed using only the standard control structures (described on the following pages). 
+ 
+It is important to start any complex algorithm with a clear, uncluttered main line. This should reference the required subroutines, whose detail is shown in separate flowcharts.  
+ 
+A subroutine should rarely require more than one page, if it correctly makes use of further subroutines for detailed logic.   
+
+
+## Control structures 
+ 
+Algorithms are developed using the basic control structures of sequence, selection, repetition and subprograms. A description of each of these structures, together with examples of their use, follows. 
+ 
+### Sequence 
+ 
+In a computer program or an algorithm, sequence involves simple steps which are to be executed one after the other. The steps are executed in the same order in which they are written. 
+
+*Pseudocode*
+```
+process 1
+process 2
+...
+...
+process n
+``` 
+*Flowchart*
+
+![sequence](./pics/sequence.png)
+
+
+The arrowheads are optional if the flow is top-to-bottom. 
+ 
+*Example using squence*
+ 
+*Problem*
+ 
+Write a set of instructions to add two numbers and display the answer. 
+ 
+*Pseudocode *
+```
+BEGIN Add2Numbers 
+  get firstNumber 
+  get secondNumber 
+  total = firstNumber + secondNumber 
+  Display “the sum of your 2 numbers is ”; total 
+END Add2Numbers 
+```
+ 
+*Flowchart*
+
+![sequence example](./pics/sequence_example.png)
 
 
