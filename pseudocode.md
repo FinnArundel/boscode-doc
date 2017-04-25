@@ -1138,7 +1138,14 @@ A subroutine should rarely require more than one page, if it correctly makes use
 
 ## Control structures 
  
-Algorithms are developed using the basic control structures of sequence, selection, repetition and subprograms. A description of each of these structures, together with examples of their use, follows. 
+Algorithms are developed using the basic control structures of 
+
+* sequence, 
+* selection, 
+* repetition and 
+* subprograms. 
+
+A description of each of these structures, together with examples of their use, follows. 
  
 ### Sequence 
  
