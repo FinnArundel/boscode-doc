@@ -1159,7 +1159,7 @@ process n
 
 The arrowheads are optional if the flow is top-to-bottom. 
  
-*Example using squence*
+#### Example using squence
  
 *Problem*
  
