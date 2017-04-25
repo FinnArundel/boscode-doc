@@ -1165,7 +1165,7 @@ The arrowheads are optional if the flow is top-to-bottom.
  
 Write a set of instructions to add two numbers and display the answer. 
  
-*Pseudocode *
+*Pseudocode*
 ```
 BEGIN Add2Numbers 
   get firstNumber 
