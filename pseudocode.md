@@ -1227,3 +1227,45 @@ ENDIF
 
 ![binary selection example](./pics/binaryselection_example.png)
 
+### Multi-way selection 
+ 
+Multi-way selection allows for any number of possible choices, or cases. The path taken is determined by the evaluation of the expression. Multi-way selection is often referred to as a case structure. 
+ 
+*Pseudocode*
+```
+CASEWHERE expression evaluates to 
+  choice a : process a 
+  choice b : process b 
+ 
+  OTHERWISE : default process 
+ENDCASE 
+
+```
+ 
+*Flowchart* 
+
+![multiway selection](./pics/multiwayselection.png)
+
+Note: As the flowchart version of the multi-way selection indicates, only one process on each pass is executed as a result of the implementation of the multi-way selection.   
+
+Example using multi-way selection 
+ 
+*Problem*
+ 
+Write a set of instructions that describes how to respond to all possible signals at a set of traffic control lights. 
+ 
+*Pseudocode*
+
+signal = "red" 
+CASEWHERE signal is 
+  "red" : Display "stop the vehicle" 
+  "amber" : Display "stop the vehicle"
+  "green" : Display "proceed through the intersection"
+  OTHERWISE : Display "proceed with caution"
+ENDCASE 
+ 
+Flowchart 
+
+![multiway selection example](./pics/multiwayselection_example.png)
+ 
+ 
