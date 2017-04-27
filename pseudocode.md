@@ -1222,6 +1222,8 @@ ELSE
   Display "Try again"
 ENDIF  
 ```
+
 *Flowchart* 
+
 ![binary selection example](./pics/binaryselection_example.png)
 
