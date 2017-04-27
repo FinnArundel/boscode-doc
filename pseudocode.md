@@ -1187,3 +1187,41 @@ END Add2Numbers
 ![sequence example](./pics/sequence_example.png)
 
 
+### Selection 
+ 
+Selection is used in a computer program or algorithm to determine which particular step or set of steps is to be executed. This is also referred to as a ‘decision’. A selection statement can be used to choose a specific path dependent on a condition. There are two types of selection: binary selection (two possible pathways) and multi-way selection (many possible pathways).  
+
+### Binary selection 
+ 
+In binary selection, if the condition is met then one path is taken, otherwise the second possible path is followed. In each of the examples below, the first case described requires a process to be completed only if the condition is true. The process is ignored if the condition is false. In the second case, there is an alternative process if the condition is false. 
+ 
+*Pseudocode* 
+``` 
+IF condition THEN
+  process 1
+ELSE
+  process 2
+ENDIF  
+```
+*Flowchart*
+![binary selection](./pics/binaryselection.png)
+
+#### Example using binary selection
+ 
+*Problem*
+ 
+Determine the message to be displayed for a guess the number game.
+
+*Pseudocode* 
+``` 
+myguess = 9  
+Get guess 
+IF guess = myguess THEN
+  Display "Well done"
+ELSE
+  Display "Try again"
+ENDIF  
+```
+*Flowchart* 
+![binary selection example](./pics/binaryselection_example.png)
+
