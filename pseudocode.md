@@ -1248,14 +1248,14 @@ ENDCASE
 
 Note: As the flowchart version of the multi-way selection indicates, only one process on each pass is executed as a result of the implementation of the multi-way selection.   
 
-Example using multi-way selection 
+#### Example using multi-way selection 
  
 *Problem*
  
 Write a set of instructions that describes how to respond to all possible signals at a set of traffic control lights. 
  
 *Pseudocode*
-
+```
 signal = "red" 
 CASEWHERE signal is 
   "red" : Display "stop the vehicle" 
@@ -1263,8 +1263,9 @@ CASEWHERE signal is
   "green" : Display "proceed through the intersection"
   OTHERWISE : Display "proceed with caution"
 ENDCASE 
- 
-Flowchart 
+``` 
+
+*Flowchart*
 
 ![multiway selection example](./pics/multiwayselection_example.png)
  
