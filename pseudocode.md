@@ -58,6 +58,15 @@ http://bit.ly/2jjSsuv
 
 *3 Algorithm Flowcharts*
 
+[Flowchart elements](#flowchart-elements)  
+[Sequence](##sequence-1)  
+[Binary selection](#binary-selection-1)   
+[Multi-way selection](#multi-way-selection)   
+[Repetition: pre-test](#repetition-pre-test)   
+[Repetition: post-test](#repetition-post-test)   
+[Repetition: FOR / NEXT or counted loop](#repetition-for--next-or-counted-loop)
+
+[3.1 Algorithm Flowchart task 1](#31-algorithm-flowchart-task-1)  
 
 
 # 1 Pseudocode
@@ -1369,3 +1378,22 @@ NEXT i
 ![FOR / NEXT or counted loop flowchart](./pics/forloop_example.png)
 
 
+### 3.1 Algorithm Flowchart task 1
+
+Consider this algorithm
+
+```
+BEGIN
+  number = 0
+  REPEAT
+    Display number
+    Increment number by 2
+  UNTIL number >= 10  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
