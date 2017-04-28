@@ -1198,9 +1198,9 @@ In binary selection, if the condition is met then one path is taken, otherwise t
 *Pseudocode* 
 ``` 
 IF condition THEN
-  process 1
+  statements
 ELSE
-  process 2
+  statements
 ENDIF  
 ```
 *Flowchart*
@@ -1269,4 +1269,103 @@ ENDCASE
 
 ![multiway selection example](./pics/multiwayselection_example.png)
  
- 
+
+### Repetition
+
+Repetition allows for a portion of an algorithm or computer program to be executed any number of times dependent on some condition being met. An occurrence of repetition is usually known as a loop.
+
+An essential feature of repetition is that each loop has a termination condition to stop the repetition, or the obvious outcome is that the loop never completes execution. This is known as an infinite loop and is obviously undesirable. The termination condition can be checked or tested at the beginning or end of the loop, and is known as a pre-test or post-test respectively. Following is a description of each of these types of loop.
+
+### Repetition: pre-test
+
+A pre-tested loop is so named because the condition has to be met at the very beginning of the loop or the body of the loop is not executed. This construct is often called a guarded loop. The body of the loop is executed repeatedly while the termination condition is true.
+
+*Pseudocode*
+```
+WHILE condition is true
+  statements
+ENDWHILE
+```
+
+*Flowchart* 
+
+![pre-test repetition](./pics/pretestrepetition.png)
+
+#### Example using pre-test repetition
+
+*Pseudocode*
+```
+number = 5
+WHILE number < 20
+  Display number
+  number = number + 2
+ENDWHILE
+```
+
+*Flowchart* 
+
+![example pre-test repetition](./pics/pretestrepetition_example.png)
+
+### Repetition: post-test
+A post-tested loop executes the body of the loop before testing the termination condition. This construct is often referred to as an unguarded loop. The body of the loop is repeatedly executed until the termination condition is true. An important difference between a pre-test and post-test loop is that the statements of a post-test loop are executed at least once even if the condition is originally true, whereas the body of the pre-test loop may never be executed if the termination condition is originally true. A close look at the representations of the two loop types makes this point apparent.
+
+*Pseudocode*
+```
+REPEAT
+  statements
+UNTIL condition is true
+```
+
+*Flowchart*
+
+![post-test repetition](./pics/posttestrepetition.png)
+
+
+#### Example using post-test repetition
+
+*Pseudocode*
+```
+number = 0
+REPEAT
+  Display number
+  Increment number by 2
+UNTIL number = 10
+```
+
+*Flowchart*
+
+![post-test repetition example](./pics/posttestrepetition_example.png)
+
+
+
+### Repetition: FOR / NEXT or counted loop
+
+Counted loops or FOR / NEXT loops can be regarded as special cases of repetition and, depending on the language in which they are implemented, are implemented as either pre-test or post-test repetitions.
+
+*Pseudocode*
+```
+FOR variable = start TO finish STEP increment 
+  statements
+NEXT variable
+```
+Note that increments can take either a positive or negative value
+
+*Flowchart*
+
+To represent a FOR / NEXT loop in flowchart format, it is necessary to describe the required logic as the equivalent pre- or post-test:
+
+
+#### Example using FOR / NEXT or counted loop
+
+*Pseudocode*
+```
+FOR i = 1 to 12 STEP 1
+  Display "12 x ", i, " = ", (12 * i) 
+NEXT i
+```
+
+*Flowchart*
+
+![FOR / NEXT or counted loop flowchart](./pics/forloop_example.png)
+
+
