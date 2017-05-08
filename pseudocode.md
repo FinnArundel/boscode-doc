@@ -1384,11 +1384,270 @@ Consider this algorithm
 
 ```
 BEGIN
-  number = 0
-  REPEAT
-    Display number
-    Increment number by 2
-  UNTIL number >= 10  
+  length = 0
+  breadth = 0
+  area = length * breadth
+  length = 2
+  breadth = 6
+  Display area 
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+### 3.2 Algorithm Flowchart task 2
+
+Consider this algorithm
+
+```
+BEGIN
+  a = 3
+  b = 2
+  a = a + b
+  b = a + b
+  Display a, b
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.3 Algorithm Flowchart task 3
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.4 Algorithm Flowchart task 4
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.5 Algorithm Flowchart task 5
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.6 Algorithm Flowchart task 6
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.7 Algorithm Flowchart task 7
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.8 Algorithm Flowchart task 8
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.9 Algorithm Flowchart task 9
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.10 Algorithm Flowchart task 10
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.11 Algorithm Flowchart task 11
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.12 Algorithm Flowchart task 12
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.13 Algorithm Flowchart task 13
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.14 Algorithm Flowchart task 14
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.15 Algorithm Flowchart task 15
+
+Consider this algorithm
+
+```
+BEGIN
+  
+END
+```
+
+1. Draw an algorithm flowchart 
+2. Complete a desk check  
+2. What is the output after the fragment of code has been executed?
+
+___
+
+
+### 3.16 Algorithm Flowchart task 16
+
+Consider this algorithm
+
+```
+BEGIN
+  
 END
 ```
 
