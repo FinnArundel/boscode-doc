@@ -1393,7 +1393,7 @@ BEGIN
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
 
@@ -1413,10 +1413,10 @@ BEGIN
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures used in this algorithm?
 ___
 
 
@@ -1425,13 +1425,22 @@ ___
 Consider this algorithm
 
 ```
+IF salary < 30000 THEN
+Display“low income earner”
+ELSE
+	IF salary < 50000 THEN
+		Display “medium income earner”
+	ELSE
+		Display “high income earner”
+	ENDIF
+ENDIF
 
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures used in this algorithm?
 ___
 
 
@@ -1449,10 +1458,10 @@ BEGIN
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures used in this algorithm?
 
 ___
 
@@ -1474,10 +1483,10 @@ BEGIN
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures used in this algorithm?
 
 ___
 
@@ -1488,14 +1497,16 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  FOR Count = 2 TO 100 STEP 2 
+    Display Count 
+  NEXT Count
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1505,14 +1516,22 @@ Consider this algorithm
 
 ```
 BEGIN
+  Get age
+
+  IF age >= 18 THEN 
+    result = "You can vote"
+  ELSE 
+    result = "You can't vote" 
+  ENDIF
   
+  Display result  
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?  
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1522,14 +1541,25 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  Get weight
+  Get height 
+  IF weight > 40 THEN 
+    IF height > 135 THEN 
+      result = "You can ride""
+    ELSE 
+      result = "You can't ride"
+    ENDIF
+  ELSE 
+    result = You can't ride 
+  ENDIF
+  Display result  
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1539,14 +1569,22 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  start = 4
+  finish = 10
+   
+  WHILE start < finish
+    start = finish - start
+	finish = finish -2
+  ENDWHILE
+
+  Display finish
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1556,14 +1594,24 @@ Consider this algorithm
 
 ```
 BEGIN
-  
-END
+  get amount
+  IF amount > 25 THEN
+    IF amount ≥ 80 THEN
+      discount = 30
+    ELSE
+      discount = 20
+    END IF
+  ELSE
+    discount = 10
+  END IF
+  display discount, "%"
+END 
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1573,14 +1621,19 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  row = 1
+  WHILE row < 3
+    FOR column = 1 to 3
+      product(row, row) = column * column
+    NEXT column
+  END WHILE
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1590,14 +1643,29 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  a = 3
+  b = 5
+  c = 1
+  IF a > b THEN
+    IF b > c THEN
+	  Display c
+    ELSE
+      Display b
+    ENDIF
+  ELSE
+    IF a > c THEN
+      Display c
+    ELSE
+      Display a
+    ENDIF
+  ENDIF
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1607,14 +1675,16 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  FOR number = 2 TO 10 STEP 1
+    Display number * 2 + 1
+  NEXT number
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1624,31 +1694,44 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  a = 10
+  b = a - 2
+  c = b / 2
+  a = c + 5
+  b = a - b
+  Display b
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
 ### 3.15 Algorithm Flowchart task 15
 
-Consider this algorithm
+Consider this algorithm. a MOD b returns the remainder from the division a/b. For example, 11 MOD 4 = 3 because 11/4 = 2 remainder 3.
+
 
 ```
 BEGIN
-  
+  a = 15
+  WHILE a > 1
+    IF a MOD 2 = 0 THEN
+      Display a
+    ELSE
+      a = a - 1
+    ENDIF
+  ENDWHILE
 END
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
 
 
@@ -1657,13 +1740,25 @@ ___
 Consider this algorithm
 
 ```
-BEGIN
-  
-END
+BEGIN main
+  numA = 2
+  numB = 3
+  calc(numA, numB)
+  Display numA, numB
+END main
+
+BEGIN calc(numC, numD)
+  temp = numC
+  WHILE numD > 1
+    numC = numC * temp
+    numD = numD - 1
+  ENDWHILE
+  Display numC, numD
+END calc
 ```
 
-1. Draw an algorithm flowchart 
+1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
-4. What are the control structures in this algorithm?  
+4. What are the control structures used in this algorithm?  
 ___
