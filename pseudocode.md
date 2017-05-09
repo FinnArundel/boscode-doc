@@ -371,7 +371,7 @@ BEGIN DisplayFileContents
   ’This is a priming read, performed just before entering the loop to provide
   'the first record (if there is one) for printing
 
-  WHILE firstName <> “xxx”
+  WHILE firstName <> "xxx"
     Display firstName, lastName, emailAddress
     Read firstName, lastName, emailAddress from FriendsData
     ’this reads subsequent records which can then be tested for the sentinel
@@ -418,15 +418,15 @@ Pseudocode
 BEGIN AppendNewRows
   Open FriendsData for append
 
-  Display “Please enter the details for the first new person to be added:”
-  Display “Enter xxx for first name to indicate there are no more rows to be added.”
+  Display "Please enter the details for the first new person to be added:"
+  Display "Enter xxx for first name to indicate there are no more rows to be added."
 
   Get firstName, lastName, emailAddress
 
-  WHILE firstName <> “xxx”
+  WHILE firstName <> "xxx"
     Write FriendsData from firstName, lastName, emailAddress
 
-    Display “Please enter the details for the next new person to be added:”
+    Display "Please enter the details for the next new person to be added:"
 
     Get firstName, lastName, emailAddress
   END WHILE
@@ -481,7 +481,7 @@ BEGIN ReadRecordsFromARelativeFile
   
   IF RecordNotFound THEN
     ’note the use of the flag RecordNotFound returned by the operating system 
-    Display “Sorry – no such product”
+    Display "Sorry – no such product"
   ELSE
     Display productNumber, description, quantity, price
   END IF
@@ -506,7 +506,7 @@ BEGIN UpdateRecordsInARelativeFile
   
   IF RecordNotFound THEN
     'note the use of the flag RecordNotFound returned by the operating system 
-    Display “Sorry – no such product”
+    Display "Sorry – no such product"
   ELSE
     Display productNumber, description, quantity, price
     newPrice = 1000
@@ -643,7 +643,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -664,7 +664,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -685,7 +685,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -703,7 +703,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -723,7 +723,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -741,7 +741,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -785,7 +785,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -806,7 +806,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -827,7 +827,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -850,7 +850,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -872,7 +872,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -894,7 +894,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -966,7 +966,7 @@ END
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -1065,7 +1065,7 @@ END calc
 ```
 
 1. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -1187,7 +1187,7 @@ BEGIN Add2Numbers
   get firstNumber 
   get secondNumber 
   total = firstNumber + secondNumber 
-  Display “the sum of your 2 numbers is ”; total 
+  Display "the sum of your 2 numbers is "; total 
 END Add2Numbers 
 ```
  
@@ -1395,7 +1395,7 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
 
 ___
 
@@ -1415,8 +1415,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
 ___
 
 
@@ -1425,15 +1425,13 @@ ___
 Consider this algorithm
 
 ```
-BEGIN
-  
-END
+
 ```
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
 ___
 
 
@@ -1443,13 +1441,18 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  x = 1
+  REPEAT
+	x = x + 2
+  UNTIL x > 10
+  Display x  
 END
 ```
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
 
 ___
 
@@ -1460,13 +1463,21 @@ Consider this algorithm
 
 ```
 BEGIN
-  
+  get years
+  CASEWHERE years is
+	less than 5                 : category = "copper"
+	less than or equal to 24    : category = "silver"
+	greater than or equal to 30 : category = "platinum"
+	otherwise                   : category = "gold"
+  ENDCASE
+  display category
 END
 ```
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
+3. What is the output after the fragment of code has been executed?
+4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures in this algorithm?
 
 ___
 
@@ -1483,8 +1494,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1500,8 +1511,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?  
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1517,8 +1528,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1534,8 +1545,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1551,8 +1562,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1568,8 +1579,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1585,8 +1596,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1602,8 +1613,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1619,8 +1630,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1636,8 +1647,8 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
 
 
@@ -1653,6 +1664,6 @@ END
 
 1. Draw an algorithm flowchart 
 2. Complete a desk check  
-2. What is the output after the fragment of code has been executed?
-
+3. What is the output after the fragment of code has been executed?
+4. What are the control structures in this algorithm?  
 ___
