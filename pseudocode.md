@@ -66,8 +66,22 @@ http://bit.ly/2jjSsuv
 [Repetition: post-test](#repetition-post-test)   
 [Repetition: FOR / NEXT or counted loop](#repetition-for--next-or-counted-loop)
 
-[3.1 Algorithm Flowchart task 1](#31-algorithm-flowchart-task-1)  
-
+[3.1 Algorithm Flowchart task 1](#31-algorithm-flowchart-task-1)
+[3.2 Algorithm Flowchart task 2](#32-algorithm-flowchart-task-2)
+[3.3 Algorithm Flowchart task 3](#33-algorithm-flowchart-task-3)
+[3.4 Algorithm Flowchart task 4](#34-algorithm-flowchart-task-4)
+[3.5 Algorithm Flowchart task 5](#35-algorithm-flowchart-task-5)
+[3.6 Algorithm Flowchart task 6](#36-algorithm-flowchart-task-6)
+[3.7 Algorithm Flowchart task 7](#37-algorithm-flowchart-task-7)
+[3.8 Algorithm Flowchart task 8](#38-algorithm-flowchart-task-8)
+[3.9 Algorithm Flowchart task 9](#39-algorithm-flowchart-task-9)
+[3.10 Algorithm Flowchart task 10](#310-algorithm-flowchart-task-10)
+[3.11 Algorithm Flowchart task 11](#311-algorithm-flowchart-task-11)
+[3.12 Algorithm Flowchart task 12](#312-algorithm-flowchart-task-12)
+[3.13 Algorithm Flowchart task 13](#313-algorithm-flowchart-task-13)
+[3.14 Algorithm Flowchart task 14](#314-algorithm-flowchart-task-14)
+[3.15 Algorithm Flowchart task 15](#315-algorithm-flowchart-task-15)
+[3.16 Algorithm Flowchart task 16](#316-algorithm-flowchart-task-16)
 
 # 1 Pseudocode
 It is expected that students are able to develop and interpret algorithms using pseudocode and flowcharts.
