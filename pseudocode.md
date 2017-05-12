@@ -1439,16 +1439,18 @@ ___
 Consider this algorithm
 
 ```
-IF salary < 30000 THEN
-Display“low income earner”
-ELSE
-	IF salary < 50000 THEN
-		Display “medium income earner”
-	ELSE
-		Display “high income earner”
-	ENDIF
-ENDIF
-
+BEGIN
+  salary = 33000
+  IF salary < 30000 THEN
+    Display "low income earner"
+  ELSE
+    IF salary < 50000 THEN
+	  Display “medium income earner”
+    ELSE
+      Display “high income earner”
+    ENDIF
+  ENDIF
+END
 ```
 
 1. Draw an algorithm flowchart representing this algorithm 
