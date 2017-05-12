@@ -1500,7 +1500,7 @@ END
 ```
 
 1. Draw an algorithm flowchart representing this algorithm 
-2. Complete a desk check  
+2. Complete a desk check using the test value 20
 3. What is the output after the fragment of code has been executed?
 4. The control structures which form the basic building blocks of all algorithms are: sequence, binary selection, multiway selection, pre-test repetition, post-test repetition, for...next loops and use of subroutines. What are the control structures used in this algorithm?
 
