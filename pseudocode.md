@@ -1573,7 +1573,7 @@ END
 ```
 
 1. Draw an algorithm flowchart representing this algorithm 
-2. Complete a desk check  
+2. Complete a desk check using the values 45, 145
 3. What is the output after the fragment of code has been executed?
 4. What are the control structures used in this algorithm?  
 ___
