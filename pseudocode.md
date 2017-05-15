@@ -1513,7 +1513,7 @@ Consider this algorithm
 
 ```
 BEGIN
-  FOR Count = 2 TO 100 STEP 2 
+  FOR Count = 2 TO 10 STEP 2 
     Display Count 
   NEXT Count
 END
