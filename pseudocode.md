@@ -1561,12 +1561,12 @@ BEGIN
   Get height 
   IF weight > 40 THEN 
     IF height > 135 THEN 
-      result = "You can ride""
+      result = "You can ride"
     ELSE 
       result = "You can't ride"
     ENDIF
   ELSE 
-    result = You can't ride 
+    result = "You can't ride" 
   ENDIF
   Display result  
 END
