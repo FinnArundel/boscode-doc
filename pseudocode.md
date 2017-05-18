@@ -1610,7 +1610,7 @@ Consider this algorithm
 
 ```
 BEGIN
-  get amount
+  Get amount
   IF amount > 25 THEN
     IF amount ≥ 80 THEN
       discount = 30
@@ -1620,7 +1620,7 @@ BEGIN
   ELSE
     discount = 10
   END IF
-  display discount, "%"
+  Display discount, "%"
 END 
 ```
 
@@ -1638,10 +1638,11 @@ Consider this algorithm
 ```
 BEGIN
   row = 1
-  WHILE row < 3
+  WHILE row <= 3
     FOR column = 1 to 3
       product(row, row) = column * column
     NEXT column
+	row = row + 1
   END WHILE
 END
 ```
