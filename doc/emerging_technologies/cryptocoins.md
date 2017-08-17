@@ -69,7 +69,8 @@ considered as investment advice. Trading in cryptocurrencies carries with it ver
 tocurrency markets have little or no regulation in place. Professional guidance should always be sought
 before considering making any investment in the cryptocurrency space.
 
-##1. Ethereum
+## 1. Ethereum 
+
 https://www.ethereum.org/ 
 
 Ethereum initially established itself as the "smart-contract blockchain". It is the most recognised platform
@@ -95,7 +96,7 @@ clearly established itself as the number two cryptocurrency after Bitcoin, follo
 from its ICO in 2014. It also has a big following amongst the developer community that is helping to drive
 adoption.
 
-2. Ripple
+## 2. Ripple
 
 Website: https://ripple.com/
 
@@ -115,7 +116,7 @@ bank ReiseBank AG. They demonstrated the potential of their technology when an i
 took 20 seconds from Canada to Germany as compared to several working days. This 20-second benchmark
 will undoubtedly become a key target for other financial institutions.
 
-3. Monero
+## 3. Monero
 
 Website: https://getmonero.org/
 
@@ -137,7 +138,7 @@ nology, given the technology is decentralised and spread across multiple public 
 time, the regulators will ultimately seek to ban the actual use of this type of currency or indeed try to make
 it illegal to mine this style of cryptocurrency coin, with a cat-and-mouse game undoubtedly ensuing.
 
-4. Steem
+## 4. Steem
 
 Website: https://steem.io/
 
@@ -158,7 +159,7 @@ tively recent development, the number of users on the site is comparatively low,
 is an opportunity to generate income from high quality content, expect to see a marked rise in the activity
 on the Steem platform.
 
-5. Waves
+## 5. Waves
 
 Website: https://wavesplatform.com/
 
@@ -177,7 +178,7 @@ the acceptance by end customers of a cryptocurrency when very few end consumers 
 tocurrencies work, it is the Waves platform that has enabled the automatic conversion to fiat currency. As
 an enabling platform, Waves is one to watch.
 
-6. Storj
+## 6. Storj
 
 Website: https://storj.io/
 
@@ -189,7 +190,7 @@ private key has access to the complete file. Those that offer their excess stora
 in Storj cryptocurrency coins, which are convertible to fiat currency. The technology is in very early devel-
 opment but represents a very interesting use case for decentralised, secure cloud storage.
 
-7. DigixDAO
+## 7. DigixDAO
 
 Website: https://www.dgx.io/
 
@@ -201,7 +202,7 @@ backed by gold, DigixDAO provides a similar structure. It may get traction from 
 way house between something that is backed by assets with a clear, tangible value and a cryptocurrency
 coin that has to rely on its own network effect - like Steem or Bitcoin.
 
-8. Augur
+## 8. Augur
 
 Website: https://www.augur.net/
 
@@ -214,7 +215,7 @@ their full production system, but the Alpha version has been launched and tested
 cases being developed include prediction markets like sports betting and even the recent presidential elec-
 tion odds.
 
-9. Factom
+## 9. Factom
 
 Website: https://www.factom.com/
 
@@ -229,7 +230,7 @@ government to look at administrative systems linked to the blockchain for smart 
 provide marked levels of data relating to the management of a city. Factom is an established player and has
 some interesting corporate ideas in development.
 
-10. Lisk
+## 10. Lisk
 
 Website: https://lisk.io/
 
