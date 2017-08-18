@@ -810,10 +810,9 @@ ___
 * Read chapter 15.10 pages 354 & 355.
 
 1 What is the difference between an array and a record?   
-2 How do you declare an array in Visual Basic and Pascal?   
-3 Give examples of the use of an array and a record structure in a program.   
-4 Find out about the rules for using arrays in the language you are using.   
-5 How do you declare an array with two dimensions?   
+2 How do you declare an array in Javascript?   
+3 Give examples of the use of an array and a record (Javascript object) structure in a program.   
+4 Find out about the rules for using arrays in the language you are using.     
 
 
 ___
