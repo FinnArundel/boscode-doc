@@ -75,6 +75,7 @@
 [15.10 Data structures - Activities]( #1510-data-structures---activities )    
 [15.11 Testing program code and detecting errors - Activities]( #1511-testing-program-code-and-detecting-errors---activities)    
 [15.12 Correcting errors and program documentation - Activities]( #1512-correcting-errors-and-program-documentation---activities)  
+[15.13 Debugging in Chrome]( #1513-debugging-in-chrome)   
 
 ___
 
@@ -845,3 +846,47 @@ ___
 7 Find out about the documentation tools available in the programming language you are using, and describe how they are used, showing examples.   
 
 ___
+
+### 15.13 Debugging in Chrome   
+
+1 On your desctop create text file `index.html`.   
+2 Add the following code: 
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        var myFunction = function(a){
+            var result = 3 * a;
+            return result;
+        }
+
+        var i = 0;
+        while(i<10){
+            var j = myFunction(i);
+            console.log(`i =${i} j = ${j}`);
+            i++;
+        }
+
+
+        console.log('Hello');
+     </script>
+</body>
+</html>
+```
+
+3 Right click the file and `Open in Chrome`.   
+4 Open `Developer Tools` Ctrl-Shift-I.   
+ 
+ ![Developer Tools]( images/001.jpeg "Developer Tools") 
+
+ 5 Practice the following tools:
+   - use of breakpoints   
+   - resetting variable contents
+   - program traces
+   - single line stepping
+
+
+
+
