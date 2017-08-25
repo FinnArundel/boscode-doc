@@ -11,7 +11,9 @@ ___
 
 ### Windows
 
-Follow instructions : https://slik.stlukes.nsw.edu.au/downloading-office-365/
+Goto SLIK: https://slik.stlukes.nsw.edu.au/apps/ 
+Click Office365  
+Click Install Office 2016  
 
 
 ### Mac
