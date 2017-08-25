@@ -22,7 +22,7 @@ Students can access an RDS instance here at school to run
 MSAccess. First, make sure you have the 
 Microsoft RDP Application on your macs - 
 this can be downloaded from Self Service, or direct from the 
-Apple App Store for free at https://itunes.apple.com/au/app/microsoft-remote-desktop /id715768417?mt=12
+Apple App Store for free at https://itunes.apple.com/au/app/microsoft-remote-desktop/id715768417?mt=12
 
 Once you've done that, you need to download the configured shortcut
 (.rdp file). This only needs to be done once. To do this:
