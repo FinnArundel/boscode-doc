@@ -41,7 +41,7 @@ ___
 
 5. View -> Integrated Terminal
 
-6. Run command: `nodemon`
+6. Change directory into `C:\code\boscode-we` and run command: `nodemon`
 
 7. Open Chrome at `http://localhost:3000`
 
@@ -49,7 +49,7 @@ ___
 
 ## 01 - Hello world
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/01_Hello_world`.
+1. In Visual Studio Code open the folder  `public/01_Hello_world`.
 2. Inside this folder inspect `index.html`:
 
   ```html
@@ -98,7 +98,7 @@ ___
   The document ready event hooks up a click event handler for the button. Everytime a user clicks the function
   `program` executes.
 
-3. Open `https://web-{yourname}.c9users.io/01_Hello_world/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/01_Hello_world/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -110,7 +110,7 @@ ___
 
 ## 02 - Sequence
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/02_Sequence`.  
+1. In Visual Studio Code open the folder `public/02_Sequence`.  
 2. Inside this folder inspect `index.html`:
 
   ```html
@@ -166,7 +166,7 @@ ___
   The document ready event hooks up a click event handler for the button. Everytime a user clicks the function
   `program` executes.
 
-3. Open `https://web-{yourname}.c9users.io/02_Sequence/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.  
+3. Open `http://localhost:3000/02_Sequence/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.  
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -178,9 +178,9 @@ ___
 
 ## 03 - Binary selection
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/03_Binary_selection`.
+1. In Visual Studio Code open the folder `public/03_Binary_selection`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/03_Binary_selection/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/03_Binary_selection/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -193,9 +193,9 @@ ___
 
 ## 04 - Multi way selection
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/04_Multi-way_selection`.
+1. In Visual Studio Code open the folder `public/04_Multi-way_selection`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/04_Multi-way_selection/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/04_Multi-way_selection/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -207,9 +207,9 @@ ___
 
 ## 05 - Pre-test loop
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/05_Pre-test_loop`.
+1. In Visual Studio Code open the folder `public/05_Pre-test_loop`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/05_Pre-test_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/05_Pre-test_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -221,9 +221,9 @@ ___
 
 ## 06 - Post-test loop
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/06_Post-test_loop`.
+1. In Visual Studio Code open the folder `public/06_Post-test_loop`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/06_Post-test_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/06_Post-test_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -236,9 +236,9 @@ ___
 
 ## 07 - Counted loop
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/07_Counted_loop`.
+1. In Visual Studio Code open the folder `public/07_Counted_loop`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/07_Counted_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/07_Counted_loop/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -250,9 +250,9 @@ ___
 
 ## 08 - Random numbers
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/08_Random_numbers`.
+1. In Visual Studio Code open the folder `public/08_Random_numbers`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/08_Random_numbers/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/08_Random_numbers/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -265,9 +265,9 @@ ___
 
 ## 09 - Change html
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/09_Change_html`.
+1. In Visual Studio Code open the folder `public/09_Change_html`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/09_Change_html/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/09_Change_html/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -279,9 +279,9 @@ ___
 
 ## 10 - Show image
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/10_Show_image`.
+1. In Visual Studio Code open the folder `public/10_Show_image`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/10_Show_image/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/10_Show_image/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -293,9 +293,9 @@ ___
 
 ## 11 - Button dropdowns
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/11_Button_dropdowns`.
+1. In Visual Studio Code open the folder `public/11_Button_dropdowns`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/11_Button_dropdowns/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/11_Button_dropdowns/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -308,9 +308,9 @@ ___
 
 ## 12 - Timer
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/12_Timer`.
+1. In Visual Studio Code open the folder `public/12_Timer`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/12_Timer/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/12_Timer/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -322,9 +322,9 @@ ___
 
 ## 13 - Array
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/13_Array`.
+1. In Visual Studio Code open the folder `public/13_Array`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/13_Array/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/13_Array/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -337,9 +337,9 @@ ___
 
 ## 14 - Record
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/14_Record`.
+1. In Visual Studio Code open the folder `public/14_Record`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/14_Record/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/14_Record/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -351,9 +351,9 @@ ___
 
 ## 15 - Array of Records
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/15_Array_of_records`.
+1. In Visual Studio Code open the folder `public/15_Array_of_records`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/15_Array_of_records/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/15_Array_of_records/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click the button and observe the console output.
 
 ###### The challenge:
@@ -367,9 +367,9 @@ ___
 
 ## 16 - Images
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/16_Images`.
+1. In Visual Studio Code open the folder `public/16_Images`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/16_Images/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/16_Images/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click on the images.
 
 ###### The challenge:
@@ -381,9 +381,9 @@ ___
 
 ## 17 - Images Timer
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/17_Images_Timer`.
+1. In Visual Studio Code open the folder `public/17_Images_Timer`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/17_Images_Timer/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/17_Images_Timer/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click on the images and wait 5 seconds.
 
 ###### The challenge:
@@ -397,9 +397,9 @@ ___
 
 ## 18 - Random Images
 
-1. In your cloud 9 workspace `web` open the folder `/home/ubuntu/workspace/public/18_Random_Images`.
+1. In Visual Studio Code open the folder `public/18_Random_Images`.
 2. Inside this folder inspect `index.html` and `program.js`.   
-3. Open `https://web-{yourname}.c9users.io/18_Random_Images/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
+3. Open `http://localhost:3000/18_Random_Images/` in Google Chrome  and also open the developer tools: Windows: `F12` or `Ctrl-shift+I`, Mac: `Cmd + Opt + I`.
 4. Click on the images and and the button.
 
 ###### The challenge:
