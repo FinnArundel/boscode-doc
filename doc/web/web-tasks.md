@@ -27,6 +27,7 @@ ___
 
 ## Installation
 
+Click on image below to watch video:
 [![Installation Video](../../pics/webinstall.jpg)](https://youtu.be/qiHKDikRhv0)
 
 
