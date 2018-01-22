@@ -28,9 +28,12 @@ ___
 ## Installation
 
 1. Install Visual Studio Code https://code.visualstudio.com/download  
-2. Download boscode-web zip file
+2. Download boscode-web zip file  
+
    *Mac* https://github.com/Quobject/boscode-web/releases/download/1.0.0/boscode-web.Mac.zip. Unzip into a new folder `/code/boscode-web`    
+
    *Windows* https://github.com/Quobject/boscode-web/releases/download/1.0.0/boscode-web.Windows.zip. Unzip into a new folder `C:\code\boscode-web\`  
+
 3. Open Visual Studio Code
 
 
