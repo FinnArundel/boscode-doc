@@ -1,4 +1,4 @@
-﻿# Web tasks
+# Web tasks
 
 [boscode-learn](https://github.com/Quobject/boscode-learn)
 
@@ -27,33 +27,12 @@ ___
 
 ## Installation
 
-1. Create a cloud 9 account: cloud 9 https://c9.io/. Use your school email address and set username to stlukes-{first part of school email}. 
-2. In c9.io: Create a new workspace: 
-  * Workspace name: web
-  * Description: Learning javascript
-  * Hosted workspace: Public
-  * Clone from Git or Mercurial URL: `https://github.com/Quobject/boscode-web.git`
-  * Choose a template: `Blank`
-  * Hit 'Create workspace' button
-3. Inside your workspace on the left side right click the folder name 'web' and select 'Open Terminal Here'
-4. In your terminal type the command `sudo npm install -g grunt`.
-5. In your terminal type the command `npm install`.
-6. In your terminal type the command `grunt`.
+1. Install Visual Studio Code https://code.visualstudio.com/download  
+2. Download boscode-web zip file
+   *Mac* https://github.com/Quobject/boscode-web/releases/download/1.0.0/boscode-web.Mac.zip. Unzip into a new folder `/code/boscode-web`    
+   *Windows* https://github.com/Quobject/boscode-web/releases/download/1.0.0/boscode-web.Windows.zip. Unzip into a new folder `C:\code\boscode-web\`  
+3. Open Visual Studio Code
 
-  ```bash
-  {yourname}:~/workspace (master) $ grunt
-  Running "startServer" task
-  Starting server ...OK
-
-  Running "nodemon:dev" (nodemon) task
-  [nodemon] 1.8.1
-  [nodemon] to restart at any time, enter `rs`
-  [nodemon] watching: *.*
-  [nodemon] starting `node server.js`
-  Your code is running at https://web-{yourname}.c9users.io
-  ```
-
-7. Open the url `https://web-{yourname}.c9users.io` in a new tab of Google Chrome.
 
 ___
 
