@@ -20,6 +20,12 @@
 [3.7 Hardware requirements - Activities]( #37-hardware-requirements---activities )    
 [3.7a Case study - The birth of computer graphics]( #37a-case-study---the-birth-of-computer-graphics)  
 
+*4 Data handling*   
+
+[4.4 Data storage]()   
+[4.5 File types and data compression]()   
+[4.6 Data transmission and security]()   
+
 
 *5 Past, current and emerging technologies*  
 
@@ -230,6 +236,57 @@ ___
 1 Identify the ways in which you interact with computer-generated images.   
 2 How do the hardware components on the PDP-1 compare to today's desktop PC?   
 3 Research other milestones in the history of computer-generated graphics.   
+
+
+___  
+
+## 4 Data handling
+
+### 4.4 Data storage - Activities
+
+* Read chapter 4.4 pages 50 & 51.
+
+1 Draw up a table to compare RAM and ROM. List their similarities and differences.  
+2 Why do computers have both primary and secondary storage?  
+3 Find out how much RAM you have in your computer. If you are working in a Windows environment, you can look at this through the system properties in the control panel. For Apple® Macintosh® computers, you can find this in the Apple menu at top-left under ‘About This Mac’.  
+4 Draw up a table to compare and contrast a range of primary and secondary storage media. You might include some of these headings: Examples, Location, Capacity, Speed.  
+5 Draw a table to compare the cost per MB of different storage media.  
+6 How is data stored on the following media?  
+a) Hard disk  
+b) DVD  
+c) Flash memory  
+7 How many bits are there in a byte?
+8 How many megabytes (MB) are there in:
+a) 20 gigabytes?  
+b) 2 terabytes?  
+c) 100 kilobytes?  
+
+___
+
+### 4.5 File types and data compression - Activities
+
+* Read chapter 4.5 pages 52 & 53.
+
+1 Identify the file extensions on some of the documents on your computer. Investigate some other file extensions such as .pdf, .exe, .mp3. What sorts of files or applications do these represent? Are there any other common file types that you use?  
+2 Open one of your existing word processing documents and save it as a text file. What difference has this made to the file size? Open the text file. Which application has opened it? How is the appearance of the contents different from the original file?  
+3 Save several different types of files into a compressed format; for example, a bitmap as a JPEG file, a Word file in a zip folder. Examine and compare the compression ratio of each. Which types of files does this work best for?  
+4 Describe the difference between lossy and lossless compression. Why is there a need for both?  
+5 Why is it important for text files not to lose data, but it is acceptable for graphics, audio and video to lose data?  
+6 How big is one of your typical word processing files? How many words does it contain? Using the approximation that each ASCII character takes one byte of memory, estimate the theoretical size of your file. Are the two values roughly equal?  
+7 Use a scanner to copy one of the graphics in this book. Scan it several times at different resolutions. What effect does the resolution have on the file size? What difference does it make to the quality when it is displayed on the screen?  
+8 Using the graphic from the previous question, open the largest file by using a graphics package such as Adobe Photoshop. Save the graphic in different file formats and examine the file size of each. Discuss which is more important – file size or image quality.  
+
+___
+
+### 4.5 File types and data compression - Activities
+
+* Read chapter 4.6 pages 54 & 55.  
+
+1 What is the difference between serial and parallel transmission?  
+2 What is the advantage of transmitting data bits in parallel? Why is this method not always used for data transmission?  
+3 Compare the data transfer rates for downloading a file from the Internet to opening it from your hard drive. Why is there such a difference?  
+4 Compare the different ways in which data is protected. Which of these provides the highest level of security?   
+5 What is the purpose of the Privacy Act?  
 
 ___
 
