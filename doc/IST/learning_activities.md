@@ -22,9 +22,9 @@
 
 *4 Data handling*   
 
-[4.4 Data storage]()   
-[4.5 File types and data compression]()   
-[4.6 Data transmission and security]()   
+[4.4 Data storage - Activities](#44-data-storage---activities)   
+[4.5 File types and data compression - Activities](#45-file-types-and-data-compression---activities)   
+[4.6 File types and data compression - Activities](#46-file-types-and-data-compression---activities-1)   
 
 
 *5 Past, current and emerging technologies*  
@@ -278,7 +278,7 @@ ___
 
 ___
 
-### 4.5 File types and data compression - Activities
+### 4.6 File types and data compression - Activities
 
 * Read chapter 4.6 pages 54 & 55.  
 
