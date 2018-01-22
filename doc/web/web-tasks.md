@@ -31,7 +31,7 @@ Click on image below to watch video:
 [![Installation Video](../../pics/webinstall.jpg)](https://youtu.be/qiHKDikRhv0)
 
 
-1. Install Visual Studio Code https://code.visualstudio.com/download  
+1. Install nodejs https://nodejs.org/en/download/  and  Visual Studio Code https://code.visualstudio.com/download  
 2. Download boscode-web zip file  
 
    *Mac* https://github.com/Quobject/boscode-web/releases/download/1.0.0/boscode-web.Mac.zip. Unzip into a new folder `/code/boscode-web`    
