@@ -41,7 +41,7 @@ ___
 
 5. View -> Integrated Terminal
 
-6. Change directory into `C:\code\boscode-we` and run command: `nodemon`
+6. Change directory into `C:\code\boscode-web` and run command: `nodemon`
 
 7. Open Chrome at `http://localhost:3000`
 
