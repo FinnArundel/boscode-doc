@@ -85,12 +85,12 @@ ___
 
 * Read chapter 2.2 Processing and Control pages 20 & 21
 
-1 What is the motherboard? What components does it house?
-2 What functions is the CPU responsible for In a computer system?
-3 Compare the functions of RAM and ROM chips.
-4 Describe the movement of data between RAM and secondary storage while you are working on a word processing document.
-5 What are controller cards and how do they connect to the motherboard?
-6 The CPU follows a 'Fetch-Execute' cycle while it processes data. Investigate how this works. How is the data accessed and processed by the CPU?
+1 What is the motherboard? What components does it house?   
+2 What functions is the CPU responsible for In a computer system?   
+3 Compare the functions of RAM and ROM chips.   
+4 Describe the movement of data between RAM and secondary storage while you are working on a word processing document.   
+5 What are controller cards and how do they connect to the motherboard?   
+6 The CPU follows a 'Fetch-Execute' cycle while it processes data. Investigate how this works. How is the data accessed and processed by the CPU?   
 
 
 ### 2.3 Classification of systems - Activities
