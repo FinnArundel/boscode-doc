@@ -27,7 +27,7 @@ ___
 
 ## Installation
 
-[![Installation Video](../pics/webinstall.jpg)](https://youtu.be/qiHKDikRhv0)
+[![Installation Video](../../pics/webinstall.jpg)](https://youtu.be/qiHKDikRhv0)
 
 
 1. Install Visual Studio Code https://code.visualstudio.com/download  
