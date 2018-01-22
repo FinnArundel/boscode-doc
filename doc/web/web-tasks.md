@@ -36,6 +36,14 @@ ___
 
 3. Open Visual Studio Code
 
+4. File -> Open Folder ...   
+* select `C:\code\boscode-web`
+
+5. View -> Integrated Terminal
+
+6. Run command: `nodemon`
+
+7. Open Chrome at `http://localhost:3000`
 
 ___
 
