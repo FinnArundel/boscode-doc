@@ -20,6 +20,12 @@
 [3.7 Hardware requirements - Activities]( #37-hardware-requirements---activities )    
 [3.7a Case study - The birth of computer graphics]( #37a-case-study---the-birth-of-computer-graphics)  
 
+
+*5 Past, current and emerging technologies*  
+
+[5.2 Current and emerging technologies - Activities](#52-current-and-emerging-technologies---activities)  
+
+
 *7 Issues*
 
 [7.0 In Action Social networking]( #70-in-action-social-networking)    
@@ -227,6 +233,25 @@ ___
 
 ___
 
+
+## 5 Past, current and emerging technologies  
+
+### 5.2 Current and emerging technologies - Activities  
+
+* Read chapter 5.2 pages 60 - 63.  
+
+1 Predict two information and software technology changes that you expect to see in your lifetime.  
+2 Describe Moore’s law. Can it continue indefinitely?  
+3 Outline three equity issues in information and software technology.  
+4 What is convergence? Identify a product that displays convergence.  
+5 Identify one way in which the nature of work has changed for one member of your family since you were born.  
+6 Exercise your imagination and draw a picture of a typical high school classroom 25 years from now. Label the drawing with descriptions of its features.  
+
+___
+
+### 5.3 Exploring current and emerging technologies for each option 
+
+* Read chapter 5.3 pages 64 - 69.   
 
 ## 7 Issues 
 
