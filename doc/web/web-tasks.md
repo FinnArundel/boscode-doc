@@ -28,7 +28,7 @@ ___
 ## Installation
 
 Click on image below to watch video:
-[![Installation Video](../../pics/webinstall.jpg)](https://youtu.be/qiHKDikRhv0)
+[![Installation Video](../../pics/webinstall.jpg)](https://youtu.be/QBjp1nE8MXQ)
 
 
 1. Install nodejs https://nodejs.org/en/download/  and  Visual Studio Code https://code.visualstudio.com/download  
