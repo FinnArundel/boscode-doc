@@ -43,9 +43,9 @@ Click on image below to watch video:
 4. File -> Open Folder ...   
 * select `C:\code\boscode-web`
 
-5. View -> Integrated Terminal
+5. Open command prompt.
 
-6. Change directory into `C:\code\boscode-web` and run command: `nodemon`
+6. Change directory into `C:\code\boscode-web` and run command: `.\node_modules\.bin\nodemon`
 
 7. Open Chrome at `http://localhost:3000`
 
