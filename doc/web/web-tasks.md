@@ -45,7 +45,7 @@ Click on image below to watch video:
 
 5. Open command prompt.
 
-6. Change directory into `C:\code\boscode-web` and run command: `.\node_modules\.bin\nodemon`
+6. Change directory into `C:\code\boscode-web` and run command: `node index.js`
 
 7. Open Chrome at `http://localhost:3000`
 
