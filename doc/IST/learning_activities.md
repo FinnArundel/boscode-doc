@@ -22,7 +22,7 @@
 
 *4 Data handling*   
 
-[4.3 Data types - Activities](#43-data-types---activities) 
+[4.3 Data types - Activities](#43-data-types---activities)   
 [4.4 Data storage - Activities](#44-data-storage---activities)   
 [4.5 File types and data compression - Activities](#45-file-types-and-data-compression---activities)   
 [4.6 Data transmission and security - Activities](#46-data-transmission-and-security---activities)   
