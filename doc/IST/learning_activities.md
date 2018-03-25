@@ -22,6 +22,7 @@
 
 *4 Data handling*   
 
+[4.3 Data types - Activities](#43-data-types---activities) 
 [4.4 Data storage - Activities](#44-data-storage---activities)   
 [4.5 File types and data compression - Activities](#45-file-types-and-data-compression---activities)   
 [4.6 Data transmission and security - Activities](#46-data-transmission-and-security---activities)   
@@ -241,6 +242,23 @@ ___
 ___  
 
 ## 4 Data handling
+
+
+### 4.3 Data types - Activities
+
+* Read chapter 4.3 pages 48 & 49.
+
+1 How many pixels are there in the above graphic?  
+2 If it takes four bits to record the colour of a pixel, 
+how many bits are needed to record the whole picture? 
+What would be the file size for this graphic?  
+3 Write out the string of colour codes for each 
+pixel across each of the 10 rows.  
+4 How many bits would be needed for colour depth 
+of 24 bits per pixel?  
+5 What would be the file size if the resolution 
+were increased to 100 pixels square at four bits 
+per pixel? And at 24 bits per pixel?  
 
 ### 4.4 Data storage - Activities
 
