@@ -1,4 +1,4 @@
-﻿# Arduino tasks
+# Arduino tasks
 
 ## Table of Content
 
@@ -29,13 +29,15 @@ ___
 
 5. Install software:
   * Install Visual Studio Code https://code.visualstudio.com/Download  
-  * Install Node.js https://nodejs.org/en/download/  
-  * Windows: Install Python 2.7.3 https://www.python.org/ 
+  * Install Node.js 8.11.2 (Windows: 32bit)   
+    - Windows https://nodejs.org/dist/v8.11.2/node-v8.11.2-x86.msi  
+    - Mac https://nodejs.org/dist/v8.11.2/node-v8.11.2.pkg
+  * Windows: Install Python 2.7 https://www.python.org/ftp/python/2.7/python-2.7.msi
   * Download and unzip boscode-learn:
   
     *Mac* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Mac.zip. Unzip into a new folder `/code/boscode-learn`    
   
-    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.4/boscode-learn-1.0.4-Win.zip. Unzip into a new folder `C:\code\boscode-learn\`.   
+    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.5/boscode-learn_1.0.5_Win.zip. Unzip into a new folder `C:\code\boscode-learn\`.   
     
     After unzip and moving of files, you should have the following directory structure:
 
