@@ -198,7 +198,7 @@ The above C# code instantiates a Shape object, sets the x_coordinate to 25 and o
 * Add a new method to the Shape class called `print()`. This method does not return a value and also does not take any arguments. Calling this method should produce the following console output (using the current value of the x_coordinate attribute):
 
 ```
-X coordinate: 23
+X coordinate: 25
 ```
 
 * Run and test your program
