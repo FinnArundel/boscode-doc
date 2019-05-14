@@ -217,23 +217,23 @@ NEXT i
 ___
 
 ### Subprogram
-```
+<pre>
 BEGIN Main
   Get a
   Get b
-  Sum(a,b,c)
+  <ins>Sum</ins>(a,b,c)
   Display "a + b = ", c
 END Main
 
-BEGIN Sum(a,b,c)
+BEGIN <ins>Sum</ins>(a,b,c)
   c = a + b
-END Sum
-```
-Note: The word <u>Sum</u> should be underlined in the above code
+END <ins>Sum</ins>
+</pre>
+
 ___
 
 ### Load array
-```
+<pre>
 BEGIN LoadArray
   i = 1
   Get DataValue
@@ -246,7 +246,7 @@ BEGIN LoadArray
   Display "There are", numElements, " items loaded into the array" 
 END LoadArray
 
-```
+</pre>
 
 ___
 
@@ -1060,15 +1060,15 @@ ___
 
 Consider this algorithm
 
-```
+<pre>
 BEGIN main
   numA = 2
   numB = 3
-  calc(numA, numB)
+  <ins>calc</ins>(numA, numB)
   Display numA, numB
 END main
 
-BEGIN calc(numC, numD)
+BEGIN <ins>calc</ins>(numC, numD)
   temp = numC
   WHILE numD > 1
     numC = numC * temp
@@ -1076,7 +1076,7 @@ BEGIN calc(numC, numD)
   ENDWHILE
   Display numC, numD
 END calc
-```
+</pre>
 
 1. Complete a desk check  
 3. What is the output after the fragment of code has been executed?
@@ -1756,15 +1756,15 @@ ___
 
 Consider this algorithm
 
-```
+<pre>
 BEGIN main
   numA = 2
   numB = 3
-  calc(numA, numB)
+  <ins>calc</ins>(numA, numB)
   Display numA, numB
 END main
 
-BEGIN calc(numC, numD)
+BEGIN <ins>calc</ins>(numC, numD)
   temp = numC
   WHILE numD > 1
     numC = numC * temp
@@ -1772,7 +1772,7 @@ BEGIN calc(numC, numD)
   ENDWHILE
   Display numC, numD
 END calc
-```
+</pre>
 
 1. Draw an algorithm flowchart representing this algorithm 
 2. Complete a desk check  
