@@ -22,22 +22,29 @@ ___
 
 3. (windows) Select the port: Tools > Port. This is likely to be com3 or higher (Max Os 10) /dev/tty.usbmodem
 
-4. Launch Arduino IDE and open the Firmata sketch via the menu: File > Examples > Firmata > StandardFirmataPlus
+4. Launch Arduino IDE and open the Firmata sketch via the menu: File > Examples > Firmata > StandardFirmata
   * Select your Arduino board type (e.g. Arduino Uno) via Tools > Board
   * Select the port for your board via Tools > Serial Port > (the com port of your Arduino)
   * Upload the program by selecting File > Upload 
 
 5. Install software:
   * Install Visual Studio Code https://code.visualstudio.com/Download  
-  * Install Node.js 8.11.2 (Windows: 32bit)   
-    - Windows https://nodejs.org/dist/v8.11.2/node-v8.11.2-x86.msi  
-    - Mac https://nodejs.org/dist/v8.11.2/node-v8.11.2.pkg
+  * Install nvm
+    - Windows https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip
+    - Mac https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/
+  * Install node version 8.11.2 using nvm:
+  ```
+  nvm on
+  nvm install 8.11.2
+  nvm use 8.11.2
+  ```
+    
   * Windows: Install Python 2.7 https://www.python.org/ftp/python/2.7/python-2.7.msi
   * Download and unzip boscode-learn:
   
     *Mac* https://github.com/Quobject/boscode-learn/releases/download/1.0.5/boscode-learn_1.0.5_Mac.zip. Unzip into a new folder `/code/boscode-learn`    
   
-    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.5/boscode-learn_1.0.5_Win.zip. Unzip into a new folder `C:\code\boscode-learn\`.   
+    *Windows* https://github.com/Quobject/boscode-learn/releases/download/1.0.5/boscode-learn_1.0.5_Windows.zip. Unzip into a new folder `C:\code\boscode-learn\`.   
     
     After unzip and moving of files, you should have the following directory structure:
 
