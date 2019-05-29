@@ -31,7 +31,16 @@ ___
   * Install Visual Studio Code https://code.visualstudio.com/Download  
   * Install nvm
     - Windows https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip
-    - Mac https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/
+    - Mac
+        ```
+        Run in Terminal app:
+        1)
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+        2)
+        brew install nvm
+        3)
+        source ~/.nvm/nvm.sh
+        ```
   * Install node version 8.11.2 using nvm:
   ```
   nvm on
