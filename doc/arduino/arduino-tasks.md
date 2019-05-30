@@ -39,6 +39,8 @@ ___
         2)
         brew install nvm
         3)
+        git clone http://github.com/creationix/nvm.git .nvm
+        4)
         source ~/.nvm/nvm.sh
         ```
   * Install node version 8.11.2 using nvm:
