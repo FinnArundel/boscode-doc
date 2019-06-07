@@ -49,6 +49,10 @@ ___
   nvm install 8.11.2
   nvm use 8.11.2
   ```
+  * Mac only: to use 8.11.2 everytime you start a new terminal session:
+  ```
+  echo 'source ~/.nvm/nvm.sh; nvm use 8.11.2' > ~/.bash_profile
+  ```
     
   * Windows: Install Python 2.7 https://www.python.org/ftp/python/2.7/python-2.7.msi
   * Download and unzip boscode-learn:
