@@ -1,4 +1,4 @@
-# LibreOffice tasks
+# LibreOffice Base tasks
 
 ## Table of Content
 
@@ -30,3 +30,9 @@ ___
 3. Install LibreOffice
 - Download and run LibreOffice_6.3.0_MacOS_x86-64.dmg
 
+
+## Getting Started with LibreOffice Base (youtube)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=XsEGn5YSUws
+" target="_blank"><img src="http://img.youtube.com/vi/XsEGn5YSUws/0.jpg"
+alt="Getting Started with LibreOffice Base" width="240" height="180" border="10" /></a>
