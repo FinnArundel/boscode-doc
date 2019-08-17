@@ -4,7 +4,7 @@
 
 [Installation](#installation)  
 [Getting Started with LibreOffice Base
-(youtube)](#getting-started-with-libreoffice-base-youtube)  
+(youtube 18:06)](#getting-started-with-libreoffice-base-youtube)  
 ___
 
 ## Installation
