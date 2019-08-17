@@ -10,7 +10,7 @@ ___
 
 ### Windows
 
-1. Check System Requirements <a href="https://www.libreoffice.org/get-help/system-requirements/" target="_blank">https://www.libreoffice.org/get-help/system-requirements/</a>
+1. Check System Requirements <a href="https://www.libreoffice.org/get-help/system-requirements/" target="_blank">system-requirements</a>
 
 2. Install JRE
 - Open shared google drive folder: <a href="https://drive.google.com/drive/u/1/folders/1ROHZMwMCoW4KL36sq723-4ZdQ_Qy_cbV" target="_blank">https://drive.google.com/drive/u/1/folders/1ROHZMwMCoW4KL36sq723-4ZdQ_Qy_cbV</a>
