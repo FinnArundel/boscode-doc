@@ -5,6 +5,7 @@
 [Installation](#installation)  
 [Getting Started with LibreOffice Base
 (youtube 18:06)](#getting-started-with-libreoffice-base-youtube)  
+[Setting Custom Field Formats in LibreOffice Base (youtube 6:59)](#)
 ___
 
 ## Installation
@@ -36,4 +37,10 @@ ___
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XsEGn5YSUws
 " target="_blank"><img src="http://img.youtube.com/vi/XsEGn5YSUws/0.jpg"
+alt="Getting Started with LibreOffice Base" width="240" height="180" border="10" /></a>
+
+## Setting Custom Field Formats in LibreOffice Base (youtube)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HfvwHEjC6bk
+" target="_blank"><img src="http://img.youtube.com/vi/HfvwHEjC6bk/0.jpg"
 alt="Getting Started with LibreOffice Base" width="240" height="180" border="10" /></a>
