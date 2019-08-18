@@ -7,7 +7,7 @@
 [Setting Custom Field Formats in LibreOffice Base (youtube 6:59)](#setting-custom-field-formats-in-libreoffice-base-youtube)  
 [Formatting Phone Numbers - LibreOffice Base (youtube 8:32)](#formatting-phone-numbers---libreoffice-base-youtube)  
 [Creating a Form - LibreOffice Base (youtube 10:37)](#creating-a-form---libreoffice-base-youtube)  
-[LibreOffice Base (17) Intro to Queries (youtube 7:57)]()  
+[LibreOffice Base (17) Intro to Queries (youtube 7:57)](#libreoffice-tasks.md#libreoffice-base-17-intro-to-queries-youtube)  
 ___
 
 ## Installation
