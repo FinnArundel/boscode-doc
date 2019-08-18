@@ -3,11 +3,10 @@
 ## Table of Content
 
 [Installation](#installation)  
-[Getting Started with LibreOffice Base
-(youtube 18:06)](#getting-started-with-libreoffice-base-youtube)  
-[Setting Custom Field Formats in LibreOffice Base (youtube 6:59)](#sss)
-[Formatting Phone Numbers - LibreOffice Base (youtube 8:32)](#ss)
-[Creating a Form - LibreOffice Base (youtube 10:37)](#sss)
+[Getting Started with LibreOffice Base (youtube 18:06)](#getting-started-with-libreoffice-base-youtube)  
+[Setting Custom Field Formats in LibreOffice Base (youtube 6:59)](#setting-custom-field-formats-in-libreoffice-base-youtube)  
+[Formatting Phone Numbers - LibreOffice Base (youtube 8:32)](#formatting-phone-numbers---libreoffice-base-youtube)  
+[Creating a Form - LibreOffice Base (youtube 10:37)](#creating-a-form---libreoffice-base-youtube)  
 ___
 
 ## Installation
