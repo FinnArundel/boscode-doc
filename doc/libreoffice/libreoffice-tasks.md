@@ -29,7 +29,7 @@ ___
 
 2. Install JRE
 - Open shared google drive folder: <a href="https://drive.google.com/drive/u/1/folders/11yJqUGvWIc8oilmeJOHVBjfYuDrRbakj" target="_blank">https://drive.google.com/drive/u/1/folders/11yJqUGvWIc8oilmeJOHVBjfYuDrRbakj</a>
-- Download and run jre-8u221-macosx-x64.dmg
+- Download and run jdk-8u221-macosx-x64.dmg
 
 3. Install LibreOffice
 - Download and run LibreOffice_6.3.0_MacOS_x86-64.dmg
