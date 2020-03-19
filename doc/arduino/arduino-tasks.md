@@ -10,7 +10,7 @@
 [05 Arduino with Electron UI Getting Started](#05-arduino-with-electron-ui-getting-started)  
 [06 Arduino with Electron UI Button Pressing](#06-arduino-with-electron-ui-button-pressing)  
 [07 Arduino with Electron UI Twisting](#07-arduino-with-electron-ui-twisting)  
-
+[Arduino with bluetooth](arduino-bluetooth.md)
 
 ___
 
