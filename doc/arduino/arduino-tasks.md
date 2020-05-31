@@ -29,31 +29,7 @@ ___
 
 5. Install software:
   * Install Visual Studio Code https://code.visualstudio.com/Download  
-  * Install nvm
-    - Windows https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-setup.zip
-    - Mac
-        ```
-        Run in Terminal app:
-        1)
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
-        2)
-        brew install nvm
-        3)
-        git clone http://github.com/creationix/nvm.git .nvm
-        4)
-        source ~/.nvm/nvm.sh
-        ```
-  * Install node version 8.11.2 using nvm:
-  ```
-  nvm on
-  nvm install 8.11.2
-  nvm use 8.11.2
-  ```
-  * Mac only: to use 8.11.2 everytime you start a new terminal session:
-  ```
-  echo 'source ~/.nvm/nvm.sh; nvm use 8.11.2' > ~/.bash_profile
-  ```
-    
+  * Install node.js
   * Windows: Install Python 2.7 https://www.python.org/ftp/python/2.7/python-2.7.msi
   * Download and unzip boscode-learn:
   
